@@ -1,4 +1,4 @@
-# The Master Entropic Equation
+# The Master Entropic Equation (Obidi Field Equations - OFE)
 
 The Master Entropic Equation (MEE) is the central mathematical object of the Theory of Entropicity. It governs the evolution of the entropic manifold and generates the structures we interpret as geometry, fields, and physical law.
 
@@ -20,7 +20,7 @@ Applying the Euler–Lagrange equation to the entropic action yields:
 
 $$\frac{\partial \mathcal{L}}{\partial \mathcal{E}}-\nabla \cdot \left( \frac{\partial \mathcal{L}}{\partial (\nabla \mathcal{E})} \right)+ \nabla^2 \left(\frac{\partial \mathcal{L}}{\partial (\nabla^2 \mathcal{E})} \right)=0$$
 
-This is the **Master Entropic Equation** — a nonlinear, nonlocal, higher‑order field equation governing the evolution of the entropic manifold.
+This is the **Master Entropic Equation (Obidi Field Equations - OFE)** — a nonlinear, nonlocal, higher‑order field equation governing the evolution of the entropic manifold.
 
 ## 4. Physical Interpretation
 
