@@ -1,0 +1,3 @@
+# Foundations of the Theory of Entropicity
+
+This document introduces the core conceptual pillars of ToE...
