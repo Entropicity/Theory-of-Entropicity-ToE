@@ -3,7 +3,7 @@ Official repository for the Theory of Entropicity (ToE) — a foundational frame
 
 The Theory of Entropicity (ToE) is an original, field‑theoretic framework that positions entropy as the fundamental substrate of reality. This repository serves as the official digital home of the theory, consolidating its conceptual foundations, mathematical structures, derivations, expository essays, and developmental history.
 
-Purpose of This Repository
+Purpose of This Repository: 
 Preserve the canonical formulations of ToE
 
 Provide a structured archive of equations, principles, and derivations
@@ -14,7 +14,7 @@ Offer accessible expositions for researchers, students, and the general public
 
 Serve as a stable, long‑term reference independent of any single publishing platform
 
-What You Will Find Here
+What You Will Find Here: 
 Core definitions and axioms of the Theory of Entropicity
 
 The Master Entropic Equation and Obidi Field Equations
@@ -27,7 +27,7 @@ Links to formal papers published on ResearchGate, SSRN, Academia, Figshare, and 
 
 A chronological record of the theory’s development
 
-Why This Repository Exists
+Why This Repository Exists: 
 The Theory of Entropicity is developed through a multi‑stage diffusion pipeline:
 
 Early ideas circulate through Blogger, Medium, LinkedIn, and Substack
@@ -40,5 +40,5 @@ These “frozen” ideas then return to public platforms for renewed exposition 
 
 This GitHub repository acts as the central, authoritative anchor connecting all stages of that pipeline.
 
-Mission
+Mission: 
 To establish the Theory of Entropicity as a rigorous, coherent, and enduring scientific framework — accessible to specialists and non‑specialists alike, and preserved across generations.
