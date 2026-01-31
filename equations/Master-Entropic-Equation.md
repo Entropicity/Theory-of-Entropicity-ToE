@@ -4,15 +4,15 @@ The Master Entropic Equation (MEE) is the central mathematical object of the The
 
 ## 1. Entropic Field Variable
 
-Let \(\mathcal{E}(x)\) denote the entropic density field defined over the manifold \(\mathcal{M}\).
+Let $$\(\mathcal{E}(x)\)$$ denote the entropic density field defined over the manifold \(\mathcal{M}\)$$.
 
 ## 2. Variational Principle
 
-The dynamics of \( \mathcal{E} \) arise from an entropic action functional:
+The dynamics of $$\(\mathcal{E}\) arise from an entropic action functional:
 
 $$S[\mathcal{E}] = \int_{\mathcal{M}} \mathcal{L}(\mathcal{E}, \nabla \mathcal{E}, \nabla^2\mathcal{E})\, dV$$
 
-where \(\mathcal{L}\) is the entropic Lagrangian density.
+where $$\(\mathcal{L}\)$$ is the entropic Lagrangian density.
 
 ## 3. The Master Entropic Equation
 
@@ -28,6 +28,6 @@ This is the **Master Entropic Equation** — a nonlinear, nonlocal, higher‑ord
 ## 4. Physical Interpretation
 
 - Solutions correspond to stable entropic configurations  
-- Curvature emerges from gradients of \( \mathcal{E} \)  
+- Curvature emerges from gradients of $$\(\mathcal{E}\)$$  
 - Fields arise as geometric modes of entropic variation  
 - Dynamics correspond to flows along entropic gradients  
