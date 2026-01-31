@@ -63,8 +63,12 @@ This is where I define the frontier.
 </main>
 
 <footer>
-  <p>&copy; John Onimisi Obidi — Theory of Entropicity (ToE)</p>
+    <p>&copy; <span id="year"></span> John Onimisi Obidi — Theory of Entropicity (ToE)</p>
 </footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
