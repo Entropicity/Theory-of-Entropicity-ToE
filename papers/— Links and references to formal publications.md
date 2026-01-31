@@ -1,5 +1,2 @@
-### **Expository Materials**
-- Essays  
-- Interpretations  
-- Multi‑angle explanations  
-- Popular science expositions  
+### **Formal Publications**
+Links to papers published across major academic repositories.
