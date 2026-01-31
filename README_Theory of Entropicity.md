@@ -69,3 +69,78 @@ This GitHub repository acts as the **central, authoritative anchor** connecting 
 
 ## 🧭 Repository Structure
 
+
+Each folder contains its own README for navigation and context.
+
+---
+
+## 📚 Contents Overview
+
+### **Conceptual Foundations**
+- Ontodynamics  
+- Entropic manifolds  
+- The substrate of reality  
+- Emergence of geometry and fields  
+
+### **Mathematical Structures**
+- The Master Entropic Equation  
+- Obidi Field Equations  
+- Variational principles  
+- Nonlinear, nonlocal entropic dynamics  
+
+### **Expository Materials**
+- Essays  
+- Interpretations  
+- Multi‑angle explanations  
+- Popular science expositions  
+
+### **Formal Publications**
+Links to papers published across major academic repositories.
+
+---
+
+## 🎯 Mission
+
+To establish the Theory of Entropicity as a **rigorous, coherent, and enduring scientific framework**, preserved across generations and accessible from multiple angles — conceptual, mathematical, philosophical, and expository.
+
+This repository is the **canonical reference point** for the theory’s ongoing development and long‑term legacy.
+
+---
+
+## 🧩 Contributing
+
+This is a foundational theoretical project. Contributions are welcome in the form of:
+
+- discussions  
+- questions  
+- suggestions  
+- mathematical insights  
+- expository improvements  
+
+Formal pull requests may be accepted selectively to maintain conceptual integrity.
+
+---
+
+## 🔗 External Platforms
+
+The Theory of Entropicity is also published and discussed on:
+
+- Blogger  
+- Medium  
+- LinkedIn  
+- Substack  
+- ResearchGate  
+- Academia.edu  
+- SSRN  
+- Figshare  
+- Cambridge Open Engage  
+
+This repository unifies and anchors all of these.
+
+---
+
+## 🕊️ License
+
+This project is released under **Creative Commons Attribution (CC‑BY 4.0)**, allowing sharing and adaptation with attribution.
+
+
