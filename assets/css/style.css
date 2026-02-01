@@ -65,3 +65,28 @@ footer {
 .toe-flex-container {
     padding-left: 20px;
 }
+
+
+/* Push content away from the left edge */
+body {
+    padding-left: 40px !important;
+}
+
+/* Flexbox layout */
+.toe-flex-container {
+    display: flex !important;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+/* Left column fixed width */
+.toe-left-column {
+    flex: 0 0 260px;
+}
+
+/* Right column expands */
+.toe-right-column {
+    flex: 1;
+}
+
