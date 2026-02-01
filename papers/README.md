@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Papers: Papers on the Theory of Entropicity (ToE)"
+title: "Papers: Papers on the Theory of Entropicity (ToE)"
 ---
 
 # Placeholder file
