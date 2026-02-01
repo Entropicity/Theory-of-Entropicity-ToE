@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Concepts: Core Definitions and Conceptual Foundations"
+---
+
 ### **Conceptual Foundations**
 - Ontodynamics  
 - Entropic manifolds  
