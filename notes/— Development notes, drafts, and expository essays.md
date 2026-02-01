@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Notes: Development Notes, Drafts, and Expository Essays"
+---
+
 ### **Expository Materials**
 - Essays  
 - Interpretations  
