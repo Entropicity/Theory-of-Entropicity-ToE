@@ -65,7 +65,25 @@
             padding: 20px;
             font-size: 0.9rem;
         }
-    </style>
+
+        /* FLEXBOX LAYOUT FOR CHAPTERS + WELCOME */
+.toe-flex-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 40px 40px; /* adds space from left and right edges */
+}
+
+/* Left column (chapters) */
+.toe-left-column {
+    flex: 0 0 260px; /* fixed width */
+}
+
+/* Right column (welcome text) */
+.toe-right-column {
+    flex: 1; /* expands to fill remaining space */
+}
+ </style>
 </head>
 <body>
 
