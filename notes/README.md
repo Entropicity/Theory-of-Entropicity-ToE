@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Notes: Notes on the Theory of Entropicity (ToE)"
+---
+
 # Placeholder file
 This folder will contain the notes of the Theory of Entropicity (ToE).
 # Notes
