@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Monograph: Preface"
+---
+
 # Foundational Preface
 
 The Theory of Entropicity (ToE) emerges from a simple but radical insight: that entropy is not a derivative quantity, nor a statistical artifact, nor a measure of ignorance, but the fundamental substrate from which all physical structure arises. Geometry, fields, information, causality, and the apparent laws of nature are not primary; they are entropic expressions of a deeper ontological manifold.
