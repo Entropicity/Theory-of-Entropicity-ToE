@@ -44,3 +44,19 @@ footer {
   border-top: 1px solid #ddd;
   padding-top: 1rem;
 }
+
+
+.toe-flex-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px; /* space between columns */
+    margin-top: 20px;
+}
+
+.toe-left-column {
+    flex: 0 0 250px; /* fixed width for chapters */
+}
+
+.toe-right-column {
+    flex: 1; /* takes up remaining space */
+}
