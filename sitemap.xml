@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
   <url>
-    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/</loc>
+    <loc>https://entropicity.github.io/</loc>
   </url>
+
+  <!-- Monograph Chapters -->
+  <url><loc>https://entropicity.github.io/preface.html</loc></url>
+  <url><loc>https://entropicity.github.io/ch1-introduction.html</loc></url>
+  <url><loc>https://entropicity.github.io/ch2-entropy-field.html</loc></url>
+  <url><loc>https://entropicity.github.io/ch3-obidi-action.html</loc></url>
+  <url><loc>https://entropicity.github.io/ch4-spectral-formulation.html</loc></url>
+  <url><loc>https://entropicity.github.io/ch5-poler-and-second-law.html</loc></url>
+  <url><loc>https://entropicity.github.io/ch6-implications.html</loc></url>
+  <url><loc>https://entropicity.github.io/ch7-applications.html</loc></url>
+  <url><loc>https://entropicity.github.io/ch8-literature-studies.html</loc></url>
+  <url><loc>https://entropicity.github.io/ch9-comparative-frameworks.html</loc></url>
+  <url><loc>https://entropicity.github.io/ch10-open-problems.html</loc></url>
+  <url><loc>https://entropicity.github.io/appendices.html</loc></url>
+  <url><loc>https://entropicity.github.io/references.html</loc></url>
+
 </urlset>
