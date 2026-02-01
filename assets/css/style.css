@@ -60,3 +60,7 @@ footer {
 .toe-right-column {
     flex: 1; /* takes up remaining space */
 }
+
+.toe-flex-container {
+    padding-left: 20px;
+}
