@@ -83,7 +83,22 @@
 .toe-right-column {
     flex: 1; /* expands to fill remaining space */
 }
- </style>
+/* Left column (navigation pane) */
+.toe-left-column {
+    flex: 0 0 260px;
+    border-right: 1px solid #ccc;      /* subtle vertical divider */
+    padding-right: 20px;               /* space between border and text */
+    margin-right: 20px;                /* space before the right column */
+}
+
+/* Optional: enhance the chapter list box itself */
+.chapter-nav {
+    background: #fafafa;               /* very light tint */
+    padding: 15px;
+    border: 1px solid #e5e5e5;         /* soft box border */
+    border-radius: 4px;                /* gentle rounding */
+}
+</style>
 </head>
 <body>
 
