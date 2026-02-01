@@ -49,17 +49,18 @@ footer {
 .toe-flex-container {
     display: flex;
     align-items: flex-start;
-    gap: 40px; /* space between columns */
+    gap: 40px;
     margin-top: 20px;
 }
 
 .toe-left-column {
-    flex: 0 0 250px; /* fixed width for chapters */
+    flex: 0 0 250px;
 }
 
 .toe-right-column {
-    flex: 1; /* takes up remaining space */
+    flex: 1;
 }
+
 
 .toe-flex-container {
     padding-left: 20px;
