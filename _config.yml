@@ -5,6 +5,13 @@ markdown: kramdown
 
 kramdown:
   math_engine: mathjax
+  parse_block_html: true
+  syntax_highlighter_opts:
+    disable: true
+
+
+kramdown:
+  math_engine: mathjax
   math_engine_opts:
     preview: false
 
