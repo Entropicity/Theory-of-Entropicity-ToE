@@ -82,5 +82,12 @@ This is the **Master Entropic Equation (Obidi Field Equations - OFE)** of the **
 - Solutions correspond to stable entropic configurations  
 - Curvature emerges from gradients of $$\(\mathcal{E}\)$$  
 - Fields arise as geometric modes of entropic variation  
-- Dynamics correspond to flows along entropic gradients  
+- Dynamics correspond to flows along entropic gradients
+
+### **Mathematical Structures**
+- The Master Entropic Equation  
+- Obidi Field Equations  
+- Variational principles  
+- Nonlinear, nonlocal entropic dynamics  
+
 
