@@ -17,7 +17,7 @@ The Master Entropic Equation (MEE) is the central mathematical object of the The
 
 ## 1. Entropic Field Variable
 
-Let \\( \mathcal{E}(x) \\) denote the entropic density field defined over the manifold \( \mathcal{M} \).
+Let \\( \mathcal{E}(x) \\) denote the entropic density field defined over the manifold \\( \mathcal{M} \\).
 
 ---
 
@@ -25,9 +25,7 @@ Let \\( \mathcal{E}(x) \\) denote the entropic density field defined over the ma
 
 The dynamics of \\( \mathcal{E} \\) arise from an entropic action functional:
 
-$$
-S[\mathcal{E}] = \int_{\mathcal{M}} \mathcal{L}(\mathcal{E}, \nabla \mathcal{E}, \nabla^2 \mathcal{E})\, dV
-$$
+$$S[\mathcal{E}] = \int_{\mathcal{M}} \mathcal{L}(\mathcal{E}, \nabla \mathcal{E}, \nabla^2 \mathcal{E})\, dV$$
 
 where \\( \mathcal{L} \\) is the entropic Lagrangian density.
 
