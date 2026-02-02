@@ -72,7 +72,7 @@ S[\mathcal{E}] = \int_{\mathcal{M}} \mathcal{L}(\mathcal{E}, \nabla \mathcal{E},
 
 
 
-# Canonical Equation Style Guide for the Theory of Entropicity (ToE)
+# Ontodynamic Canonical Equation Style Guide for the Theory of Entropicity (ToE)
 
 This document establishes the unified mathematical standards for all equations appearing in the Theory of Entropicity (ToE) monograph. It ensures that every chapter, derivation, appendix, and diagram uses a consistent mathematical voice, compatible with the Jekyll/kramdown/MathJax pipeline used in the ToE archive.
 
