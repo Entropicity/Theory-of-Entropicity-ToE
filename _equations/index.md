@@ -67,10 +67,5 @@ This is the **Master Entropic Equation (Obidi Field Equations — OFE)** of the 
 S[\mathcal{E}] = \int_{\mathcal{M}} \mathcal{L}(\mathcal{E}, \nabla \mathcal{E}, \nabla^2 \mathcal{E})\, dV
 \$\$
 
-\$\$
-\frac{\partial \mathcal{L}}{\partial \mathcal{E}}
-- \nabla \cdot \left( \frac{\partial \mathcal{L}}{\partial (\nabla \mathcal{E})} \right)
-+ \nabla^2 \left( \frac{\partial \mathcal{L}}{\partial (\nabla^2 \mathcal{E})} \right)
-= 0
-\$\$
+\$\$\frac{\partial \mathcal{L}}{\partial \mathcal{E}}- \nabla \cdot \left( \frac{\partial \mathcal{L}}{\partial (\nabla \mathcal{E})} \right)+ \nabla^2 \left(\frac{\partial \mathcal{L}}{\partial (\nabla^2 \mathcal{E})} \right)= 0\$\$
 
