@@ -64,6 +64,8 @@ This is the **Master Entropic Equation (Obidi Field Equations — OFE)** of the 
 - Variational principles  
 - Nonlinear, nonlocal entropic dynamics
 
+# Correct Equation syntax: Canonical Codes
+
 \$\$
 S[\mathcal{E}] = \int_{\mathcal{M}} \mathcal{L}(\mathcal{E}, \nabla \mathcal{E}, \nabla^2 \mathcal{E})\, dV
 \$\$
