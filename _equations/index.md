@@ -25,7 +25,7 @@ Let \\( \mathcal{E}(x) \\) denote the entropic density field defined over the ma
 
 The dynamics of \\( \mathcal{E} \\) arise from an entropic action functional:
 
-\ \[ S[\mathcal{E}] = \int_{\mathcal{M}} \mathcal{L}(\mathcal{E}, \nabla \mathcal{E}, \nabla^2 \mathcal{E})\, dV \\]
+\\[S[\mathcal{E}]=\int_{\mathcal{M}}\mathcal{L}(\mathcal{E},\nabla\mathcal{E},\nabla^2\mathcal{E})\,dV \\]
 
 where \\( \mathcal{L} \\) is the entropic Lagrangian density.
 
@@ -35,11 +35,7 @@ where \\( \mathcal{L} \\) is the entropic Lagrangian density.
 
 Applying the Euler–Lagrange equation to the entropic action yields:
 
-\
-\[
-\frac{\partial \mathcal{L}}{\partial \mathcal{E}}
-- \nabla \cdot \left( \frac{\partial \mathcal{L}}{\partial (\nabla \mathcal{E})} \right)
-+ \nabla^2 \left( \frac{\partial \mathcal{L}}{\partial (\nabla^2 \mathcal{E})} \right)
+\\[\frac{\partial \mathcal{L}}{\partial \mathcal{E}}- \nabla \cdot \left( \frac{\partial \mathcal{L}}{\partial (\nabla \mathcal{E})} \right)+ \nabla^2 \left( \frac{\partial \mathcal{L}}{\partial (\nabla^2 \mathcal{E})} \right)
 = 0
 \\]
 
