@@ -1,3 +1,8 @@
+---
+layout: default
+title: Equations
+---
+
 # Placeholder file
 This folder will contain the equations of the Theory of Entropicity (ToE).
 
@@ -12,7 +17,7 @@ The Master Entropic Equation (MEE) is the central mathematical object of the The
 
 ## 1. Entropic Field Variable
 
-Let \( \mathcal{E}(x) \) denote the entropic density field defined over the manifold \( \mathcal{M} \).
+Let \(\mathcal{E}(x) \) denote the entropic density field defined over the manifold \( \mathcal{M} \).
 
 ---
 
