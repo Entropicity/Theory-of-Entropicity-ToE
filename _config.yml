@@ -5,15 +5,12 @@ markdown: kramdown
 
 kramdown:
   math_engine: mathjax
+  math_engine_opts:
+    preview: false
   parse_block_html: true
   syntax_highlighter_opts:
     disable: true
-
-
-kramdown:
-  math_engine: mathjax
-  math_engine_opts:
-    preview: false
+  input: GFM
 
 collections:
   chapters:
@@ -36,4 +33,3 @@ defaults:
       layout: "default"
 
 # rebuild
-
