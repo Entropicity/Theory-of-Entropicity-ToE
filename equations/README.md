@@ -2,7 +2,7 @@
 layout: default
 title: Equations
 ---
-
+<p><a href="index.html">← Back to Home</a></p>
 # Placeholder file
 This folder will contain the equations of the Theory of Entropicity (ToE).
 
@@ -53,4 +53,6 @@ This is the **Master Entropic Equation (Obidi Field Equations — OFE)** of the 
 - Solutions correspond to stable entropic configurations  
 - Curvature emerges from gradients of \( \mathcal{E} \)  
 - Fields arise as geometric modes of entropic variation  
-- Dynamics correspond to flows along entropic gradients  
+- Dynamics correspond to flows along entropic gradients
+
+<p><a href="index.html">← Back to Home</a></p>
