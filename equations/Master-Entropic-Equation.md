@@ -1,8 +1,3 @@
----
-layout: default
-title: "Equations: Master-Entropic-Equation"
----
-
 # The Master Entropic Equation (Obidi Field Equations - OFE)
 
 The Master Entropic Equation (MEE) is the central mathematical object of the Theory of Entropicity. It governs the evolution of the entropic manifold and generates the structures we interpret as geometry, fields, and physical law.
