@@ -101,9 +101,7 @@ A &= D - E
 $$
 
 As well as:
-$$
-A = B + C \quad \text{and} \quad A = D - E
-$$
+\$\$A = B + C \quad \text{and} \quad A = D - E\$\$
 
 Long expressions shall be broken across lines for readability, for example:
 
