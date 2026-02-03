@@ -1,4 +1,4 @@
-<p><a href="index.html">← Back to Home</a></p>
+<p><a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/">← Back to Home</a></p>
 # Placeholder file
 This folder will contain the core conceptual foundations of the Theory of Entropicity (ToE).
 # Conceptual Foundations
@@ -43,9 +43,8 @@ Information is treated as a **geometric expression** of entropic structure. It i
 
 This document establishes the **conceptual bedrock** upon which the mathematical formulation of The Theory of Entropicity (ToE) is built.
 
-<p><a href="index.html">← Back to Home</a></p>
-
+<p><a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/">← Back to Home</a></p>
 <footer>
-    <p>&copy; 2026 John Onimisi Obidi — Theory of Entropicity (ToE)</p>
+    <p>©2026 John Onimisi Obidi — Theory of Entropicity (ToE)</p>
 </footer>
 
