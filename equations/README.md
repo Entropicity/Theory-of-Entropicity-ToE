@@ -34,8 +34,8 @@ where \\( \mathcal{L} \\) is the entropic Lagrangian density.
 
 Applying the Euler–Lagrange equation to the entropic action yields:
 
-\$\$[\frac{\partial \mathcal{L}}{\partial \mathcal{E}}- \nabla \cdot \left( \frac{\partial \mathcal{L}}{\partial (\nabla \mathcal{E})} \right)+ \nabla^2 \left( \frac{\partial \mathcal{L}}{\partial (\nabla^2 \mathcal{E})} \right)
-= 0\$\$]
+\$\$\frac{\partial \mathcal{L}}{\partial \mathcal{E}}- \nabla \cdot \left( \frac{\partial \mathcal{L}}{\partial (\nabla \mathcal{E})} \right)+ \nabla^2 \left( \frac{\partial \mathcal{L}}{\partial (\nabla^2 \mathcal{E})} \right)
+= 0\$\$
 
 This is the **Master Entropic Equation (Obidi Field Equations — OFE)** of the **Theory of Entropicity (ToE)** — a **nonlinear**, **nonlocal**, **higher‑order field equation** governing the **evolution of the entropic manifold**.
 
