@@ -89,17 +89,12 @@ To maintain conceptual and notational consistency across the monograph, the foll
 Single-line equations shall use the standard display form:
 
 
-$$ E = mc^2 $$
+\$\$E = mc^2\$\$
 
 
 Multi-line equations shall use aligned environments:
 
-$$
-\begin{aligned}
-A &= B + C \\
-&= D - E
-\end{aligned}
-$$
+\$\$\begin{aligned}A &= B + C \\&= D - E\end{aligned}\$\$
 
 
 Long expressions shall be broken across lines for readability, for example:
