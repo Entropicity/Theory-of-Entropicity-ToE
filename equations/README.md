@@ -94,7 +94,7 @@ Single-line equations shall use the standard display form:
 
 Multi-line equations shall use aligned environments:
 
-\$\$\begin{aligned}A &= B + C \\&= D - E\end{aligned}\$\$
+\$\$\begin{aligned}A &= B + C \\&\\ = D - E\end{aligned}\$\$
 
 
 Long expressions shall be broken across lines for readability, for example:
