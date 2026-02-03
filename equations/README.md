@@ -69,7 +69,7 @@ S[\mathcal{E}] = \int_{\mathcal{M}} \mathcal{L}(\mathcal{E}, \nabla \mathcal{E},
 
 # Ontodynamic Canonical Equation Style Guide for the Theory of Entropicity (ToE)
 
-This document establishes the unified mathematical standards for all equations appearing in the Theory of Entropicity (ToE) monograph. It ensures that every chapter, derivation, appendix, and diagram uses a consistent mathematical voice, compatible with the Jekyll/kramdown/MathJax pipeline used in the ToE archive.
+This document establishes the unified mathematical standards for all equations appearing in the Theory of Entropicity (ToE) monograph. It ensures that every chapter, derivation, appendix, and diagram uses a consistent mathematical voice, compatible with the **Jekyll/kramdown/MathJax pipeline [JKMP]** used in the ToE archive.
 
 The official math delimiters for the monograph are chosen to match the behavior of the Jekyll rendering engine. Inline mathematics must use the escaped form `\\( ... \\)` so that the final HTML contains literal `\(` and `\)`. Display mathematics must use the escaped form `\$\$ ... \$\$` so that the final HTML contains literal `$$` delimiters. These forms guarantee correct MathJax rendering across all pages.
 
