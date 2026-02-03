@@ -97,13 +97,13 @@ Multi-line equations shall use aligned environments:
 
 Long expressions shall be broken across lines for readability, for example:
 
-\$\$\begin{aligned}
-S[\mathcal{E}]
-&= \int_{\mathcal{M}}
-\mathcal{L}(\mathcal{E}, \nabla \mathcal{E}, \nabla^2 \mathcal{E})\, dV \\
-&= \int_{\mathcal{M}}
-\left( \frac{1}{2} |\nabla \mathcal{E}|^2 + V(\mathcal{E}) \right) dV
-\end{aligned}\$\$
+$$
+\begin{aligned}
+S[\mathcal{E}] &= \int_{\mathcal{M}} \mathcal{L}(\mathcal{E}, \nabla \mathcal{E}, \nabla^2 \mathcal{E})\, dV \\
+&= \int_{\mathcal{M}} \left( \frac{1}{2} \lvert \nabla \mathcal{E} \rvert^2 + V(\mathcal{E}) \right) dV
+\end{aligned}
+$$
+
 
 
 Formatting rules include the use of `\,` for small spacing (e.g., `dV\,`), `\quad` for medium spacing (e.g., `a = b \quad \text{and} \quad c = d`), and `\text{}` for words inside math mode (e.g., `\text{div}` rather than `div`).
