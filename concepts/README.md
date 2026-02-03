@@ -40,4 +40,4 @@ Information is treated as a **geometric expression** of entropic structure. It i
 
 ---
 
-This document establishes the **conceptual bedrock** upon which the mathematical formulation of ToE is built.
+This document establishes the **conceptual bedrock** upon which the mathematical formulation of The Theory of Entropicity (ToE) is built.
