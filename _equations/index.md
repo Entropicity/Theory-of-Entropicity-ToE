@@ -2,7 +2,6 @@
 layout: default
 title: Equations
 ---
-
 # Equations
 
 This section contains the mathematical formulations, variational structures, and field equations of the Theory of Entropicity (ToE).
