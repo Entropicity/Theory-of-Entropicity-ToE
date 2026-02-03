@@ -1,4 +1,4 @@
-<a href="./">← Back to Home</a>
+<p><a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/">← Back to Home</a></p>
 # Placeholder file
 This folder will contain the core conceptual foundations of the Theory of Entropicity (ToE).
 # Conceptual Foundations
