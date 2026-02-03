@@ -118,14 +118,7 @@ Formatting rules include the use of `\,` for small spacing (e.g., `dV\,`), `\qua
 The canonical presentation of the Master Entropic Equation must always appear in the following form:
 
 
-$$
-\frac{\partial \mathcal{L}}{\partial \mathcal{E}}
-
-\nabla \cdot \left( \frac{\partial \mathcal{L}}{\partial (\nabla \mathcal{E})} \right)
-
-\nabla^2 \left( \frac{\partial \mathcal{L}}{\partial (\nabla^2 \mathcal{E})} \right)
-= 0
-$$
+\$\$\frac{\partial \mathcal{L}}{\partial \mathcal{E}}\nabla \cdot \left( \frac{\partial \mathcal{L}}{\partial (\nabla \mathcal{E})} \right)\nabla^2 \left( \frac{\partial \mathcal{L}}{\partial (\nabla^2\mathcal{E})} \right)= 0\$\$
 
 
 This is the official representation of the OFE and must be used consistently throughout the monograph.
