@@ -10,7 +10,7 @@ This section contains the mathematical formulations, variational structures, and
 
 # The Master Entropic Equation (Obidi Field Equations — OFE)
 
-The Master Entropic Equation (MEE) is the central mathematical object of the Theory of Entropicity. It governs the evolution of the entropic manifold and generates the structures we interpret as geometry, fields, and physical law.
+The Master Entropic Equation (MEE) is the central mathematical object of the Theory of Entropicity (ToE). It governs the evolution of the entropic manifold and generates the structures we interpret as geometry, fields, and physical law.
 
 ---
 
@@ -73,7 +73,7 @@ This document establishes the unified mathematical standards for all equations a
 
 The official math delimiters for the monograph are chosen to match the behavior of the Jekyll rendering engine. Inline mathematics must use the escaped form `\\( ... \\)` so that the final HTML contains literal `\(` and `\)`. Display mathematics must use the escaped form `\$\$ ... \$\$` so that the final HTML contains literal `$$` delimiters. These forms guarantee correct MathJax rendering across all pages.
 
-Block equations must always be surrounded by blank lines to ensure proper parsing. For example:
+Block equations shall always be surrounded by blank lines to ensure proper parsing. For example:
 
 
 
@@ -82,17 +82,17 @@ E = mc^2
 $$
 
 
-Inline display equations may also be written as `\$\$...equation...\$\$` when appropriate. Operators and mathematical expressions should be spaced for clarity, such as `a + b`, `\nabla \cdot F`, and `\frac{\partial L}{\partial x}`. Avoid compressed forms like `a+b` or `\nabla\cdot F`.
+Inline display equations may also be written as `\$\$...equation...\$\$` when appropriate. Operators and mathematical expressions shall be spaced for clarity, such as `a + b`, `\nabla \cdot F`, and `\frac{\partial L}{\partial x}`. We shall avoid compressed forms like `a+b` or `\nabla\cdot F`.
 
-To maintain conceptual and notational consistency across the monograph, the following canonical forms must be used. The entropic field is written as `\\( \mathcal{E}(x) \\)`, the entropic manifold as `\\( \mathcal{M} \\)`, and the Lagrangian density as `\\( \mathcal{L} \\)`. The action functional is written as `S[\mathcal{E}]`, and variational derivatives must always appear in the form `\frac{\partial \mathcal{L}}{\partial \mathcal{E}}`. The primary field equation must always be referred to as the **Master Entropic Equation (Obidi Field Equations — OFE)**.
+To maintain conceptual and notational consistency across the monograph, the following canonical forms shall be used. The entropic field is written as `\\( \mathcal{E}(x) \\)`, the entropic manifold as `\\( \mathcal{M} \\)`, and the Lagrangian density as `\\( \mathcal{L} \\)`. The action functional is written as `S[\mathcal{E}]`, and variational derivatives shall always appear in the form `\frac{\partial \mathcal{L}}{\partial \mathcal{E}}`. The primary field equation shall always be referred to as the **Master Entropic Equation (Obidi Field Equations — OFE)**.
 
-Single-line equations should use the standard display form:
+Single-line equations shall use the standard display form:
 
 
 $$ E = mc^2 $$
 
 
-Multi-line equations must use aligned environments:
+Multi-line equations shall use aligned environments:
 
 $$
 \begin{aligned}
@@ -102,7 +102,7 @@ A &= B + C \\
 $$
 
 
-Long expressions should be broken across lines for readability, for example:
+Long expressions shall be broken across lines for readability, for example:
 
 $$\begin{aligned}
 S[\mathcal{E}]
@@ -115,19 +115,19 @@ S[\mathcal{E}]
 
 Formatting rules include the use of `\,` for small spacing (e.g., `dV\,`), `\quad` for medium spacing (e.g., `a = b \quad \text{and} \quad c = d`), and `\text{}` for words inside math mode (e.g., `\text{div}` rather than `div`).
 
-The canonical presentation of the Master Entropic Equation must always appear in the following form:
+The canonical presentation of the Master Entropic Equation shall always appear in the following form:
 
 
 \$\$\frac{\partial \mathcal{L}}{\partial \mathcal{E}}\nabla \cdot \left( \frac{\partial \mathcal{L}}{\partial (\nabla \mathcal{E})} \right)\nabla^2 \left( \frac{\partial \mathcal{L}}{\partial (\nabla^2\mathcal{E})} \right)= 0\$\$
 
 
-This is the official representation of the OFE and must be used consistently throughout the monograph.
+This is the official representation of the OFE and shall be used consistently throughout the monograph.
 
-If equation numbering is desired, it may be added manually using `\tag{n}` or enabled globally through MathJax configuration. Every major equation should be followed by a short interpretive paragraph explaining its meaning, structure, physical intuition, and role within the entropic ontology. For example:
+If equation numbering is desired, it may be added manually using `\tag{n}` or enabled globally through MathJax configuration. Every major equation shall be followed by a short interpretive paragraph explaining its meaning, structure, physical intuition, and role within the entropic ontology. For example:
 
 > This equation expresses the entropic curvature response of the manifold, capturing how variations in \\( \mathcal{E} \\) generate geometric structure.
 
-This continuous guide defines the complete mathematical style standard for the Theory of Entropicity and should be applied uniformly across all chapters, appendices, and conceptual documents.
+This continuous guide defines the complete mathematical style standard for the Theory of Entropicity and shall be applied uniformly across all chapters, appendices, and conceptual documents.
 
 <hr>
 <p><a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/">← Back to Home</a></p>
