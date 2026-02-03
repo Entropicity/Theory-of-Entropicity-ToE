@@ -1,4 +1,5 @@
 <p><a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/">← Back to Home</a></p>
+---
 # Equations
 
 This section contains the mathematical formulations, variational structures, and field equations of the Theory of Entropicity (ToE).
@@ -143,6 +144,7 @@ This continuous guide defines the complete mathematical style standard for the T
 
 <hr>
 <p><a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/">← Back to Home</a></p>
+---
 <footer>
     ©2026 John Onimisi Obidi — Theory of Entropicity (ToE)
 </footer>
