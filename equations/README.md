@@ -77,9 +77,7 @@ Block equations shall always be surrounded by blank lines to ensure proper parsi
 
 
 
-$$
-E = mc^2
-$$
+\$\$E = mc^2\$\$
 
 
 Inline display equations may also be written as `\$\$...equation...\$\$` when appropriate. Operators and mathematical expressions shall be spaced for clarity, such as `a + b`, `\nabla \cdot F`, and `\frac{\partial L}{\partial x}`. We shall avoid compressed forms like `a+b` or `\nabla\cdot F`.
@@ -94,18 +92,18 @@ Single-line equations shall use the standard display form:
 
 Multi-line equations shall use aligned environments:
 
-\$\$\begin{aligned}A &= B + C &\\&\\ &A &= D - E\end{aligned}\$\$
+\$\$\begin{aligned}A &= B + C  & A &= D - E\end{aligned}\$\$
 
 
 Long expressions shall be broken across lines for readability, for example:
 
-$$\begin{aligned}
+\$\$\begin{aligned}
 S[\mathcal{E}]
 &= \int_{\mathcal{M}}
 \mathcal{L}(\mathcal{E}, \nabla \mathcal{E}, \nabla^2 \mathcal{E})\, dV \\
 &= \int_{\mathcal{M}}
 \left( \frac{1}{2} |\nabla \mathcal{E}|^2 + V(\mathcal{E}) \right) dV
-\end{aligned}$$
+\end{aligned}\$\$
 
 
 Formatting rules include the use of `\,` for small spacing (e.g., `dV\,`), `\quad` for medium spacing (e.g., `a = b \quad \text{and} \quad c = d`), and `\text{}` for words inside math mode (e.g., `\text{div}` rather than `div`).
