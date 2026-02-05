@@ -11,18 +11,20 @@ title: "Curvature Invariant and Metrics - Curvature Invariant and Metrics of ToE
 
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <script>
-    MathJax = {
-      tex: { inlineMath: [['\\(','\\)']], displayMath: [['\
+   <script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(','\\)']],
+      displayMath: [['\
 
 \[','\\]
 
-']] }
-    };
-  </script>
-  <script id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
+']]
+    }
+  };
+</script>
+
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 
@@ -247,6 +249,7 @@ title: "Curvature Invariant and Metrics - Curvature Invariant and Metrics of ToE
     <li><a href="https://arxiv.org/html/2502.12242v2" target="_blank">[10] 1 Introduction</a></li>
   </ul>
 
+
 </section>
 <section id="obidi-kl-ln2">
 
@@ -269,94 +272,132 @@ title: "Curvature Invariant and Metrics - Curvature Invariant and Metrics of ToE
     <span class="math">\( q(x) \)</span>, the KL divergence is:
   </p>
 
-  <pre class="math">
-D_{\mathrm{KL}}(p\Vert q) = \int p(x)\,\ln\!\frac{p(x)}{q(x)}\,dx.
-  </pre>
+ <div class="math">
 
-  <p>
-    ToE uses this structure as the template for comparing two entropic configurations.<sup>[1][2]</sup>
-  </p>
 
-  <h2>Step 2: Replace Probabilities by Entropic Densities (Obidi's First Ingenuity — OFI)</h2>
+\[
+D_{\mathrm{KL}}(p\Vert q)
+  = \int p(x)\,\ln\!\left(\frac{p(x)}{q(x)}\right)\,dx.
+\]
 
-  <p>
-    ToE treats the entropy field <span class="math">\( S(x) \)</span> (or an associated entropic density) as 
-    the fundamental variable and introduces a local reference configuration 
-    <span class="math">\( S_0(x) \)</span>.<sup>[1][2]</sup>
-  </p>
 
-  <p>
-    The probabilistic KL integrand is lifted to an entropic density level by the substitution:
-  </p>
+</div>
 
-  <pre class="math">
-p(x) \to S(x), \qquad q(x) \to S_0(x),
-  </pre>
+<p>
+  ToE uses this structure as the template for comparing two entropic configurations.<sup>[1][2]</sup>
+</p>
 
-  <p>
-    together with the standard convex extension that makes the divergence finite and well‑behaved for fields:
-  </p>
+<h2>Step 2: Replace Probabilities by Entropic Densities (Obidi's First Ingenuity — OFI)</h2>
 
-  <pre class="math">
-D(x) = S(x)\,\ln\!\frac{S(x)}{S_0(x)} - S(x) + S_0(x).
-  </pre>
+<p>
+  ToE treats the entropy field \( S(x) \) (or an associated entropic density) as 
+  the fundamental variable and introduces a local reference configuration 
+  \( S_0(x) \).<sup>[1][2]</sup>
+</p>
 
-  <p>
-    This is a pointwise KL‑type density with the same key properties:  
-    <span class="math">\( D(x) \ge 0 \)</span> and  
-    <span class="math">\( D(x) = 0 \)</span> iff  
-    <span class="math">\( S(x) = S_0(x) \)</span>.<sup>[1][3]</sup>
-  </p>
+<p>
+  The probabilistic KL integrand is lifted to an entropic density level by the substitution:
+</p>
 
-  <h2>Step 3: Promote the KL Density to a Potential (Obidi's Second Ingenuity — OSI)</h2>
+<div class="math">
 
-  <p>
-    The field‑level distinguishability functional is:
-  </p>
 
-  <pre class="math">
+\[
+p(x) \to S(x), \qquad q(x) \to S_0(x).
+\]
+
+
+</div>
+
+<p>
+  together with the standard convex extension that makes the divergence finite and well‑behaved for fields:
+</p>
+
+<div class="math">
+
+
+\[
+D(x) = S(x)\,\ln\!\left(\frac{S(x)}{S_0(x)}\right) - S(x) + S_0(x).
+\]
+
+
+</div>
+
+<p>
+  This is a pointwise KL‑type density with the same key properties:  
+  \( D(x) \ge 0 \) and  
+  \( D(x) = 0 \) iff  
+  \( S(x) = S_0(x) \).<sup>[1][3]</sup>
+</p>
+
+<h2>Step 3: Promote the KL Density to a Potential (Obidi's Second Ingenuity — OSI)</h2>
+
+<p>
+  The field‑level distinguishability functional is:
+</p>
+
+<div class="math">
+
+
+\[
 \mathcal{D}[S\Vert S_0] 
   = \int_{\mathcal{M}} D(x)\,\sqrt{-g}\,d^4x
-  = \int_{\mathcal{M}} \Big(S\ln\!\frac{S}{S_0} - S + S_0\Big)\sqrt{-g}\,d^4x.
-  </pre>
+  = \int_{\mathcal{M}} \left(S\ln\!\left(\frac{S}{S_0}\right) - S + S_0\right)\sqrt{-g}\,d^4x.
+\]
 
-  <p>
-    ToE inserts <span class="math">\( \mathcal{D}[S\Vert S_0] \)</span> as the 
-    <strong>potential term</strong> in the Obidi / Spectral Obidi Action:
-  </p>
 
-  <pre class="math">
+</div>
+
+<p>
+  ToE inserts \( \mathcal{D}[S\Vert S_0] \) as the 
+  <strong>potential term</strong> in the Obidi / Spectral Obidi Action:
+</p>
+
+<div class="math">
+
+
+\[
 \mathcal{A}_E[S] 
-  = \int \big(\mathcal{K}[S,\partial S] - V_{\text{dist}}[S,S_0]\big)\sqrt{-g}\,d^4x,
-  </pre>
+  = \int \left(\mathcal{K}[S,\partial S] - V_{\text{dist}}[S,S_0]\right)\sqrt{-g}\,d^4x.
+\]
 
-  <p>with</p>
 
-  <pre class="math">
-V_{\text{dist}}[S,S_0] \equiv D(x) = S\ln\!\frac{S}{S_0} - S + S_0.
-  </pre>
+</div>
 
-  <p>
-    Thus the same structure that measures statistical distinguishability in information theory becomes a 
-    <strong>driving potential</strong> that pushes the entropy field away from or toward the reference 
-    configuration.<sup>[1][2]</sup>
-  </p>
+<p>with</p>
 
-  <h2>Step 4: Why This Counts as “Derived From” KL — Obidi's Ingenuity in Summary</h2>
+<div class="math">
 
-  <ul>
-    <li>
-      The integrand <span class="math">\( S\ln(S/S_0) - S + S_0 \)</span> is the continuum, field‑theoretic 
-      analogue of the KL density, preserving non‑negativity, convexity, and vanishing only at equality — 
-      exactly the properties used in KL‑based information geometry.<sup>[1][3][2]</sup>
-    </li>
-    <li>
-      ToE’s distinguishability potential is therefore the KL divergence <strong>reinterpreted</strong> in 
-      the entropic field language and reinserted into the action as a potential energy density that encodes 
-      how costly it is (in curvature/entropy terms) to deform 
-      <span class="math">\( S \)</span> away from <span class="math">\( S_0 \)</span>.<sup>[1][2]</sup>
-    </li>
-  </ul>
+
+\[
+V_{\text{dist}}[S,S_0] \equiv D(x)
+  = S\ln\!\left(\frac{S}{S_0}\right) - S + S_0.
+\]
+
+
+</div>
+
+<p>
+  Thus the same structure that measures statistical distinguishability in information theory becomes a 
+  <strong>driving potential</strong> that pushes the entropy field away from or toward the reference 
+  configuration.<sup>[1][2]</sup>
+</p>
+
+<h2>Step 4: Why This Counts as “Derived From” KL — Obidi's Ingenuity in Summary</h2>
+
+<ul>
+  <li>
+    The integrand \( S\ln(S/S_0) - S + S_0 \) is the continuum, field‑theoretic 
+    analogue of the KL density, preserving non‑negativity, convexity, and vanishing only at equality — 
+    exactly the properties used in KL‑based information geometry.<sup>[1][3][2]</sup>
+  </li>
+  <li>
+    ToE’s distinguishability potential is therefore the KL divergence <strong>reinterpreted</strong> in 
+    the entropic field language and reinserted into the action as a potential energy density that encodes 
+    how costly it is (in curvature/entropy terms) to deform 
+    \( S \) away from \( S_0 \).<sup>[1][2]</sup>
+  </li>
+</ul>
 
   <h2>Citations</h2>
 
@@ -381,81 +422,81 @@ V_{\text{dist}}[S,S_0] \equiv D(x) = S\ln\!\frac{S}{S_0} - S + S_0.
   <h2>How the Obidi Curvature Invariant (OCI) Functions in ToE Dynamics</h2>
 
   <p>
-    In the dynamics of <strong>Obidi's Theory of Entropicity (ToE)</strong>, the 
-    <strong>Obidi Curvature Invariant (OCI)</strong> 
-    <span class="math">\( \ln 2 \)</span> acts as a built‑in 
-    <strong>quantum of entropic curvature</strong> that constrains how the entropy field evolves and how 
-    distinguishable configurations can form.<sup>[3][9][10]</sup>
-  </p>
+  In the dynamics of <strong>Obidi's Theory of Entropicity (ToE)</strong>, the 
+  <strong>Obidi Curvature Invariant (OCI)</strong> 
+  \( \ln 2 \) acts as a built‑in 
+  <strong>quantum of entropic curvature</strong> that constrains how the entropy field evolves and how 
+  distinguishable configurations can form.<sup>[3][9][10]</sup>
+</p>
 
-  <h2>Threshold for Distinguishable Configurations</h2>
+<h2>Threshold for Distinguishable Configurations</h2>
 
-  <ul>
-    <li>
-      OCI arises as the first non‑zero minimum of the distinguishability potential built from a KL‑type 
-      functional <span class="math">\( D(\rho_A \Vert \rho_B) \)</span>, evaluated for a binary 2:1 curvature 
-      ratio <span class="math">\( \rho_B = 2\rho_A \)</span>, giving a gap of 
-      <span class="math">\( \ln 2 \)</span>.<sup>[9][3]</sup>
-    </li>
-    <li>
-      Dynamically, this means two configurations of the entropic field only count as physically distinct if 
-      their relative curvature surpasses this <span class="math">\( \ln 2 \)</span> threshold; smaller 
-      deformations are treated as indistinguishable fluctuations.<sup>[9][10]</sup>
-    </li>
-  </ul>
+<ul>
+  <li>
+    OCI arises as the first non‑zero minimum of the distinguishability potential built from a KL‑type 
+    functional \( D(\rho_A \Vert \rho_B) \), evaluated for a binary 2:1 curvature 
+    ratio \( \rho_B = 2\rho_A \), giving a gap of 
+    \( \ln 2 \).<sup>[9][3]</sup>
+  </li>
+  <li>
+    Dynamically, this means two configurations of the entropic field only count as physically distinct if 
+    their relative curvature surpasses this \( \ln 2 \) threshold; smaller 
+    deformations are treated as indistinguishable fluctuations.<sup>[9][10]</sup>
+  </li>
+</ul>
 
-  <h2>Constraint in the Obidi / Spectral Obidi Action</h2>
+<h2>Constraint in the Obidi / Spectral Obidi Action</h2>
 
-  <ul>
-    <li>
-      In the Spectral Obidi Action, the field dynamics contain a curvature scalar 
-      <span class="math">\( R[g] \)</span>, a kinetic term for 
-      <span class="math">\( \nabla_\mu S \)</span>, and the distinguishability potential 
-      <span class="math">\( D(S,S_0) \)</span>.  
-      The OCI value <span class="math">\( \ln 2 \)</span> fixes the first non‑trivial minimum of that 
-      potential.<sup>[3][10]</sup>
-    </li>
-    <li>
-      This effectively <strong>quantizes curvature response</strong>: entropic curvature cannot relax 
-      continuously through arbitrarily small distinguishable steps, but only in increments constrained by the 
-      <span class="math">\( \ln 2 \)</span> gap encoded in the potential landscape.<sup>[3][9]</sup>
-    </li>
-  </ul>
+<ul>
+  <li>
+    In the Spectral Obidi Action, the field dynamics contain a curvature scalar 
+    \( R[g] \), a kinetic term for 
+    \( \nabla_\mu S \), and the distinguishability potential 
+    \( D(S,S_0) \).  
+    The OCI value \( \ln 2 \) fixes the first non‑trivial minimum of that 
+    potential.<sup>[3][10]</sup>
+  </li>
+  <li>
+    This effectively <strong>quantizes curvature response</strong>: entropic curvature cannot relax 
+    continuously through arbitrarily small distinguishable steps, but only in increments constrained by the 
+    \( \ln 2 \) gap encoded in the potential landscape.<sup>[3][9]</sup>
+  </li>
+</ul>
 
-  <h2>Role in Stability and Transitions</h2>
+<h2>Role in Stability and Transitions</h2>
 
-  <ul>
-    <li>
-      Because <span class="math">\( \ln 2 \)</span> corresponds to the smallest stable curvature separation, 
-      it sets the <strong>activation barrier</strong> for certain entropic transitions, such as the formation 
-      of new informational bits or curvature domains in the entropic field.<sup>[9][10]</sup>
-    </li>
-    <li>
-      Configurations separated by less than this invariant tend to smear into each other under ToE’s 
-      entropy‑driven evolution, while those at or above 
-      <span class="math">\( \ln 2 \)</span> persist as robust, dynamically stable structures — effectively 
-      “bits” of geometry or information.<sup>[9][10]</sup>
-    </li>
-  </ul>
+<ul>
+  <li>
+    Because \( \ln 2 \) corresponds to the smallest stable curvature separation, 
+    it sets the <strong>activation barrier</strong> for certain entropic transitions, such as the formation 
+    of new informational bits or curvature domains in the entropic field.<sup>[9][10]</sup>
+  </li>
+  <li>
+    Configurations separated by less than this invariant tend to smear into each other under ToE’s 
+    entropy‑driven evolution, while those at or above 
+    \( \ln 2 \) persist as robust, dynamically stable structures — effectively 
+    “bits” of geometry or information.<sup>[9][10]</sup>
+  </li>
+</ul>
 
-  <h2>Link to Emergent Geometry and Gravity</h2>
+<h2>Link to Emergent Geometry and Gravity</h2>
 
-  <ul>
-    <li>
-      Since the curvature scalar <span class="math">\( R[g] \)</span> in the Obidi Action is induced by the 
-      entropy field, the OCI sets a natural curvature scale in the emergent geometry — an intrinsic geometric 
-      invariant tied directly to entropic distinguishability.<sup>[3][10]</sup>
-    </li>
-    <li>
-      In gravitational regimes, this implies that certain geometric deformations (e.g., small perturbations of 
-      the entropic metric) are only dynamically meaningful once their entropic curvature exceeds the 
-      <span class="math">\( \ln 2 \)</span> invariant.  
-      This shapes how ToE both <strong>recovers</strong> and <strong>corrects</strong> Einsteinian General 
-      Relativity (GR) curvature at small scales.<sup>[3][10]</sup>
-    </li>
-  </ul>
+<ul>
+  <li>
+    Since the curvature scalar \( R[g] \) in the Obidi Action is induced by the 
+    entropy field, the OCI sets a natural curvature scale in the emergent geometry — an intrinsic geometric 
+    invariant tied directly to entropic distinguishability.<sup>[3][10]</sup>
+  </li>
+  <li>
+    In gravitational regimes, this implies that certain geometric deformations (e.g., small perturbations of 
+    the entropic metric) are only dynamically meaningful once their entropic curvature exceeds the 
+    \( \ln 2 \) invariant.  
+    This shapes how ToE both <strong>recovers</strong> and <strong>corrects</strong> Einsteinian General 
+    Relativity (GR) curvature at small scales.<sup>[3][10]</sup>
+  </li>
+</ul>
 
-  <h2>Citations</h2>
+<h2>Citations</h2>
 
   <ul>
     <li><a href="https://independent.academia.edu/JOHNOBIDI" target="_blank">[1] John Onimisi Obidi — Independent Researcher</a></li>
@@ -488,82 +529,95 @@ V_{\text{dist}}[S,S_0] \equiv D(x) = S\ln\!\frac{S}{S_0} - S + S_0.
 
   <h2>Fisher–Rao as the Entropic Manifold Metric</h2>
 
-  <p>
-    The Fisher–Rao metric <span class="math">\( g_{ij} \)</span> on the statistical manifold 
-    <span class="math">\( \mathcal{P} \)</span> of entropic densities 
-    <span class="math">\( p_\theta(x) \)</span> (derived from the entropy field 
-    <span class="math">\( S(x) \)</span>) is:
-  </p>
+<p>
+The Fisher–Rao metric \( g_{ij} \) on the statistical manifold 
+\( \mathcal{P} \) of entropic densities 
+\( p_\theta(x) \) (derived from the entropy field 
+\( S(x) \)) is:
+</p>
 
-  <pre class="math">
+<div class="math">
+
+
+\[
 g_{ij}(\theta)
-  = \int \frac{\partial_{\theta_i} p}{p}
-         \frac{\partial_{\theta_j} p}{p}\, p\, dx
-  = \mathbb{E}\!\left[
-      \partial_{\theta_i}\ln p \,
-      \partial_{\theta_j}\ln p
-    \right],
-  </pre>
+= \int 
+    \frac{\partial_{\theta_i} p}{p}
+    \frac{\partial_{\theta_j} p}{p}\, p\, dx
+= \mathbb{E}\!\left[
+    \partial_{\theta_i}\ln p \,
+    \partial_{\theta_j}\ln p
+  \right].
+\]
 
-  <p>
-    which measures <strong>infinitesimal distinguishability</strong> between nearby entropic configurations.
-    <sup>[11]</sup>
-  </p>
 
-  <h2>The Obidi Curvature Invariant (OCI) Calibrates Fisher–Rao Curvature</h2>
+</div>
 
-  <ul>
-    <li>
-      The distinguishability potential 
-      <span class="math">\( D(S,S_0) = S\ln(S/S_0) - S + S_0 \)</span> 
-      is defined on finite separations in this Fisher–Rao manifold.  
-      Its first non‑zero minimum at <span class="math">\( \ln 2 \)</span> (for 2:1 entropic ratios) defines the 
-      <strong>discrete curvature scale</strong> OCI within the continuous Fisher–Rao geometry.
-      <sup>[11][13]</sup>
-    </li>
-    <li>
-      OCI marks the point where infinitesimal Fisher–Rao distances accumulate to form the first dynamically 
-      stable, macroscopically distinguishable <strong>curvature fold</strong> in the entropic field.
-      <sup>[13]</sup>
-    </li>
-  </ul>
+<p>
+which measures <strong>infinitesimal distinguishability</strong> between nearby entropic configurations.
+<sup>[11]</sup>
+</p>
 
-  <h2>Functional Interplay in Dynamics</h2>
+<h2>The Obidi Curvature Invariant (OCI) Calibrates Fisher–Rao Curvature</h2>
 
-  <p>Together they form a <strong>dual‑scale structure</strong>:</p>
+<ul>
+<li>
+  The distinguishability potential 
+  \( D(S,S_0) = S\ln(S/S_0) - S + S_0 \) 
+  is defined on finite separations in this Fisher–Rao manifold.  
+  Its first non‑zero minimum at \( \ln 2 \) (for 2:1 entropic ratios) defines the 
+  <strong>discrete curvature scale</strong> OCI within the continuous Fisher–Rao geometry.
+  <sup>[11][13]</sup>
+</li>
+<li>
+  OCI marks the point where infinitesimal Fisher–Rao distances accumulate to form the first dynamically 
+  stable, macroscopically distinguishable <strong>curvature fold</strong> in the entropic field.
+  <sup>[13]</sup>
+</li>
+</ul>
 
-  <ul>
-    <li>
-      <strong>Fisher–Rao:</strong> governs local, infinitesimal evolution via entropic geodesics  
-      <span class="math">\( \nabla^{(\alpha)}_{\hat{g}} \partial_\lambda \theta = 0 \)</span>.
-    </li>
-    <li>
-      <strong>OCI:</strong> sets the global quantization threshold where local geodesic flows resolve into 
-      discrete, stable informational/curvature bits.
-    </li>
-  </ul>
+<h2>Functional Interplay in Dynamics</h2>
 
-  <p><strong>In the Obidi Action:</strong></p>
+<p>Together they form a <strong>dual‑scale structure</strong>:</p>
 
-  <pre class="math">
+<ul>
+<li>
+  <strong>Fisher–Rao:</strong> governs local, infinitesimal evolution via entropic geodesics  
+  \( \nabla^{(\alpha)}_{\hat{g}} \partial_\lambda \theta = 0 \).
+</li>
+<li>
+  <strong>OCI:</strong> sets the global quantization threshold where local geodesic flows resolve into 
+  discrete, stable informational/curvature bits.
+</li>
+</ul>
+
+<p><strong>In the Obidi Action:</strong></p>
+
+<div class="math">
+
+
+\[
 \mathcal{A}_E
-  = \int \Big[
-      \tfrac{1}{2} g^{ij}\partial_\mu S_i \partial^\mu S_j
-      - \lambda\, D(S,S_0)
-    \Big]\sqrt{-g}\, d^4x,
-  </pre>
+= \int \Big[
+    \tfrac{1}{2} g^{ij}\partial_\mu S_i \partial^\mu S_j
+    - \lambda\, D(S,S_0)
+  \Big]\sqrt{-g}\, d^4x.
+\]
 
-  <p>
-    the Fisher–Rao metric <span class="math">\( g^{ij} \)</span> controls kinetic evolution, while the 
-    OCI‑frozen potential <span class="math">\( D(S,S_0) \)</span> (minimized at 
-    <span class="math">\( \ln 2 \)</span>) provides stabilizing potential wells.
-    <sup>[11][12]</sup>
-  </p>
 
-  <p>
-    This makes <strong>Fisher–Rao + OCI</strong> a complete geometric toolkit:  
-    a continuous metric for smooth flows, and a discrete invariant for emergent structure.
-  </p>
+</div>
+
+<p>
+the Fisher–Rao metric \( g^{ij} \) controls kinetic evolution, while the 
+OCI‑frozen potential \( D(S,S_0) \) (minimized at 
+\( \ln 2 \)) provides stabilizing potential wells.
+<sup>[11][12]</sup>
+</p>
+
+<p>
+This makes <strong>Fisher–Rao + OCI</strong> a complete geometric toolkit:  
+a continuous metric for smooth flows, and a discrete invariant for emergent structure.
+</p>
 
   <h2>Citations</h2>
 
@@ -714,87 +768,105 @@ g_{ij}(\theta)
 
   <h2>FS Metric in Entropic Quantum Geometry</h2>
 
-  <p>
-    The FS metric on the projective space 
-    <span class="math">\( \mathbb{CP}(\mathcal{H}_S) \)</span> of normalized entropic states 
-    <span class="math">\( |\psi_S\rangle \)</span> (derived from entropy field configurations) is:
-  </p>
+ <p>
+  The FS metric on the projective space 
+  \( \mathbb{CP}(\mathcal{H}_S) \) of normalized entropic states 
+  \( |\psi_S\rangle \) (derived from entropy field configurations) is:
+</p>
 
-  <pre class="math">
+<div class="math">
+
+
+\[
 ds^2_{\mathrm{FS}}
   = \langle\delta\psi_S|\delta\psi_S\rangle
-    - |\langle\psi_S|\delta\psi_S\rangle|^2,
-  </pre>
+    - |\langle\psi_S|\delta\psi_S\rangle|^2.
+\]
 
-  <p>
-    with <span class="math">\( \langle\psi_S|\psi_S\rangle = 1 \)</span>.  
-    This metric measures <strong>quantum distinguishability</strong> between nearby pure entropic states.
-    <sup>[2][4]</sup>
-  </p>
 
-  <h2>Obidi’s Unified Fisher–Rao (FR) + Fubini–Study (FS) via Amari–Čencov α‑Connection</h2>
+</div>
 
-  <p>
-    In ToE, Obidi unifies the classical and quantum geometries through the 
-    <strong>Amari–Čencov α‑connection</strong>:
-  </p>
+<p>
+  with \( \langle\psi_S|\psi_S\rangle = 1 \).  
+  This metric measures <strong>quantum distinguishability</strong> between nearby pure entropic states.
+  <sup>[2][4]</sup>
+</p>
 
-  <ul>
-    <li><strong>Fisher–Rao</strong> (<span class="math">\( \alpha = 0 \)</span>): classical manifold of mixed entropic densities.</li>
-    <li><strong>Fubini–Study</strong> (<span class="math">\( \alpha = 1 \)</span>): quantum projective manifold of pure entropic states.</li>
-    <li><strong>α‑deformation</strong>: interpolates between classical and quantum limits via an entropic order parameter <span class="math">\( \alpha \in [-1,1] \)</span>.<sup>[1][4]</sup></li>
-  </ul>
+<h2>Obidi’s Unified Fisher–Rao (FR) + Fubini–Study (FS) via Amari–Čencov α‑Connection</h2>
 
-  <p>The Obidi Unified Connection (OUC) is:</p>
+<p>
+  In ToE, Obidi unifies the classical and quantum geometries through the 
+  <strong>Amari–Čencov α‑connection</strong>:
+</p>
 
-  <pre class="math">
+<ul>
+  <li><strong>Fisher–Rao</strong> \( \alpha = 0 \): classical manifold of mixed entropic densities.</li>
+  <li><strong>Fubini–Study</strong> \( \alpha = 1 \): quantum projective manifold of pure entropic states.</li>
+  <li><strong>α‑deformation</strong>: interpolates between classical and quantum limits via an entropic order parameter \( \alpha \in [-1,1] \).<sup>[1][4]</sup></li>
+</ul>
+
+<p>The Obidi Unified Connection (OUC) is:</p>
+
+<div class="math">
+
+
+\[
 \nabla^{(\alpha)}_{\hat{g}}
   = (1-\alpha)\nabla^{(1)}_{\hat{g}}
-    + \alpha\nabla^{(-1)}_{\hat{g}},
-  </pre>
+    + \alpha\nabla^{(-1)}_{\hat{g}}.
+\]
 
-  <p>
-    where <span class="math">\( \nabla^{(1)} \)</span> governs FS geodesics and 
-    <span class="math">\( \nabla^{(-1)} \)</span> governs Fisher–Rao geodesics.<sup>[1]</sup>
-  </p>
 
-  <h2>OCI Role in FS Geometry</h2>
+</div>
 
-  <ul>
-    <li>
-      The distinguishability potential <span class="math">\( D(S,S_0) \)</span> evaluated on 
-      <strong>projective (FS)</strong> separations between quantum entropic states yields the same 
-      <span class="math">\( \ln 2 \)</span> minimum for binary 2:1 projective overlaps  
-      <span class="math">\( |\langle\psi_B|\psi_A\rangle|^2 = 1/2 \)</span>.<sup>[10][11]</sup>
-    </li>
-    <li>
-      OCI therefore sets the <strong>quantum curvature quantization</strong>:  
-      the smallest FS‑separable angle satisfies  
-      <span class="math">\( \cos\theta = 1/\sqrt{2} \)</span>,  
-      giving FS distance  
-      <span class="math">\( \rho_{\mathrm{FS}} = \arccos(1/\sqrt{2}) \propto \ln 2 \)</span>.
-    </li>
-  </ul>
+<p>
+  where \( \nabla^{(1)} \) governs FS geodesics and 
+  \( \nabla^{(-1)} \) governs Fisher–Rao geodesics.<sup>[1]</sup>
+</p>
 
-  <h2>Dynamic Function in the Obidi Action (OA)</h2>
+<h2>OCI Role in FS Geometry</h2>
 
-  <p>
-    In the quantum Spectral Obidi Action (SOA):
-  </p>
+<ul>
+  <li>
+    The distinguishability potential \( D(S,S_0) \) evaluated on 
+    <strong>projective (FS)</strong> separations between quantum entropic states yields the same 
+    \( \ln 2 \) minimum for binary 2:1 projective overlaps  
+    \( |\langle\psi_B|\psi_A\rangle|^2 = 1/2 \).<sup>[10][11]</sup>
+  </li>
+  <li>
+    OCI therefore sets the <strong>quantum curvature quantization</strong>:  
+    the smallest FS‑separable angle satisfies  
+    \( \cos\theta = 1/\sqrt{2} \),  
+    giving FS distance  
+    \( \rho_{\mathrm{FS}} = \arccos(1/\sqrt{2}) \propto \ln 2 \).
+  </li>
+</ul>
 
-  <pre class="math">
+<h2>Dynamic Function in the Obidi Action (OA)</h2>
+
+<p>
+  In the quantum Spectral Obidi Action (SOA):
+</p>
+
+<div class="math">
+
+
+\[
 \mathcal{A}_E^{\mathrm{QM}}
   = \int \Big[
       \tfrac{1}{2} g_{\mathrm{FS}}^{\bar{i}j}
       \nabla_\mu\bar{\psi}_S \nabla^\mu\psi_S
       - \lambda\, D_{\mathrm{FS}}(\psi_S,\psi_{S_0})
-    \Big]\sqrt{-g}\, d^4x,
-  </pre>
+    \Big]\sqrt{-g}\, d^4x.
+\]
 
-  <ul>
-    <li><strong>FS metric</strong> <span class="math">\( g_{\mathrm{FS}} \)</span> governs quantum kinetic evolution of entropic wavefunctions.</li>
-    <li><strong>OCI‑calibrated</strong> <span class="math">\( D_{\mathrm{FS}} \)</span> (minimized at <span class="math">\( \ln 2 \)</span>) creates discrete potential wells for stable quantum curvature states.<sup>[1][4]</sup></li>
-  </ul>
+
+</div>
+
+<ul>
+  <li><strong>FS metric</strong> \( g_{\mathrm{FS}} \) governs quantum kinetic evolution of entropic wavefunctions.</li>
+  <li><strong>OCI‑calibrated</strong> \( D_{\mathrm{FS}} \) (minimized at \( \ln 2 \)) creates discrete potential wells for stable quantum curvature states.<sup>[1][4]</sup></li>
+</ul>
 
   <p>
     Thus, the <strong>FR/FS duality</strong> together with the <strong>OCI quantization mechanism</strong> 
@@ -847,65 +919,90 @@ ds^2_{\mathrm{FS}}
   <h2>Definition and Formula</h2>
 
   <p>
-    On the statistical manifold <span class="math">\( \mathcal{P} \)</span> of entropic densities 
-    parameterized by <span class="math">\( \theta^i \)</span>, the 
-    <span class="math">\( \alpha \)</span>-connection coefficients are:
-  </p>
+  On the statistical manifold \( \mathcal{P} \) of entropic densities 
+  parameterized by \( \theta^i \), the 
+  \( \alpha \)-connection coefficients are:
+</p>
 
-  <pre class="math">
+<div class="math">
+
+
+\[
 \Gamma^{(\alpha)}_{ij}{}^k
   = \Gamma^{(0)}_{ij}{}^k
     + \frac{1-\alpha}{2} T_{ij}{}^k
-    + \frac{1+\alpha}{2} T_{ji}{}^k,
-  </pre>
+    + \frac{1+\alpha}{2} T_{ji}{}^k.
+\]
 
-  <p>
-    where <span class="math">\( \Gamma^{(0)} \)</span> are the Levi–Civita symbols of the Fisher–Rao metric 
-    <span class="math">\( g_{ij} \)</span>, and <span class="math">\( T_{ijk} \)</span> is the 
-    <strong>Amari–Čencov skewness tensor</strong>:
-  </p>
 
-  <pre class="math">
+</div>
+
+<p>
+  where \( \Gamma^{(0)} \) are the Levi–Civita symbols of the Fisher–Rao metric 
+  \( g_{ij} \), and \( T_{ijk} \) is the 
+  <strong>Amari–Čencov skewness tensor</strong>:
+</p>
+
+<div class="math">
+
+
+\[
 T_{ijk}
   = g_{kl}
     \frac{\partial^2_\theta \ln p}{\partial\theta^i \partial\theta^j}
     \frac{\partial \ln p}{\partial\theta^k}.
-  </pre>
+\]
 
-  <h2>Key Amari–Čencov α‑Connection Limits in ToE</h2>
 
-  <ul>
-    <li><span class="math">\( \alpha = 0 \)</span>: Levi–Civita connection of Fisher–Rao metric (classical entropic geodesics).</li>
-    <li><span class="math">\( \alpha = +1 \)</span>: Exponential connection <span class="math">\( \nabla^{(1)} \)</span>, governing Fubini–Study quantum geodesics.</li>
-    <li><span class="math">\( \alpha = -1 \)</span>: Mixture connection <span class="math">\( \nabla^{(-1)} \)</span>, dual to the exponential connection.</li>
-    <li><span class="math">\( \alpha \in (-1,1) \)</span>: Smooth interpolation between classical and quantum regimes.</li>
-  </ul>
+</div>
 
-  <p>
-    The duality relation is:
-  </p>
+<h2>Key Amari–Čencov α‑Connection Limits in ToE</h2>
 
-  <pre class="math">
-\nabla^{(\alpha)} + \nabla^{(-\alpha)} = 2\nabla^{(0)},
-  </pre>
+<ul>
+  <li>\( \alpha = 0 \): Levi–Civita connection of Fisher–Rao metric (classical entropic geodesics).</li>
+  <li>\( \alpha = +1 \): Exponential connection \( \nabla^{(1)} \), governing Fubini–Study quantum geodesics.</li>
+  <li>\( \alpha = -1 \): Mixture connection \( \nabla^{(-1)} \), dual to the exponential connection.</li>
+  <li>\( \alpha \in (-1,1) \): Smooth interpolation between classical and quantum regimes.</li>
+</ul>
 
-  <p>
-    with respect to the Fisher–Rao metric.<sup>[2][1]</sup>
-  </p>
+<p>
+  The duality relation is:
+</p>
 
-  <h2>Role of the Amari–Čencov α‑Connections in ToE Dynamics</h2>
+<div class="math">
 
-  <p>
-    In the <strong>Obidi Action</strong>, entropic geodesics satisfy:
-  </p>
 
-  <pre class="math">
+\[
+\nabla^{(\alpha)} + \nabla^{(-\alpha)} = 2\nabla^{(0)}.
+\]
+
+
+</div>
+
+<p>
+  with respect to the Fisher–Rao metric.<sup>[2][1]</sup>
+</p>
+
+<h2>Role of the Amari–Čencov α‑Connections in ToE Dynamics</h2>
+
+<p>
+  In the <strong>Obidi Action</strong>, entropic geodesics satisfy:
+</p>
+
+<div class="math">
+
+
+\[
 \frac{d^2\theta^k}{d\lambda^2}
   + \Gamma^{(\alpha)}_{ij}{}^k
     \frac{d\theta^i}{d\lambda}
     \frac{d\theta^j}{d\lambda}
-  = 0,
-  </pre>
+  = 0.
+\]
+
+
+</div>
+
 
   <p>
     where <span class="math">\( \alpha \)</span> is coupled to generalized entropies (Rényi/Tsallis) via  
@@ -1271,46 +1368,58 @@ T_{ijk}
     <strong>Obidi Curvature Invariant (OCI)</strong>.
   </p>
 
-  <h2>1. <span class="math">ln 2</span> as the Fundamental Entropy of a Two‑State System</h2>
+  <h2>1. \( \ln 2 \) as the Fundamental Entropy of a Two‑State System</h2>
 
-  <p>
-    In classical statistical mechanics and information theory,  
-    <span class="math">ln 2</span> is the entropy of the simplest possible system:  
-    a binary choice (e.g., a fair coin flip).  
-    Entropy is defined as the logarithm of the number of accessible states:
-  </p>
+<p>
+  In classical statistical mechanics and information theory,  
+  \( \ln 2 \) is the entropy of the simplest possible system:  
+  a binary choice (e.g., a fair coin flip).  
+  Entropy is defined as the logarithm of the number of accessible states:
+</p>
 
-  <pre class="math">
+<div class="math">
+
+
+\[
 S = \ln(2)
-  </pre>
+\]
 
-  <p>
-    This is the foundation of <strong>Shannon entropy</strong> and the definition of a 
-    <strong>bit</strong> of information.  
-    Thus, <span class="math">ln 2</span> is the smallest non‑zero entropy that a physical system can possess.
-  </p>
 
-  <h2>2. <span class="math">ln 2</span> in Physical Limits on Information Processing</h2>
+</div>
 
-  <p>
-    A central result in modern physics, <strong>Landauer’s Principle</strong>, states that erasing one bit of 
-    information requires a minimum energy:
-  </p>
+<p>
+  This is the foundation of <strong>Shannon entropy</strong> and the definition of a 
+  <strong>bit</strong> of information.  
+  Thus, \( \ln 2 \) is the smallest non‑zero entropy that a physical system can possess.
+</p>
 
-  <pre class="math">
+<h2>2. \( \ln 2 \) in Physical Limits on Information Processing</h2>
+
+<p>
+  A central result in modern physics, <strong>Landauer’s Principle</strong>, states that erasing one bit of 
+  information requires a minimum energy:
+</p>
+
+<div class="math">
+
+
+\[
 E_{\text{min}} = k_B T \ln 2
-  </pre>
+\]
 
-  <p>
-    where <span class="math">k_B</span> is Boltzmann’s constant and <span class="math">T</span> is temperature.  
-    This principle has been experimentally supported and shows that 
-    <span class="math">ln 2</span> sets a <strong>fundamental physical cost</strong> for information erasure.
-  </p>
 
-  <p>
-    This is not abstract mathematics — it is a <strong>thermodynamic law</strong> linking entropy, 
-    information, and physical energy.
-  </p>
+</div>
+
+<p>
+  where \( k_B \) is Boltzmann’s constant and \( T \) is temperature.  
+  This principle has been experimentally supported and shows that 
+  \( \ln 2 \) sets a <strong>fundamental physical cost</strong> for information erasure.
+</p>
+
+<p>
+  This is not abstract mathematics — it is a <strong>thermodynamic law</strong> linking entropy, 
+  information, and physical energy.
+</p>
 
   <h2>3. <span class="math">ln 2</span> as the Minimum Distinguishability Gap — The Obidi Curvature Invariant (OCI)</h2>
 
@@ -1382,7 +1491,7 @@ E_{\text{min}} = k_B T \ln 2
   <h2>Conclusion</h2>
 
   <p>
-    Yes — the Obidi Curvature Invariant <span class="math">ln 2</span> is extremely important for understanding 
+    Therefore, the Obidi Curvature Invariant <span class="math">ln 2</span> is extremely important for understanding 
     nature and reality.  
     It is not an arbitrary constant; it is a recurring structural feature of how the universe distinguishes 
     one state from another.  
@@ -1644,76 +1753,88 @@ E_{\text{min}} = k_B T \ln 2
     In mainstream physics, <span class="math">ln 2</span> appears because of <strong>mathematical definitions</strong> 
     and <strong>statistical reasoning</strong>, not because it is a fundamental physical constant.
   </p>
+<h3>a. Thermodynamics and Statistical Mechanics</h3>
 
-  <h3>a. Thermodynamics and Statistical Mechanics</h3>
+<p>
+  Entropy is defined as \( S = \ln \Omega \), where 
+  \( \Omega \) is the number of microstates.  
+  For a simple two‑state system:
+</p>
 
-  <p>
-    Entropy is defined as <span class="math">S = \ln \Omega</span>, where 
-    <span class="math">\Omega</span> is the number of microstates.  
-    For a simple two‑state system:
-  </p>
+<div class="math">
 
-  <pre class="math">
+
+\[
 S = \ln 2
-  </pre>
+\]
 
-  <p>
-    This is simply the entropy of one bit of uncertainty.  
-    It reflects <strong>state counting</strong>, not a built‑in threshold of physical reality.
-  </p>
 
-  <h3>b. Landauer’s Principle</h3>
+</div>
 
-  <p>
-    Erasing one bit of information requires a minimum energy:
-  </p>
+<p>
+  This is simply the entropy of one bit of uncertainty.  
+  It reflects <strong>state counting</strong>, not a built‑in threshold of physical reality.
+</p>
 
-  <pre class="math">
+<h3>b. Landauer’s Principle</h3>
+
+<p>
+  Erasing one bit of information requires a minimum energy:
+</p>
+
+<div class="math">
+
+
+\[
 E_{\text{min}} = k_B T \ln 2
-  </pre>
+\]
 
-  <p>
-    Here, <span class="math">ln 2</span> arises from the statistical definition of entropy and the second law of 
-    thermodynamics.  
-    It is a <strong>consequence</strong> of how we define information and energy — not a universal geometric law.
-  </p>
 
-  <p>
-    In summary, in standard physics, <span class="math">ln 2</span> is a <strong>useful numerical factor</strong> 
-    that emerges from statistical definitions.
-  </p>
+</div>
 
-  <h2>2. What the Theory of Entropicity (ToE) Says About <span class="math">ln 2</span></h2>
+<p>
+  Here, \( \ln 2 \) arises from the statistical definition of entropy and the second law of 
+  thermodynamics.  
+  It is a <strong>consequence</strong> of how we define information and energy — not a universal geometric law.
+</p>
 
-  <p>
-    In ToE, <span class="math">ln 2</span> is elevated to a <strong>foundational physical constant</strong> with 
-    <strong>ontological meaning</strong> — far deeper than its role in statistical physics.
-  </p>
+<p>
+  In summary, in standard physics, \( \ln 2 \) is a <strong>useful numerical factor</strong> 
+  that emerges from statistical definitions.
+</p>
 
-  <h3>a. <span class="math">ln 2</span> as a Fundamental Curvature Constant</h3>
+<h2>2. What the Theory of Entropicity (ToE) Says About \( \ln 2 \)</h2>
 
-  <p>
-    ToE proposes that <span class="math">ln 2</span> is the <strong>smallest possible entropic curvature 
-    difference</strong> between physically distinguishable configurations of reality.
-  </p>
+<p>
+  In ToE, \( \ln 2 \) is elevated to a <strong>foundational physical constant</strong> with 
+  <strong>ontological meaning</strong> — far deeper than its role in statistical physics.
+</p>
 
-  <blockquote>
-    Two states of the entropic field are physically distinct only if their entropic curvature differs by at 
-    least <span class="math">ln 2</span>.
-  </blockquote>
+<h3>a. \( \ln 2 \) as a Fundamental Curvature Constant</h3>
 
-  <p>
-    This is the <strong>Obidi Curvature Invariant (OCI)</strong>.  
-    It is treated as a <strong>universal geometric constant</strong>, not a statistical artifact.
-  </p>
+<p>
+  ToE proposes that \( \ln 2 \) is the <strong>smallest possible entropic curvature 
+  difference</strong> between physically distinguishable configurations of reality.
+</p>
 
-  <h3>b. <span class="math">ln 2</span> as the Unit of Entropic Action</h3>
+<blockquote>
+  Two states of the entropic field are physically distinct only if their entropic curvature differs by at 
+  least \( \ln 2 \).
+</blockquote>
 
-  <p>
-    ToE draws an analogy to quantum mechanics, where <span class="math">\hbar</span> sets the smallest unit of 
-    quantum action.  
-    In ToE:
-  </p>
+<p>
+  This is the <strong>Obidi Curvature Invariant (OCI)</strong>.  
+  It is treated as a <strong>universal geometric constant</strong>, not a statistical artifact.
+</p>
+
+<h3>b. \( \ln 2 \) as the Unit of Entropic Action</h3>
+
+<p>
+  ToE draws an analogy to quantum mechanics, where \( \hbar \) sets the smallest unit of 
+  quantum action.  
+  In ToE:
+</p>
+
 
   <blockquote>
     <span class="math">ln 2</span> is the smallest meaningful entropic increment that can drive a causal update 
