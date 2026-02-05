@@ -89,7 +89,93 @@ title: Equations
   </li>                                                         
 </ul>
 <hr>
-<h1>Canonical Equations of the Theory of Entropicity (ToE)</h1>
+<!-- ========================= -->
+<!-- LEFT SIDEBAR NAVIGATION  -->
+<!-- ========================= -->
+
+<nav id="sidebar-nav" style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 100%;
+  overflow-y: auto;
+  background: #f5f5f5;
+  border-right: 1px solid #ddd;
+  padding: 22px;
+  font-family: 'Segoe UI', sans-serif;
+">
+
+  <h2 style="font-size: 20px; margin-top: 0;">Table of Contents</h2>
+
+  <ol style="padding-left: 0; list-style-position: inside; line-height: 1.7; font-size: 15px;">
+
+    <li><a href="#canonical-equations">
+      Canonical Equations Overview
+    </a></li>
+
+    <li><a href="#master-entropic-equation">
+      Master Entropic Equation (OFE)
+    </a></li>
+
+    <li><a href="#entropic-field-variable">
+      Entropic Field Variable
+    </a></li>
+
+    <li><a href="#variational-principle">
+      Variational Principle
+    </a></li>
+
+    <li><a href="#ofe-equation">
+      Full Obidi Field Equation (OFE)
+    </a></li>
+
+    <li><a href="#physical-interpretation">
+      Physical Interpretation
+    </a></li>
+
+    <li><a href="#canonical-equation-syntax">
+      Canonical Equation Syntax
+    </a></li>
+
+    <li><a href="#aligned-equations">
+      Aligned & Multi‑Line Forms
+    </a></li>
+
+    <li><a href="#action-functional-longform">
+      Long‑Form Action Functional
+    </a></li>
+
+    <li><a href="#ontodynamic-style-guide">
+      Ontodynamic Equation Style Guide
+    </a></li>
+
+  </ol>
+
+</nav>
+
+<!-- Push main content to the right so it doesn't hide behind sidebar -->
+<style>
+  body {
+    margin-left: 290px;
+  }
+
+  @media (max-width: 900px) {
+    #sidebar-nav {
+      position: relative;
+      width: 100%;
+      height: auto;
+      border-right: none;
+    }
+    body {
+      margin-left: 0;
+    }
+  }
+</style>
+
+<hr>
+
+<h1 id="canonical-equations">Canonical Equations of the Theory of Entropicity (ToE)</h1>
 
 <p>This section contains the canonical equations, variational structures, and field formulations of the Theory of Entropicity (ToE).</p>
 
@@ -100,19 +186,19 @@ title: Equations
 
 <hr>
 
-<h2>The Master Entropic Equation (Obidi Field Equations — OFE)</h2>
+<h2 id="master-entropic-equation">The Master Entropic Equation (Obidi Field Equations — OFE)</h2>
 
 <p>
 The Master Entropic Equation (MEE) is the central mathematical object of the Theory of Entropicity (ToE). It governs the evolution of the entropic manifold and generates the structures we interpret as geometry, fields, and physical law.
 </p>
 
-<h3>1. Entropic Field Variable</h3>
+<h3 id="entropic-field-variable">1. Entropic Field Variable</h3>
 
 <p>
 Let \( \mathcal{E}(x) \) denote the entropic density field defined over the manifold \( \mathcal{M} \).
 </p>
 
-<h3>2. Variational Principle</h3>
+<h3 id="variational-principle">2. Variational Principle</h3>
 
 <p>The dynamics of \( \mathcal{E} \) arise from an entropic action functional:</p>
 
@@ -124,7 +210,7 @@ $$
 
 <p>where \( \mathcal{L} \) is the entropic Lagrangian density.</p>
 
-<h3>3. The Master Entropic Equation</h3>
+<h3 id="ofe-equation">3. The Master Entropic Equation</h3>
 
 <p>Applying the Euler–Lagrange equation to the entropic action yields:</p>
 
@@ -141,7 +227,7 @@ $$
 This is the <strong>Master Entropic Equation (Obidi Field Equations — OFE)</strong> of the Theory of Entropicity — a nonlinear, nonlocal, higher‑order field equation governing the evolution of the entropic manifold.
 </p>
 
-<h3>4. Physical Interpretation</h3>
+<h3 id="physical-interpretation">4. Physical Interpretation</h3>
 
 <ul>
   <li>Solutions correspond to stable entropic configurations</li>
@@ -152,7 +238,7 @@ This is the <strong>Master Entropic Equation (Obidi Field Equations — OFE)</st
 
 <hr>
 
-<h2>Canonical Equation Syntax</h2>
+<h2 id="canonical-equation-syntax">Canonical Equation Syntax</h2>
 
 <p>Standard display form:</p>
 
@@ -184,7 +270,7 @@ $$
 
 <p>Long‑form aligned action functional:</p>
 
-<p>
+<p id="action-functional-longform">
 $$
 \begin{aligned}
 S[\mathcal{E}]
@@ -198,7 +284,7 @@ $$
 
 <hr>
 
-<h2>Ontodynamic Canonical Equation Style Guide</h2>
+<h2 id="ontodynamic-style-guide">Ontodynamic Canonical Equation Style Guide</h2>
 
 <p>
 This guide defines the unified mathematical standards for all equations in the Theory of Entropicity (ToE). Inline mathematics uses <code>\( ... \)</code>. Display mathematics uses <code>$$ ... $$</code>. All operators are spaced for clarity, and all major equations are followed by interpretive commentary.
@@ -220,6 +306,9 @@ $$
 <p>
 This equation expresses the entropic curvature response of the manifold, capturing how variations in \( \mathcal{E} \) generate geometric structure.
 </p>
+
+
+</main>
 
 <hr>
 
