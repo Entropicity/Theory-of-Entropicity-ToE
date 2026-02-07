@@ -331,8 +331,20 @@
 
 
 <footer>
-    © <span id="year"></span> The Theory of Entropicity (ToE) — All rights reserved.
+  © 2025–<span id="year"></span> The Theory of Entropicity (ToE) — All rights reserved.
 </footer>
+
+<script>
+  // Always keep 2025 as the founding year
+  const foundingYear = 2025;
+
+  // Get the current year dynamically
+  const currentYear = new Date().getFullYear();
+
+  // Insert the current year into the footer
+  document.getElementById("year").textContent = currentYear;
+</script>
+
 
 <script>
     document.getElementById("year").textContent = new Date().getFullYear();
