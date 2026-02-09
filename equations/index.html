@@ -1183,7 +1183,24 @@ This equation expresses the entropic curvature response of the manifold, capturi
 <hr>
 
 <p><a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/">← Back to Home</a></p>
-
 <footer>
-    ©2026 John Onimisi Obidi — Theory of Entropicity (ToE)
+  © 2025–<span id="year"></span> The Theory of Entropicity (ToE) — All rights reserved.
 </footer>
+
+<script>
+  // Always keep 2025 as the founding year
+  const foundingYear = 2025;
+
+  // Get the current year dynamically
+  const currentYear = new Date().getFullYear();
+
+  // Insert the current year into the footer
+  document.getElementById("year").textContent = currentYear;
+</script>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
