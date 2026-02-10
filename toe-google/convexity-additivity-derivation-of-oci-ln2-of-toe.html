@@ -273,103 +273,319 @@ blockquote {
   <!-- RIGHT COLUMN: CONTENT -->
   <div class="toe-right">
     <h3>Content Area</h3>
+<section id="toe-curvature-invariant">
 
-\section{Derivation of the ToE Curvature Invariant $\ln 2$}
+  <h1>Derivation of the ToE Curvature Invariant <span class="math">\( \ln 2 \) Using Convexity and Kullback-Leibler KL (Araki-Umegaki) Divergence</span></h1>
 
-\subsection{1. Entropy as a Physical Field}
 
-In the Theory of Entropicity (ToE), entropy $S(x)$ is not a statistical quantity but a continuous physical field permeating spacetime. 
-Information corresponds to a localized curvature or deformation of this field.
-Hence, each configuration of information can be described by an \emph{entropic density} $\rho(x)$ defined over a region $\Omega$ of the entropic manifold, satisfying
+
+  <section id="entropy-field">
+
+    <h2>1. Entropy as a Physical Field</h2>
+
+    <p>
+      In the Theory of Entropicity (ToE), entropy 
+      <span class="math">\( S(x) \)</span> 
+      is not a statistical quantity but a continuous physical field permeating spacetime. 
+      Information corresponds to a localized curvature or deformation of this field.
+      Hence, each configuration of information can be described by an 
+      <em>entropic density</em> 
+      <span class="math">\( \rho(x) \)</span> 
+      defined over a region <span class="math">\( \Omega \)</span> of the entropic manifold, satisfying:
+    </p>
+
+    <div class="math">
+
+
 \[
 \int_{\Omega} \rho(x)\, dV = 1.
 \]
-Two informational configurations are distinguishable only if their entropic curvature profiles differ by a finite geometric gap.
 
-\subsection{2. Distinguishability as Relative Entropic Curvature}
 
-ToE defines the measure of distinguishability between two entropic configurations $\rho_A(x)$ and $\rho_B(x)$ through the \emph{relative entropic curvature functional}:
-\begin{equation}
-	D(\rho_A || \rho_B) = \int_{\Omega} \rho_A(x)\, \ln\!\left[\frac{\rho_A(x)}{\rho_B(x)}\right] dV.
-	\label{eq:relative_entropy}
-\end{equation}
-This functional, formally similar to the Kullback–Leibler divergence, is here interpreted geometrically as the integrated curvature deformation required to transform one entropic configuration into another.  
-It is non-negative and invariant under smooth coordinate transformations of the informational manifold.
+    </div>
 
-\subsection{3. The Binary Curvature Symmetry of the Entropic Field}
+    <p>
+      Two informational configurations are distinguishable only if their entropic curvature profiles differ by a finite geometric gap.
+    </p>
 
-The simplest stable entropic distinction is binary: a localized region of the field can exist in two minimally distinct configurations, $A$ and $B$, related by a curvature ratio of $2{:}1$.  
-Mathematically, within the overlap of their support regions,
+  </section>
+
+
+
+  <section id="relative-curvature">
+
+    <h2>2. Distinguishability as Relative Entropic Curvature</h2>
+
+    <p>
+      ToE defines the measure of distinguishability between two entropic configurations 
+      <span class="math">\( \rho_A(x) \)</span> and 
+      <span class="math">\( \rho_B(x) \)</span> 
+      through the <em>relative entropic curvature functional</em>:
+    </p>
+
+    <div class="math">
+
+
+\[
+D(\rho_A || \rho_B) 
+  = \int_{\Omega} \rho_A(x)\, 
+    \ln\!\left[\frac{\rho_A(x)}{\rho_B(x)}\right] dV.
+\]
+
+
+    </div>
+
+    <p>
+      This functional, formally similar to the Kullback–Leibler divergence, is here interpreted geometrically as the integrated curvature deformation required to transform one entropic configuration into another.  
+      It is non-negative and invariant under smooth coordinate transformations of the informational manifold.
+    </p>
+
+    <p>
+      Mathematically, this functional also satisfies:
+    </p>
+
+    <ul>
+      <li><strong>Convexity:</strong> it is jointly convex in <span class="math">\( (\rho_A,\rho_B) \)</span>.</li>
+      <li><strong>Additivity:</strong> for independent subsystems, 
+        <span class="math">\( D(\rho_A\otimes\rho_C || \rho_B\otimes\rho_D) = D(\rho_A||\rho_B) + D(\rho_C||\rho_D) \)</span>.
+      </li>
+      <li><strong>Monotonicity under coarse-graining:</strong> distinguishability cannot increase under stochastic maps.</li>
+    </ul>
+
+  </section>
+
+
+
+  <section id="binary-symmetry">
+
+    <h2>3. The Binary Curvature Symmetry of the Entropic Field</h2>
+
+    <p>
+      The simplest stable entropic distinction is binary: a localized region of the field can exist in two minimally distinct configurations, 
+      <span class="math">\( A \)</span> and <span class="math">\( B \)</span>, 
+      related by a curvature ratio of <span class="math">\( 2{:}1 \)</span>.  
+      Mathematically, within the overlap of their support regions,
+    </p>
+
+    <div class="math">
+
+
 \[
 \rho_B(x) = 2\,\rho_A(x).
 \]
-This represents the smallest nontrivial deformation of the entropic field capable of supporting two distinct information-bearing states.
 
-\subsection{4. Computing the Minimum Entropic Curvature Gap}
 
-Substituting this binary relation into Eq.~\eqref{eq:relative_entropy} gives
+    </div>
+
+    <p>
+      This represents the smallest nontrivial deformation of the entropic field capable of supporting two distinct information-bearing states.
+    </p>
+
+  </section>
+
+
+
+  <section id="minimum-gap">
+
+    <h2>4. Computing the Minimum Entropic Curvature Gap</h2>
+
+    <p>
+      Substituting this binary relation into the relative curvature functional gives:
+    </p>
+
+    <div class="math">
+
+
 \[
 D(\rho_A || \rho_B)
-= \int_{\Omega} \rho_A(x) \ln\!\left[\frac{\rho_A(x)}{2\rho_A(x)}\right] dV
-= \int_{\Omega} \rho_A(x)\, \ln\!\left(\frac{1}{2}\right)\! dV.
+  = \int_{\Omega} \rho_A(x) 
+    \ln\!\left[\frac{\rho_A(x)}{2\rho_A(x)}\right] dV
+  = \int_{\Omega} \rho_A(x)\, \ln\!\left(\frac{1}{2}\right)\! dV.
 \]
-Since $\rho_A$ is normalized, $\int_{\Omega} \rho_A(x)\, dV = 1$, we obtain
-\begin{equation}
-	D(\rho_A || \rho_B) = \ln\!\left(\frac{1}{2}\right) = -\,\ln 2.
-	\label{eq:minimum_curvature_gap}
-\end{equation}
-Thus, the smallest nonzero curvature separation between two distinguishable entropic configurations has magnitude
+
+
+    </div>
+
+    <p>
+      Since <span class="math">\( \rho_A \)</span> is normalized,
+    </p>
+
+    <div class="math">
+
+
+\[
+\int_{\Omega} \rho_A(x)\, dV = 1,
+\]
+
+
+    </div>
+
+    <p>
+      we obtain:
+    </p>
+
+    <div class="math">
+
+
+\[
+D(\rho_A || \rho_B) = \ln\!\left(\frac{1}{2}\right) = -\,\ln 2.
+\]
+
+
+    </div>
+
+    <p>
+      Thus, the smallest nonzero curvature separation between two distinguishable entropic configurations has magnitude:
+    </p>
+
+    <div class="math">
+
+
 \[
 |D_{\min}| = \ln 2.
 \]
 
-\subsection{5. Conversion from Curvature to Physical Entropy}
 
-In ToE, Boltzmann’s constant $k_B$ acts as the universal conversion factor between the dimensionless curvature measure $D$ and physical entropy $S$.  
-Hence, the minimal entropy change associated with the smallest distinguishable entropic deformation is
-\begin{equation}
-	\Delta S_{\min} = k_B\, |D_{\min}| = k_B \ln 2.
-	\label{eq:deltaS_ln2}
-\end{equation}
-Equation~\eqref{eq:deltaS_ln2} represents the geometric origin of the constant $\ln 2$ as a curvature invariant of the entropic field.
+    </div>
 
-\subsection{6. Geometric and Physical Interpretation}
+  </section>
 
-Equation~\eqref{eq:deltaS_ln2} implies that:
-\begin{itemize}
-	\item The smallest distinguishable entropic curvature difference corresponds to a binary curvature gap of $\ln 2$.
-	\item The quantity $k_B \ln 2$ is therefore not a statistical artifact, but the fundamental unit of entropic curvature in nature.
-	\item Information, in this framework, is not symbolic but geometric: each bit corresponds to a curvature transition $\rho_A \leftrightarrow \rho_B$ with ratio $2{:}1$.
-\end{itemize}
 
-\subsection{7. Operator-Valued Generalization}
 
-At the spectral level, ToE reformulates this in operator-algebraic form using the Araki relative entropy:
-\begin{equation}
-	S(\hat{\rho}_A || \hat{\rho}_B)
-	= \mathrm{Tr}\!\left[ \hat{\rho}_A \left(\ln \hat{\rho}_A - \ln \hat{\rho}_B\right)\right].
-	\label{eq:araki_entropy}
-\end{equation}
-For the binary deformation $\hat{\rho}_B = 2 \hat{\rho}_A$, we find
+  <section id="conversion">
+
+    <h2>5. Conversion from Curvature to Physical Entropy</h2>
+
+    <p>
+      In ToE, Boltzmann’s constant <span class="math">\( k_B \)</span> acts as the universal conversion factor between the dimensionless curvature measure 
+      <span class="math">\( D \)</span> and physical entropy <span class="math">\( S \)</span>.  
+      Hence, the minimal entropy change associated with the smallest distinguishable entropic deformation is:
+    </p>
+
+    <div class="math">
+
+
+\[
+\Delta S_{\min} = k_B\, |D_{\min}| = k_B \ln 2.
+\]
+
+
+    </div>
+
+    <p>
+      This represents the geometric origin of the constant <span class="math">\( \ln 2 \)</span> as a curvature invariant of the entropic field.
+    </p>
+
+  </section>
+
+
+
+  <section id="interpretation">
+
+    <h2>6. Geometric and Physical Interpretation</h2>
+
+    <p>
+      Equation above implies that:
+    </p>
+
+    <ul>
+      <li>The smallest distinguishable entropic curvature difference corresponds to a binary curvature gap of <span class="math">\( \ln 2 \)</span>.</li>
+      <li>The quantity <span class="math">\( k_B \ln 2 \)</span> is therefore not a statistical artifact, but the fundamental unit of entropic curvature in nature.</li>
+      <li>Information, in this framework, is not symbolic but geometric: each bit corresponds to a curvature transition 
+        <span class="math">\( \rho_A \leftrightarrow \rho_B \)</span> with ratio <span class="math">\( 2{:}1 \)</span>.
+      </li>
+    </ul>
+
+  </section>
+
+
+
+  <section id="operator-generalization">
+
+    <h2>7. Operator-Valued Generalization</h2>
+
+    <p>
+      At the spectral level, ToE reformulates this in operator-algebraic form using the Araki–Umegaki relative entropy:
+    </p>
+
+    <div class="math">
+
+
 \[
 S(\hat{\rho}_A || \hat{\rho}_B)
-= \mathrm{Tr}\!\left[\hat{\rho}_A (-\ln 2)\right]
-= \ln 2,
+  = \mathrm{Tr}\!\left[ \hat{\rho}_A 
+    \left(\ln \hat{\rho}_A - \ln \hat{\rho}_B\right)\right].
 \]
-recovering the same curvature invariant in the quantum (spectral) domain.  
 
-This shows that $\ln 2$ is a universal constant of distinguishability across both classical and quantum levels of the entropic field.
 
-\subsection{8. The ToE Curvature Invariant as Fundamental}
+    </div>
 
-In summary, the \textbf{Theory of Entropicity (ToE)} identifies $\ln 2$ as the minimal curvature invariant of the entropic manifold:
-\begin{equation}
-	\boxed{\Delta S_{\min} = k_B \ln 2}
-\end{equation}
-where the factor $\ln 2$ quantifies the smallest possible geometric deformation between two distinguishable entropic field configurations.  
+    <p>
+      This functional satisfies key structural properties:
+    </p>
 
-This derivation is independent of microstate counting, thermodynamic equilibrium, or probabilistic assumptions.  
-It arises purely from the geometric structure of the entropic field and its binary curvature symmetry, marking a fundamental departure from classical and quantum statistical mechanics.
+    <ul>
+      <li><strong>Positivity:</strong> <span class="math">\( S(\hat{\rho}_A||\hat{\rho}_B) \ge 0 \)</span>.</li>
+      <li><strong>Joint convexity:</strong> it is convex in the pair <span class="math">\( (\hat{\rho}_A,\hat{\rho}_B) \)</span>.</li>
+      <li><strong>Additivity:</strong> for tensor-product states, 
+        <span class="math">\( S(\hat{\rho}_A\otimes\hat{\rho}_C || \hat{\rho}_B\otimes\hat{\rho}_D) = S(\hat{\rho}_A||\hat{\rho}_B) + S(\hat{\rho}_C||\hat{\rho}_D) \)</span>.
+      </li>
+      <li><strong>Monotonicity:</strong> it is non-increasing under completely positive trace-preserving maps.</li>
+    </ul>
+
+    <p>
+      For the binary deformation <span class="math">\( \hat{\rho}_B = 2 \hat{\rho}_A \)</span>, we find:
+    </p>
+
+    <div class="math">
+
+
+\[
+S(\hat{\rho}_A || \hat{\rho}_B)
+  = \mathrm{Tr}\!\left[\hat{\rho}_A (-\ln 2)\right]
+  = \ln 2,
+\]
+
+
+    </div>
+
+    <p>
+      recovering the same curvature invariant in the quantum (spectral) domain.  
+      This shows that <span class="math">\( \ln 2 \)</span> is a universal constant of distinguishability across both classical and quantum levels of the entropic field.
+    </p>
+
+  </section>
+
+
+
+  <section id="fundamental">
+
+    <h2>8. The ToE Curvature Invariant as Fundamental</h2>
+
+    <p>
+      In summary, the <strong>Theory of Entropicity (ToE)</strong> identifies 
+      <span class="math">\( \ln 2 \)</span> as the minimal curvature invariant of the entropic manifold:
+    </p>
+
+    <div class="math">
+
+
+\[
+\boxed{\Delta S_{\min} = k_B \ln 2}
+\]
+
+
+    </div>
+
+    <p>
+      where the factor <span class="math">\( \ln 2 \)</span> quantifies the smallest possible geometric deformation between two distinguishable entropic field configurations.  
+      This derivation is independent of microstate counting, thermodynamic equilibrium, or probabilistic assumptions.  
+      It arises purely from the geometric structure of the entropic field and its binary curvature symmetry, marking a fundamental departure from classical and quantum statistical mechanics.
+    </p>
+
+  </section>
+
+</section>
 
 
  </div>
