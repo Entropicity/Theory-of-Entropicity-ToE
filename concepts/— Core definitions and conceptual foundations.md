@@ -1,3 +1,5 @@
+[← Homepage](https://entropicity.github.io/Theory-of-Entropicity-ToE/index.html)
+
 ### **Conceptual Foundations**
 - Ontodynamics  
 - Entropic manifolds  
