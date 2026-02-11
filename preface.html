@@ -1562,8 +1562,19 @@ In this way, the emergent entropic action is not an isolated construct but part 
 <p><a href="index.html">← Back to Home</a></p>
 
 <footer>
-    <p>&copy; <span id="year"></span> John Onimisi Obidi — Theory of Entropicity (ToE)</p>
+  © 2025–<span id="year"></span> The <strong>Theory of Entropicity (ToE)</strong> — All rights reserved.
 </footer>
+
+<script>
+  // Always keep 2025 as the founding year
+  const foundingYear = 2025;
+
+  // Get the current year dynamically
+  const currentYear = new Date().getFullYear();
+
+  // Insert the current year into the footer
+  document.getElementById("year").textContent = currentYear;
+</script>
 
 <script>
     document.getElementById("year").textContent = new Date().getFullYear();
