@@ -24,3 +24,6 @@ Physical laws are not axioms but constraints that emerge from the stability cond
 Information is treated as a geometric expression of entropic structure. It is not dual to entropy; it is a projection of entropy onto a representational manifold.
 
 This document establishes the conceptual bedrock upon which the mathematical formulation of ToE is built.
+
+[← Homepage](https://entropicity.github.io/Theory-of-Entropicity-ToE/index.html)
+
