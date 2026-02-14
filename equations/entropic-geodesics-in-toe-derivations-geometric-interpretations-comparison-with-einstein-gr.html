@@ -312,62 +312,77 @@ blockquote {
   <div class="toe-right">
   <h3>Content Area</h3>
 
-  <section id="toe-gravity-from-entropy-gradients">
-  <h2>Deriving Gravitation from Entropy Gradients in the Theory of Entropicity (ToE)</h2>
+      
+<section id="entropic-geodesics-obidi-action">
+  <h2>Entropic Geodesics in the Obidi Action (OA) of the Theory of Entropicity (ToE): Derivations, Geometric Interpretations, Physical Roles, and Comparison with Einsteinian Geodesics
+</h2>
 
   <p>
-    In the <strong>Theory of Entropicity (ToE)</strong>, gravitation is not introduced as a primitive geometric postulate but is derived as a consequence of the dynamics of a fundamental <strong>entropic field</strong> <strong>\( S(x) \)</strong>. The central claim is that <strong>nonuniform entropy flow</strong>—encoded in <strong>entropy gradients</strong> <strong>\( \nabla S \)</strong>—is the ontological source of what is effectively perceived as <strong>spacetime curvature</strong> and <strong>gravitational attraction</strong>. This derivation is implemented through the <strong>Obidi Action</strong>, a variational principle for the entropic field, from which both the <strong>Master Entropic Equation (MEE)</strong> and entropic contributions to the effective gravitational field equations emerge.
+    In the <strong>Theory of Entropicity (ToE)</strong>, <strong>entropic geodesics</strong> are the fundamental trajectories traced by particles, fields, and information within the underlying <strong>entropic field</strong> <strong>\( S(x) \)</strong>. They arise directly from the <strong>Obidi Action</strong>, which treats entropy as a dynamical scalar field coupled to an auxiliary metric, and they generalize the notion of geodesics in <strong>Einstein’s general relativity</strong> by replacing purely metric curvature as the driver of motion with <strong>entropy gradients</strong> <strong>\( \nabla S \)</strong>. In this framework, motion is not simply the result of free fall in a curved spacetime but is reinterpreted as the path of least <em>entropic disruption</em> or, equivalently, the path of maximal <strong>irreversible entropic flow</strong> consistent with the constraints imposed by the entropic field.
   </p>
 
-  <section id="obidi-action-structure">
-    <h3>Variational structure of the Obidi Action</h3>
+  <section id="derivation-entropic-geodesics">
+    <h3>Derivation of entropic geodesics from the Obidi Action</h3>
 
     <p>
-      The starting point of the ToE derivation is the <strong>Obidi Action</strong>, a scalar functional of the entropic field and the metric. In its prototypical scalar-field form, the action is written as
+      The starting point for the derivation of <strong>entropic geodesics</strong> is the <strong>Obidi Action</strong>, which encodes the dynamics of the entropic field and its coupling to matter. A representative form of this action is
     </p>
 
     <p>
       
 
 \[
-        \mathcal{A}_\text{Obidi}[S] = \int d^4\lambda \, \sqrt{-g} \left[ \frac{1}{2} (\partial_\mu S)(\partial^\mu S) - V(S) + J(\lambda) S \right],
+        \mathcal{A}_\text{Obidi}[S, g] = \int d^4x \, \sqrt{-g} \left[ \frac{1}{2} g^{\mu\nu} \partial_\mu S \partial_\nu S - V(S) + \mathcal{L}_\text{matter} \, e^{S/k_B} \right],
       \]
 
 
+    \]
+
+
     </p>
 
     <p>
-      where <strong>\( g \)</strong> is the determinant of the metric <strong>\( g_{\mu\nu} \)</strong>, <strong>\( (\partial_\mu S)(\partial^\mu S) \)</strong> is the kinetic term of the entropic field, <strong>\( V(S) \)</strong> is an effective <strong>entropic potential</strong>, and <strong>\( J(\lambda) \)</strong> represents source terms encoding couplings to matter or other degrees of freedom. The kinetic term <strong>\( (\nabla S)^2 \)</strong> endows the entropic field with genuine dynamical character, analogous to a scalar field in conventional field theory, while the potential and source terms control its equilibrium structure and interactions.
+      where <strong>\( g_{\mu\nu} \)</strong> is an auxiliary metric with determinant <strong>\( g \)</strong>, <strong>\( S \)</strong> is the <strong>entropic scalar field</strong>, <strong>\( V(S) \)</strong> is an <strong>entropic potential</strong>, and <strong>\( \mathcal{L}_\text{matter} \)</strong> is the <strong>matter Lagrangian density</strong>, exponentially weighted by the factor <strong>\( e^{S/k_B} \)</strong> to encode direct coupling between matter and the entropic field. The kinetic term <strong>\( \frac{1}{2} g^{\mu\nu} \partial_\mu S \partial_\nu S \)</strong> provides the dynamical structure for the entropic field, while the exponential coupling ensures that matter dynamics are modulated by the local entropic configuration.
     </p>
 
     <p>
-      Variation of <strong>\( \mathcal{A}_\text{Obidi} \)</strong> with respect to the entropic field <strong>\( S \)</strong> yields the <strong>Master Entropic Equation (MEE)</strong>, a second-order differential equation governing the evolution of <strong>\( S(x) \)</strong>. Variation with respect to the metric <strong>\( g_{\mu\nu} \)</strong> produces an <strong>entropic stress–energy tensor</strong> <strong>\( T^{(S)}_{\mu\nu} \)</strong>, which enters the effective gravitational field equations. In this way, the entropic field contributes directly to the curvature of the manifold, and its gradients become the source of gravitational phenomena.
-    </p>
-
-    <p>
-      A key structural feature of ToE is the introduction of an <strong>entropy-weighted deformation</strong> of the metric. The entropic field modifies the effective geometry via an exponential weighting factor,
+      Variation of <strong>\( \mathcal{A}_\text{Obidi} \)</strong> with respect to the entropic field <strong>\( S \)</strong> yields the <strong>Master Entropic Equation (MEE)</strong>, which governs the evolution of <strong>\( S(x) \)</strong>. Variation with respect to the metric <strong>\( g_{\mu\nu} \)</strong> produces an <strong>entropy-stress tensor</strong> that contributes to the effective gravitational field equations. To obtain the equations of motion for trajectories, one considers the motion of test particles or matter distributions in the entropy-weighted geometry induced by <strong>\( S(x) \)</strong>. The resulting equation for a worldline <strong>\( x^\lambda(\tau) \)</strong>, parametrized by an affine parameter <strong>\( \tau \)</strong>, takes the form
     </p>
 
     <p>
       
 
 \[
-        g^{(S)}_{\mu\nu} = e^{S/k_B} \, g_{\mu\nu},
+        \frac{d^2 x^\lambda}{d\tau^2} + \Gamma^\lambda_{\mu\nu} \frac{dx^\mu}{d\tau} \frac{dx^\nu}{d\tau} = \eta \, \partial^\lambda S,
       \]
 
 
     </p>
 
     <p>
-      where <strong>\( k_B \)</strong> is Boltzmann’s constant. This deformation expresses the idea that the local entropic configuration rescales the effective metric, thereby coupling entropy directly to geometry. The factor <strong>\( e^{S/k_B} \)</strong> can be interpreted as an entropic weight that modifies distances and intervals in the effective spacetime, making the geometry explicitly dependent on the entropic field.
+      where <strong>\( \Gamma^\lambda_{\mu\nu} \)</strong> is a generalized connection and <strong>\( \eta \)</strong> is an <strong>entropic coupling constant</strong>. The right-hand side introduces a direct dependence on the <strong>entropy gradient</strong> <strong>\( \partial^\lambda S \)</strong>, which acts as an effective entropic force. The connection <strong>\( \Gamma^\lambda_{\mu\nu} \)</strong> is not restricted to the Levi-Civita connection of <strong>\( g_{\mu\nu} \)</strong>; in ToE it incorporates <strong>Amari–Čencov \(\alpha\)-deformations</strong> and entropy-induced modifications, often expressed schematically as
+    </p>
+
+    <p>
+      
+
+\[
+        \Gamma^\lambda_{\mu\nu} = \{^\lambda_{\mu\nu}\} + \Delta^\lambda_{\mu\nu}(S),
+      \]
+
+
+    </p>
+
+    <p>
+      where <strong>\( \{^\lambda_{\mu\nu}\} \)</strong> are the Christoffel symbols of the underlying metric and <strong>\( \Delta^\lambda_{\mu\nu}(S) \)</strong> encodes entropic corrections, including contributions from <strong>\( e^{S/k_B} \)</strong> and information-geometric structures. The resulting trajectories are the <strong>entropic geodesics</strong>: curves that extremize an entropic action and whose acceleration is driven by both geometric and entropic terms.
     </p>
   </section>
 
-  <section id="entropy-weighted-geometry">
-    <h3>Entropy-weighted geometry and entropic curvature</h3>
+  <section id="geometric-interpretation-entropic-geodesics">
+    <h3>Geometric interpretation in the entropy-weighted manifold</h3>
 
     <p>
-      The entropic deformation of the metric extends naturally to <strong>information-geometric structures</strong> such as the <strong>Fisher–Rao metric</strong> and the <strong>Fubini–Study metric</strong>, which arise in statistical and quantum contexts. In ToE, these metrics are generalized to <strong>entropy-weighted metrics</strong> of the form
+      The geometric interpretation of <strong>entropic geodesics</strong> is most transparent when expressed in terms of an <strong>entropy-weighted manifold</strong>. In ToE, the entropic field deforms not only spacetime metrics but also <strong>information-geometric metrics</strong> such as the <strong>Fisher–Rao metric</strong>. A typical entropy-weighted metric on a statistical or configuration manifold is given by
     </p>
 
     <p>
@@ -381,98 +396,84 @@ blockquote {
     </p>
 
     <p>
-      where <strong>\( g^{(\text{FR})}_{ij} \)</strong> denotes the Fisher–Rao metric on a statistical manifold. The exponential factor introduces an explicit dependence on the entropic field, turning the information manifold into an <strong>entropic manifold</strong> whose curvature reflects both statistical structure and entropic configuration. This construction provides a bridge between <strong>information geometry</strong> and <strong>spacetime geometry</strong>, with entropy acting as the unifying scalar field.
+      where <strong>\( g^{(\text{FR})}_{ij} \)</strong> is the <strong>Fisher–Rao metric</strong> and <strong>\( g^{(S)}_{ij} \)</strong> is the <strong>entropy-weighted metric</strong>. The exponential factor <strong>\( e^{S/k_B} \)</strong> amplifies or suppresses distances in configuration space depending on the local entropic value, effectively reshaping the manifold according to the entropic field. In regions where <strong>\( S \)</strong> is uniform, the entropy-weighted manifold reduces to a rescaled version of the underlying metric, and geodesics correspond to straight or inertial paths. Where <strong>\( \nabla S \neq 0 \)</strong>, the manifold acquires nontrivial curvature, and geodesics bend accordingly.
     </p>
 
     <p>
-      To incorporate <strong>irreversibility</strong> and directional behavior, ToE employs generalized connections such as the <strong>Amari–Čencov \(\alpha\)-connections</strong>, which modify the Levi-Civita connection by adding torsion-like terms that encode entropic asymmetry. A representative form is
-    </p>
-
-    <p>
-      
-
-\[
-        \Gamma^\lambda_{\mu\nu} = \{^\lambda_{\mu\nu}\} + \frac{\alpha}{2} T^\lambda_{\mu\nu},
-      \]
-
-
-    </p>
-
-    <p>
-      where <strong>\( \{^\lambda_{\mu\nu}\} \)</strong> are the Christoffel symbols of the underlying metric, <strong>\( T^\lambda_{\mu\nu} \)</strong> captures entropic asymmetry or non-metricity, and <strong>\( \alpha \)</strong> is a parameter controlling the degree of irreversibility. This modification leads to an <strong>entropic connection</strong> whose associated curvature tensor depends explicitly on <strong>\( \nabla S \)</strong>, thereby generating an <strong>entropic Ricci curvature</strong> <strong>\( R_{\mu\nu}(S) \)</strong>.
-    </p>
-
-    <p>
-      The resulting effective gravitational field equations take a form analogous to Einstein’s equations but with an entropic source term:
-    </p>
-
-    <p>
-      
-
-\[
-        R_{\mu\nu} - \frac{1}{2} g_{\mu\nu} R = \eta \, T^{(S)}_{\mu\nu},
-      \]
-
-
-    </p>
-
-    <p>
-      where <strong>\( R_{\mu\nu} \)</strong> is the Ricci tensor, <strong>\( R \)</strong> is the Ricci scalar, <strong>\( \eta \)</strong> is a coupling constant, and <strong>\( T^{(S)}_{\mu\nu} \)</strong> is the <strong>entropy-stress tensor</strong> derived from the Obidi Action. In this formulation, <strong>entropy gradients</strong> and the dynamics of <strong>\( S(x) \)</strong> are directly responsible for the curvature of the effective spacetime, and gravitation is interpreted as the geometric manifestation of entropic structure.
+      In this picture, <strong>entropic geodesics</strong> are extremal curves in the entropy-weighted manifold: they minimize an appropriate entropic action or maximize entropy flow along the path. The curvature induced by <strong>entropy gradients</strong> plays a role analogous to gravitational curvature in general relativity, but its origin is explicitly entropic. Systems evolve along these curves as they move toward configurations of higher entropy, subject to constraints imposed by the entropic field and the coupled matter dynamics. This provides a geometric realization of the idea that gravity can be understood as a manifestation of entropy gradients, with the entropic manifold serving as the underlying geometric structure.
     </p>
   </section>
 
-  <section id="entropic-geodesics-gravity">
-    <h3>Entropic geodesics and the emergence of gravitational motion</h3>
+  <section id="physical-role-entropic-geodesics">
+    <h3>Physical role of entropic geodesics in ToE</h3>
 
     <p>
-      The notion of <strong>entropic geodesics</strong> is central to the ToE interpretation of gravitational motion. In the entropic manifold defined by <strong>\( S(x) \)</strong> and the entropy-weighted metric, preferred trajectories are those that extremize an <strong>entropic action</strong>, typically corresponding to paths that maximize entropy flow or minimize entropic disruption. These trajectories are the analogues of geodesics in general relativity, but their origin lies in the variational structure of the entropic field rather than in a purely geometric postulate.
+      The <strong>physical role</strong> of entropic geodesics in the <strong>Theory of Entropicity</strong> is to encode the preferred trajectories of systems in a way that is consistent with both local and global entropic constraints. Locally, particles and fields follow paths that respect the <strong>second law of thermodynamics</strong>, ensuring that entropy production is non-negative. Globally, entropic geodesics tend to maximize the net entropy change <strong>\( \Delta S \)</strong> of the combined system and environment, subject to the dynamical equations derived from the Obidi Action.
     </p>
 
     <p>
-      Particles and systems are thus described as following entropic geodesics, which, when projected into the effective spacetime geometry, coincide with <strong>null</strong> or <strong>timelike geodesics</strong> of the entropy-weighted metric. The <strong>entropy gradients</strong> <strong>\( \partial_\mu S \)</strong> act as effective gravitational potentials, guiding motion in a way that reproduces the familiar phenomenology of gravitational attraction. In regions where <strong>\( S \)</strong> is uniform, the entropic manifold is effectively flat, and no gravitational effects arise. Where <strong>\( \nabla S \neq 0 \)</strong>, the entropic curvature induces trajectories that correspond to gravitational free fall.
+      In the macroscopic limit, these trajectories reproduce the familiar predictions of <strong>general relativity</strong>. For example, the motion of planets in a gravitational field can be described as motion along entropic geodesics in the entropy-weighted spacetime, yielding corrections that match observed phenomena such as <strong>perihelion precession</strong>. Similarly, the propagation of light in regions with nontrivial <strong>\( \nabla S \)</strong> follows null entropic geodesics, leading to <strong>light deflection</strong> consistent with gravitational lensing. These correspondences demonstrate that entropic geodesics provide a physically viable replacement for purely metric geodesics while offering a deeper entropic interpretation.
     </p>
 
     <p>
-      In the appropriate limits, the entropic geodesic equations reduce to <strong>Newtonian gravity</strong>, with the entropic potential playing the role of the Newtonian gravitational potential. Higher-order corrections, incorporating effects analogous to <strong>Unruh</strong> and <strong>Hawking radiation</strong>, yield deviations consistent with <strong>general relativity</strong>, such as the precession of planetary orbits and the deflection of light by massive bodies. In this way, ToE recovers the empirical successes of general relativity while providing an underlying entropic mechanism.
+      At the quantum level, entropic geodesics connect to <strong>Fubini–Study geometry</strong> on projective Hilbert space. Quantum states evolve along paths that can be interpreted as projections of entropic geodesics in an underlying entropic–information manifold. Corrections associated with accelerated motion, such as those related to the <strong>Unruh temperature</strong>, can be incorporated as entropic contributions to the effective geometry experienced by accelerated observers. In this way, entropic geodesics provide a unifying language for classical and quantum trajectories within the ToE framework.
     </p>
   </section>
 
-  <section id="toe-gravity-predictions">
-    <h3>Phenomenological predictions and correspondence with general relativity</h3>
+  <section id="comparison-gr-entropic-geodesics">
+    <h3>Comparison between entropic geodesics in ToE and geodesics in general relativity</h3>
 
     <p>
-      The entropic derivation of gravity in ToE leads to concrete predictions that can be compared with the standard results of general relativity. Key gravitational effects are obtained by analyzing the motion of test bodies and light rays in the entropy-weighted geometry and by solving the entropic field equations in appropriate regimes. The following table summarizes representative effects and their derivation within the ToE framework, together with their correspondence to general relativity.
+      The relationship between <strong>entropic geodesics</strong> in ToE and <strong>geodesics</strong> in <strong>Einstein’s general relativity (GR)</strong> can be clarified by comparing their driving principles, equations of motion, and treatment of irreversibility. While GR geodesics are defined purely by the metric structure of spacetime, entropic geodesics are defined by a combination of metric and entropic structures, with explicit dependence on <strong>entropy gradients</strong>.
     </p>
 
     <table>
       <thead>
         <tr>
-          <th>Effect</th>
-          <th>ToE derivation from \( \nabla S \)</th>
-          <th>General relativity correspondence</th>
+          <th>Aspect</th>
+          <th>Geodesics in general relativity</th>
+          <th>Entropic geodesics in ToE</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Perihelion precession</td>
-          <td>Entropy-modified Binet equation derived from entropic geodesics in the entropy-weighted metric, incorporating higher-order corrections from the entropic curvature.</td>
-          <td>Matches the observed precession of Mercury (approximately 43 arcseconds per century) as in Einstein’s theory.</td>
+          <td>Driving principle</td>
+          <td>Free fall in a curved spacetime determined by the Einstein field equations, with motion extremizing the spacetime interval.</td>
+          <td>Motion in an entropy-weighted manifold driven by entropy gradients \( \partial_\mu S \), with trajectories extremizing an entropic action and maximizing irreversible entropic flow.</td>
         </tr>
         <tr>
-          <td>Light deflection</td>
-          <td>Variation of the entropic action for null entropic geodesics yields bending of light in regions with nontrivial \( \nabla S \), equivalent to propagation in a curved entropic geometry.</td>
-          <td>Reproduces the classical 1.75 arcsecond deflection of starlight by the Sun predicted by general relativity.</td>
+          <td>Path equation</td>
+          <td>
+            
+
+\[
+              \frac{d^2 x^\lambda}{d\tau^2} + \{^\lambda_{\mu\nu}\} \frac{dx^\mu}{d\tau} \frac{dx^\nu}{d\tau} = 0,
+            \]
+
+
+            where \( \{^\lambda_{\mu\nu}\} \) are the Christoffel symbols of the spacetime metric.
+          </td>
+          <td>
+            
+
+\[
+              \frac{d^2 x^\lambda}{d\tau^2} + \Gamma^\lambda_{\mu\nu} \frac{dx^\mu}{d\tau} \frac{dx^\nu}{d\tau} = \eta \, \partial^\lambda S,
+            \]
+
+
+            with \( \Gamma^\lambda_{\mu\nu} \) an \(\alpha\)-deformed, entropy-dependent connection and \( \eta \) an entropic coupling constant.
+          </td>
         </tr>
         <tr>
-          <td>Cosmological constant</td>
-          <td>Quadratic and higher-order terms in the entropic potential \( V(S) \) within the Obidi Action generate an effective small positive vacuum contribution, acting as an entropic cosmological term.</td>
-          <td>Corresponds to a small positive cosmological constant driving late-time cosmic acceleration.</td>
+          <td>Irreversibility</td>
+          <td>Fundamental equations are time-reversal symmetric for timelike and null geodesics; irreversibility enters only through boundary conditions or thermodynamic considerations.</td>
+          <td>Irreversibility is built in via the entropic field \( S(x) \) and its production \( S_\text{irr} \); the direction of evolution along entropic geodesics is aligned with increasing entropy.</td>
         </tr>
       </tbody>
     </table>
 
     <p>
-      These correspondences demonstrate that the entropic field formulation of ToE is not merely qualitative but quantitatively compatible with established gravitational tests, while offering a deeper explanatory basis. Gravitation is reinterpreted as the emergent manifestation of <strong>entropy gradients</strong> and <strong>entropic curvature</strong>, with the <strong>Obidi Action</strong> and the <strong>Master Entropic Equation</strong> providing the unifying mathematical framework. In this way, the Theory of Entropicity derives gravity from entropy gradients in a manner that is both conceptually coherent and empirically anchored.
+      This comparison highlights the conceptual shift introduced by the <strong>Theory of Entropicity</strong>. In GR, geodesics are purely geometric constructs in a spacetime whose curvature is sourced by energy–momentum. In ToE, entropic geodesics are trajectories in an entropy-weighted manifold whose structure is determined by the entropic field, and whose dynamics explicitly encode the <strong>second law of thermodynamics</strong>. The geometric description of motion is thus enriched by an entropic layer, providing a unified account of gravitation, irreversibility, and information-theoretic structure within a single field-theoretic framework.
     </p>
   </section>
 </section>
