@@ -311,273 +311,171 @@ blockquote {
   <!-- RIGHT COLUMN: CONTENT -->
   <div class="toe-right">
   <h3>Content Area</h3>
-<head>
-  <meta charset="UTF-8">
-  <title>Derivation of the Einstein Field Equations (EFE) from the Theory of Entropicity (ToE)</title>
-</head>
 
+  <section id="toe-gravity-from-entropy-gradients">
+  <h2>Deriving Gravitation from Entropy Gradients in the Theory of Entropicity (ToE)</h2>
 
-  <h1>Derivation of the Einstein Field Equations from the Theory of Entropicity (ToE)</h1>
+  <p>
+    In the <strong>Theory of Entropicity (ToE)</strong>, gravitation is not introduced as a primitive geometric postulate but is derived as a consequence of the dynamics of a fundamental <strong>entropic field</strong> <strong>\( S(x) \)</strong>. The central claim is that <strong>nonuniform entropy flow</strong>—encoded in <strong>entropy gradients</strong> <strong>\( \nabla S \)</strong>—is the ontological source of what is effectively perceived as <strong>spacetime curvature</strong> and <strong>gravitational attraction</strong>. This derivation is implemented through the <strong>Obidi Action</strong>, a variational principle for the entropic field, from which both the <strong>Master Entropic Equation (MEE)</strong> and entropic contributions to the effective gravitational field equations emerge.
+  </p>
 
-  <section id="overview">
-    <h2>Entropic foundations and the Einstein limit</h2>
+  <section id="obidi-action-structure">
+    <h3>Variational structure of the Obidi Action</h3>
+
     <p>
-      The <strong>Theory of Entropicity (ToE)</strong>, formulated and developed by <strong>John Onimisi Obidi</strong>,
-      provides a derivation of the <strong>Einstein Field Equations (EFE)</strong> of <strong>General Relativity (GR)</strong>
-      starting from an <strong>entropic action</strong> for a fundamental <strong>entropy field</strong> 
-      <strong>\(S(x)\)</strong>. The central idea is that the metric field equations obtained from this entropic action
-      reduce to the standard Einstein equations in an appropriate <strong>smooth, near‑equilibrium limit</strong>, in which
-      the entropy field approaches a reference configuration <strong>\(S_0\)</strong>. In this regime, the entropic
-      contributions organize themselves into an effective <strong>stress–energy tensor</strong> and cosmological‑constant‑like
-      terms, so that the resulting metric dynamics coincide with those of <strong>GR</strong>.
+      The starting point of the ToE derivation is the <strong>Obidi Action</strong>, a scalar functional of the entropic field and the metric. In its prototypical scalar-field form, the action is written as
+    </p>
+
+    <p>
+      
+
+\[
+        \mathcal{A}_\text{Obidi}[S] = \int d^4\lambda \, \sqrt{-g} \left[ \frac{1}{2} (\partial_\mu S)(\partial^\mu S) - V(S) + J(\lambda) S \right],
+      \]
+
+
+    </p>
+
+    <p>
+      where <strong>\( g \)</strong> is the determinant of the metric <strong>\( g_{\mu\nu} \)</strong>, <strong>\( (\partial_\mu S)(\partial^\mu S) \)</strong> is the kinetic term of the entropic field, <strong>\( V(S) \)</strong> is an effective <strong>entropic potential</strong>, and <strong>\( J(\lambda) \)</strong> represents source terms encoding couplings to matter or other degrees of freedom. The kinetic term <strong>\( (\nabla S)^2 \)</strong> endows the entropic field with genuine dynamical character, analogous to a scalar field in conventional field theory, while the potential and source terms control its equilibrium structure and interactions.
+    </p>
+
+    <p>
+      Variation of <strong>\( \mathcal{A}_\text{Obidi} \)</strong> with respect to the entropic field <strong>\( S \)</strong> yields the <strong>Master Entropic Equation (MEE)</strong>, a second-order differential equation governing the evolution of <strong>\( S(x) \)</strong>. Variation with respect to the metric <strong>\( g_{\mu\nu} \)</strong> produces an <strong>entropic stress–energy tensor</strong> <strong>\( T^{(S)}_{\mu\nu} \)</strong>, which enters the effective gravitational field equations. In this way, the entropic field contributes directly to the curvature of the manifold, and its gradients become the source of gravitational phenomena.
+    </p>
+
+    <p>
+      A key structural feature of ToE is the introduction of an <strong>entropy-weighted deformation</strong> of the metric. The entropic field modifies the effective geometry via an exponential weighting factor,
+    </p>
+
+    <p>
+      
+
+\[
+        g^{(S)}_{\mu\nu} = e^{S/k_B} \, g_{\mu\nu},
+      \]
+
+
+    </p>
+
+    <p>
+      where <strong>\( k_B \)</strong> is Boltzmann’s constant. This deformation expresses the idea that the local entropic configuration rescales the effective metric, thereby coupling entropy directly to geometry. The factor <strong>\( e^{S/k_B} \)</strong> can be interpreted as an entropic weight that modifies distances and intervals in the effective spacetime, making the geometry explicitly dependent on the entropic field.
     </p>
   </section>
 
-  <section id="trivial-obidi-action">
-    <h2>Obidi Action as the starting point</h2>
+  <section id="entropy-weighted-geometry">
+    <h3>Entropy-weighted geometry and entropic curvature</h3>
+
     <p>
-      The derivation begins from a <strong>variational principle</strong> in which the fundamental field is the scalar
-      <strong>entropy field</strong> <strong>\(S(x)\)</strong>. The corresponding action functional incorporates three
-      essential ingredients: a <strong>geometric term</strong> built from the <strong>curvature scalar</strong>, a
-      <strong>kinetic term</strong> for the entropy field, and a <strong>distinguishability potential</strong> that measures
-      the deviation of the entropy configuration from a reference state <strong>\(S_0\)</strong>. A representative form,
-      used in the Einstein‑derivation work, is the [trivial form of the] <strong>Obidi Action</strong>
+      The entropic deformation of the metric extends naturally to <strong>information-geometric structures</strong> such as the <strong>Fisher–Rao metric</strong> and the <strong>Fubini–Study metric</strong>, which arise in statistical and quantum contexts. In ToE, these metrics are generalized to <strong>entropy-weighted metrics</strong> of the form
     </p>
+
     <p>
       
 
 \[
-        A_{\text{ToE}}[g, S] 
-        = \int \mathrm{d}^4 x \,\sqrt{-g}\,
-          \big[
-            \alpha^2 R[g]
-            - \beta^2 g^{\mu\nu} \nabla_\mu S \nabla_\nu S
-            - \lambda\, D(S, S_0)
-          \big],
+        g^{(S)}_{ij} = e^{S/k_B} \, g^{(\text{FR})}_{ij},
       \]
 
 
     </p>
+
     <p>
-      where <strong>\(g_{\mu\nu}\)</strong> is the metric, <strong>\(g\)</strong> its determinant,
-      <strong>\(R[g]\)</strong> the <strong>Ricci scalar curvature</strong>, <strong>\(\nabla_\mu S\)</strong> the
-      <strong>covariant gradient</strong> of the entropy field, and <strong>\(D(S, S_0)\)</strong> a local
-      <strong>distinguishability functional</strong> of <strong>Kullback–Leibler type</strong> that quantifies the
-      deviation of <strong>\(S\)</strong> from a reference configuration <strong>\(S_0\)</strong>. The constants
-      <strong>\(\alpha\)</strong>, <strong>\(\beta\)</strong>, and <strong>\(\lambda\)</strong> are coupling parameters
-      that set the relative strength of curvature, entropic kinetics, and distinguishability contributions.
+      where <strong>\( g^{(\text{FR})}_{ij} \)</strong> denotes the Fisher–Rao metric on a statistical manifold. The exponential factor introduces an explicit dependence on the entropic field, turning the information manifold into an <strong>entropic manifold</strong> whose curvature reflects both statistical structure and entropic configuration. This construction provides a bridge between <strong>information geometry</strong> and <strong>spacetime geometry</strong>, with entropy acting as the unifying scalar field.
     </p>
+
     <p>
-      In this formulation, the <strong>geometric term</strong> <strong>\(\alpha^2 R[g]\)</strong> plays a role analogous
-      to the Einstein–Hilbert term in GR, but it is embedded within a broader entropic field theory. The
-      <strong>kinetic term</strong> <strong>\(\beta^2 g^{\mu\nu} \nabla_\mu S \nabla_\nu S\)</strong> endows the entropy
-      field with dynamics, allowing it to propagate and form gradients. The <strong>distinguishability potential</strong>
-      <strong>\(\lambda D(S, S_0)\)</strong> encodes a preference for configurations close to the reference state
-      <strong>\(S_0\)</strong>, and its structure is crucial for defining the equilibrium and near‑equilibrium regimes
-      in which the Einstein limit is recovered.
+      To incorporate <strong>irreversibility</strong> and directional behavior, ToE employs generalized connections such as the <strong>Amari–Čencov \(\alpha\)-connections</strong>, which modify the Levi-Civita connection by adding torsion-like terms that encode entropic asymmetry. A representative form is
+    </p>
+
+    <p>
+      
+
+\[
+        \Gamma^\lambda_{\mu\nu} = \{^\lambda_{\mu\nu}\} + \frac{\alpha}{2} T^\lambda_{\mu\nu},
+      \]
+
+
+    </p>
+
+    <p>
+      where <strong>\( \{^\lambda_{\mu\nu}\} \)</strong> are the Christoffel symbols of the underlying metric, <strong>\( T^\lambda_{\mu\nu} \)</strong> captures entropic asymmetry or non-metricity, and <strong>\( \alpha \)</strong> is a parameter controlling the degree of irreversibility. This modification leads to an <strong>entropic connection</strong> whose associated curvature tensor depends explicitly on <strong>\( \nabla S \)</strong>, thereby generating an <strong>entropic Ricci curvature</strong> <strong>\( R_{\mu\nu}(S) \)</strong>.
+    </p>
+
+    <p>
+      The resulting effective gravitational field equations take a form analogous to Einstein’s equations but with an entropic source term:
+    </p>
+
+    <p>
+      
+
+\[
+        R_{\mu\nu} - \frac{1}{2} g_{\mu\nu} R = \eta \, T^{(S)}_{\mu\nu},
+      \]
+
+
+    </p>
+
+    <p>
+      where <strong>\( R_{\mu\nu} \)</strong> is the Ricci tensor, <strong>\( R \)</strong> is the Ricci scalar, <strong>\( \eta \)</strong> is a coupling constant, and <strong>\( T^{(S)}_{\mu\nu} \)</strong> is the <strong>entropy-stress tensor</strong> derived from the Obidi Action. In this formulation, <strong>entropy gradients</strong> and the dynamics of <strong>\( S(x) \)</strong> are directly responsible for the curvature of the effective spacetime, and gravitation is interpreted as the geometric manifestation of entropic structure.
     </p>
   </section>
 
-  <section id="entropy-variation">
-    <h2>Entropy variation and the Master Entropic Equation</h2>
+  <section id="entropic-geodesics-gravity">
+    <h3>Entropic geodesics and the emergence of gravitational motion</h3>
+
     <p>
-      Varying the above <strong>Obidi Action</strong> with respect to the <strong>entropy field</strong>
-      <strong>\(S(x)\)</strong> yields the <strong>Master Entropic Equation</strong>, which is a nonlinear
-      <strong>wave‑type equation</strong> governing the dynamics of the entropic field. In the simplified case,
-      the variation leads to an equation of the form
+      The notion of <strong>entropic geodesics</strong> is central to the ToE interpretation of gravitational motion. In the entropic manifold defined by <strong>\( S(x) \)</strong> and the entropy-weighted metric, preferred trajectories are those that extremize an <strong>entropic action</strong>, typically corresponding to paths that maximize entropy flow or minimize entropic disruption. These trajectories are the analogues of geodesics in general relativity, but their origin lies in the variational structure of the entropic field rather than in a purely geometric postulate.
     </p>
+
     <p>
-      
-
-\[
-        \beta^2 \nabla_\mu \nabla^\mu S
-        = \lambda \, \ln \!\frac{S}{S_0},
-      \]
-
-
+      Particles and systems are thus described as following entropic geodesics, which, when projected into the effective spacetime geometry, coincide with <strong>null</strong> or <strong>timelike geodesics</strong> of the entropy-weighted metric. The <strong>entropy gradients</strong> <strong>\( \partial_\mu S \)</strong> act as effective gravitational potentials, guiding motion in a way that reproduces the familiar phenomenology of gravitational attraction. In regions where <strong>\( S \)</strong> is uniform, the entropic manifold is effectively flat, and no gravitational effects arise. Where <strong>\( \nabla S \neq 0 \)</strong>, the entropic curvature induces trajectories that correspond to gravitational free fall.
     </p>
-    <p>
-      where <strong>\(\nabla_\mu \nabla^\mu\)</strong> denotes the <strong>covariant d'Alembertian operator</strong>
-      associated with the metric <strong>\(g_{\mu\nu}\)</strong>. The right‑hand side involves the logarithm of the ratio
-      <strong>\(S / S_0\)</strong>, reflecting the <strong>Kullback–Leibler‑type structure</strong> of the
-      distinguishability functional <strong>\(D(S, S_0)\)</strong>. This equation describes how deviations of the entropy
-      field from its reference configuration propagate and relax under the combined influence of geometry and the
-      distinguishability potential.
-    </p>
-    <p>
-      To analyze the behavior near equilibrium, one considers a small perturbation around the reference configuration,
-      writing <strong>\(S = S_0 + \delta S\)</strong> with <strong>\(|\delta S| \ll |S_0|\)</strong>. Linearizing the
-      logarithmic term in this regime yields
-    </p>
-    <p>
-      
 
-\[
-        \ln \!\frac{S}{S_0}
-        = \ln \!\left( 1 + \frac{\delta S}{S_0} \right)
-        \approx \frac{\delta S}{S_0},
-      \]
-
-
-    </p>
     <p>
-      so that the <strong>Master Entropic Equation</strong> reduces to a <strong>Klein–Gordon‑like equation</strong> for
-      the perturbation <strong>\(\delta S\)</strong>:
-    </p>
-    <p>
-      
-
-\[
-        \beta^2 \nabla_\mu \nabla^\mu \delta S
-        = \lambda \, \frac{\delta S}{S_0}.
-      \]
-
-
-    </p>
-    <p>
-      This can be written in the standard Klein–Gordon form with an effective mass term determined by the curvature of
-      the distinguishability potential around <strong>\(S_0\)</strong>. In this interpretation, the entropy field supports
-      propagating <strong>“curvature waves”</strong> of entropy, whose dynamics are governed by the background geometry
-      and the structure of the entropic potential.
+      In the appropriate limits, the entropic geodesic equations reduce to <strong>Newtonian gravity</strong>, with the entropic potential playing the role of the Newtonian gravitational potential. Higher-order corrections, incorporating effects analogous to <strong>Unruh</strong> and <strong>Hawking radiation</strong>, yield deviations consistent with <strong>general relativity</strong>, such as the precession of planetary orbits and the deflection of light by massive bodies. In this way, ToE recovers the empirical successes of general relativity while providing an underlying entropic mechanism.
     </p>
   </section>
 
-  <section id="metric-variation">
-    <h2>Metric variation and Einstein‑like tensor equations</h2>
+  <section id="toe-gravity-predictions">
+    <h3>Phenomenological predictions and correspondence with general relativity</h3>
+
     <p>
-      Varying the same <strong>Obidi Action</strong> with respect to the <strong>metric</strong> <strong>\(g_{\mu\nu}\)</strong> produces a set
-      of <strong>tensor field equations</strong> in which geometric curvature is sourced by the entropy field. The
-      variation of the curvature term yields the <strong>Einstein tensor</strong> <strong>\(G_{\mu\nu}\)</strong>, while
-      the variation of the entropic kinetic and potential terms produces an effective <strong>entropic stress–energy
-      tensor</strong>. A representative form of the resulting equation is
+      The entropic derivation of gravity in ToE leads to concrete predictions that can be compared with the standard results of general relativity. Key gravitational effects are obtained by analyzing the motion of test bodies and light rays in the entropy-weighted geometry and by solving the entropic field equations in appropriate regimes. The following table summarizes representative effects and their derivation within the ToE framework, together with their correspondence to general relativity.
     </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Effect</th>
+          <th>ToE derivation from \( \nabla S \)</th>
+          <th>General relativity correspondence</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Perihelion precession</td>
+          <td>Entropy-modified Binet equation derived from entropic geodesics in the entropy-weighted metric, incorporating higher-order corrections from the entropic curvature.</td>
+          <td>Matches the observed precession of Mercury (approximately 43 arcseconds per century) as in Einstein’s theory.</td>
+        </tr>
+        <tr>
+          <td>Light deflection</td>
+          <td>Variation of the entropic action for null entropic geodesics yields bending of light in regions with nontrivial \( \nabla S \), equivalent to propagation in a curved entropic geometry.</td>
+          <td>Reproduces the classical 1.75 arcsecond deflection of starlight by the Sun predicted by general relativity.</td>
+        </tr>
+        <tr>
+          <td>Cosmological constant</td>
+          <td>Quadratic and higher-order terms in the entropic potential \( V(S) \) within the Obidi Action generate an effective small positive vacuum contribution, acting as an entropic cosmological term.</td>
+          <td>Corresponds to a small positive cosmological constant driving late-time cosmic acceleration.</td>
+        </tr>
+      </tbody>
+    </table>
+
     <p>
-      
-
-\[
-        G_{\mu\nu}
-        = \frac{1}{\alpha^2}
-          \Big[
-            \beta^2
-              \big(
-                \nabla_\mu S \nabla_\nu S
-                - \tfrac{1}{2} g_{\mu\nu} (\nabla S)^2
-              \big)
-            + \lambda g_{\mu\nu} D(S, S_0)
-          \Big],
-      \]
-
-
-    </p>
-    <p>
-      where <strong>\(G_{\mu\nu}\)</strong> is the Einstein tensor constructed from <strong>\(g_{\mu\nu}\)</strong>, and
-      <strong>\((\nabla S)^2 = g^{\rho\sigma} \nabla_\rho S \nabla_\sigma S\)</strong>. The first term on the right‑hand
-      side has the structure of the <strong>stress–energy tensor of a scalar field</strong>, built entirely from the
-      gradients of the entropy field. The second term, proportional to <strong>\(g_{\mu\nu} D(S, S_0)\)</strong>, behaves
-      like a <strong>potential energy density</strong> associated with the distinguishability functional.
-    </p>
-    <p>
-      This equation has the same formal structure as the Einstein field equations with a specific effective
-      <strong>stress–energy tensor</strong>:
-    </p>
-    <p>
-      
-
-\[
-        G_{\mu\nu}
-        = 8\pi G \, T_{\mu\nu}^{\text{(eff)}},
-      \]
-
-
-    </p>
-    <p>
-      where the effective tensor <strong>\(T_{\mu\nu}^{\text{(eff)}}\)</strong> is constructed entirely from the entropy
-      field and its potential. In the ToE framework, <strong>curvature</strong> is therefore not taken as primitive but
-      is induced by the <strong>entropic field dynamics</strong>, with the metric responding to entropic gradients and
-      distinguishability in a manner analogous to how it responds to matter and energy in GR.
+      These correspondences demonstrate that the entropic field formulation of ToE is not merely qualitative but quantitatively compatible with established gravitational tests, while offering a deeper explanatory basis. Gravitation is reinterpreted as the emergent manifestation of <strong>entropy gradients</strong> and <strong>entropic curvature</strong>, with the <strong>Obidi Action</strong> and the <strong>Master Entropic Equation</strong> providing the unifying mathematical framework. In this way, the Theory of Entropicity derives gravity from entropy gradients in a manner that is both conceptually coherent and empirically anchored.
     </p>
   </section>
-
-  <section id="einstein-limit">
-    <h2>Einstein limit: smooth configurations and weak entropic gradients</h2>
-    <p>
-      The recovery of the standard <strong>Einstein Field Equations</strong> proceeds by considering a regime in which
-      the entropy field is close to its reference configuration and its gradients are relatively weak and smooth. In
-      this <strong>near‑equilibrium limit</strong>, one takes <strong>\(S \to S_0\)</strong> with small deviations and
-      slowly varying gradients. Under these conditions, the distinguishability functional <strong>\(D(S, S_0)\)</strong>
-      behaves effectively like a <strong>cosmological‑constant‑type term</strong>, since its value approaches a constant
-      minimum at <strong>\(S = S_0\)</strong>. The contribution <strong>\(\lambda g_{\mu\nu} D(S, S_0)\)</strong> in the
-      metric equation then plays the role of an effective <strong>cosmological constant</strong>. This parallels the small positive 
-      cosmological constant that <strong>Ginestra Bianconi derives in her elegant Gravity from Entropy (GfE) framework, where gravitational 
-      behavior and large‑scale curvature emerge from relative entropic principles applied to network manifolds.</strong>
-    </p>
-    <p>
-      At the same time, the <strong>entropy‑gradient contribution</strong> to the right‑hand side of the metric equation
-      takes the form of a <strong>scalar‑field‑like stress–energy tensor</strong> or, in suitable approximations, a
-      <strong>fluid‑like source</strong> with a fixed equation of state. In the smooth limit, these contributions can be
-      reorganized and identified with a conventional <strong>stress–energy tensor</strong> <strong>\(T_{\mu\nu}\)</strong>
-      describing matter and energy in GR.
-    </p>
-    <p>
-      By matching coefficients, one identifies the combination of entropic couplings with the gravitational constant,
-      setting
-    </p>
-    <p>
-      
-
-\[
-        \frac{1}{\alpha^2} \beta^2 \;\longrightarrow\; 8\pi G,
-      \]
-
-
-    </p>
-    <p>
-      and interpreting the entropic contributions as defining an effective <strong>\(T_{\mu\nu}\)</strong>. In this
-      regime, the metric equation reduces to the familiar Einstein form
-    </p>
-    <p>
-      
-
-\[
-        G_{\mu\nu} = 8\pi G \, T_{\mu\nu},
-      \]
-
-
-    </p>
-    <p>
-      so that <strong>Einstein’s equations</strong> appear as the <strong>reversible, near‑equilibrium limit</strong> of
-      the more general <strong>entropic dynamics</strong>. The ToE thus interprets GR as an emergent, coarse‑grained
-      description of an underlying entropic field theory, valid when entropic gradients are weak and the system is close
-      to an equilibrium configuration.
-    </p>
-  </section>
-
-  <section id="ln2-oci">
-    <h2>The role of \(\ln 2\) and the Obidi Curvature Invariant</h2>
-    <p>
-      Within this entropic derivation, a distinguished role is played by the quantity <strong>\(\ln 2\)</strong>, which
-      defines the <strong>Obidi Curvature Invariant (OCI)</strong>. This invariant arises as the minimal non‑zero
-      contrast in the <strong>distinguishability potential</strong> <strong>\(D(S, S_0)\)</strong>, corresponding to the
-      smallest entropic curvature “fold” that yields one bit of <strong>physical distinguishability</strong>. In other
-      words, <strong>\(\ln 2\)</strong> quantifies the minimal entropic curvature required for two configurations to be
-      recognized as distinct at the level of the entropic field.
-    </p>
-    <p>
-      In the <strong>GR limit</strong>, this invariant does not appear explicitly in the Einstein equations, because it
-      is effectively absorbed into the <strong>normalization of the action</strong> and into <strong>cosmological‑constant‑like
-      terms</strong>. Nevertheless, it conceptually anchors the <strong>entropic origin of curvature</strong> that
-      standard Einstein gravity treats as primitive. The presence of the <strong>Obidi Curvature Invariant</strong>
-      indicates that curvature, in the ToE framework, is ultimately a manifestation of discrete entropic distinguishability
-      at the level of the fundamental field, even though in the smooth, macroscopic limit it is described by the
-      continuous geometry of GR.
-    </p>
-    <p>
-      Thus, while the <strong>Einstein Field Equations</strong> emerge as an effective description in the appropriate
-      limit, the underlying entropic theory retains a deeper structure in which quantities such as <strong>\(\ln 2\)</strong>
-      encode the minimal units of curvature and information. This reinforces the interpretation of GR as a
-      <strong>coarse‑grained entropic theory of geometry</strong>, rather than as a fundamental description of spacetime.
-    </p>
-  </section>
+</section>
 
 
 <section id="references">
