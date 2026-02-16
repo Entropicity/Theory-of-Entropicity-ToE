@@ -405,7 +405,7 @@ where \( \mathcal{E} \) is a functional operator encoding the dynamics of the en
 </p>
 
 <p>
-A distinctive mathematical innovation of ToE is the introduction of the <strong>Vuli–Ndlela Integral</strong>. This construct is designed to incorporate intrinsic irreversibility into the evolution of quantum states. In standard quantum mechanics, the evolution of a wave function \( \psi \) under the Schrödinger equation is unitary and time-reversal symmetric. The Vuli–Ndlela Integral modifies this structure by adding a non-zero term that cannot be eliminated by unitary transformations and that encodes a directional flow of entropic potential. Schematically, one may write a modified evolution equation of the form
+A distinctive mathematical innovation of ToE is the introduction of the <strong>Vuli–Ndlela Integral</strong>. This is an entropy-weighted reformulation of the Feynman Path Integral of Quantum Field Theory (QFT), and is a mathematical construct that is designed to incorporate intrinsic irreversibility into the evolution of quantum states. In standard quantum mechanics, the evolution of a wave function \( \psi \) under the Schrödinger equation is unitary and time-reversal symmetric. The Vuli–Ndlela Integral modifies this structure by adding a non-zero term that cannot be eliminated by unitary transformations and that encodes a directional flow of entropic potential. Schematically, one may write a modified evolution equation of the form
 
 
 \[
@@ -417,12 +417,88 @@ where \( \hat{H} \) is the usual Hamiltonian operator and \( \mathcal{I}_{\text{
 </p>
 
 <p>
-ToE also makes extensive use of <strong>information geometry</strong>, particularly structures such as the <strong>Fisher–Rao metric</strong>, to connect statistical descriptions with physical geometry. In information geometry, probability distributions are treated as points on a differentiable manifold, and the Fisher–Rao metric provides a natural measure of distance between distributions. In the context of ToE, such geometric structures are used to relate the configuration space of probability distributions to the configuration space of the entropic field. This allows the theory to interpret statistical and quantum states as embedded within, and constrained by, the geometry of the entropic field.
+ToE also makes extensive use of <strong>information geometry</strong>, particularly structures such as the <strong>Fisher–Rao metric</strong>, <strong>Fubiny-Study metric,</strong> and the <strong>Amari-Čencov α-connections</strong> to connect statistical descriptions with physical geometry. In information geometry, probability distributions are treated as points on a differentiable manifold, and the Fisher–Rao metric provides a natural measure of distance between distributions. In the context of ToE, such geometric structures are used to relate the configuration space of probability distributions to the configuration space of the entropic field. This allows the theory to interpret statistical and quantum states as embedded within, and constrained by, the geometry of the entropic field.
 </p>
 
 <p>
 Through these mathematical components, the Theory of Entropicity constructs a unified formalism in which entropy is a dynamical field, irreversibility is built into the fundamental equations, and the familiar structures of spacetime and quantum mechanics emerge as effective descriptions of deeper entropic dynamics.
 </p>
+
+
+<h2 id="section-3.1-amari-cencov-alpha-connections">3.1 Amari–Čencov α-Connections</h2>
+
+<p>
+The theory of <strong>Amari–Čencov α-connections</strong> arises within the framework of <strong>information geometry</strong>, where families of probability distributions are treated as differentiable manifolds endowed with geometric structures derived from statistical properties. On such a <strong>statistical manifold</strong>, the central geometric object is the <strong>Fisher–Rao metric</strong>, which provides a Riemannian metric encoding the local distinguishability of probability distributions. Beyond this metric structure, information geometry introduces a family of affine connections, known as <strong>α-connections</strong>, that capture the dualistic and asymmetric aspects of statistical inference.
+</p>
+
+<p>
+Let a statistical model be represented as a smooth manifold \( \mathcal{M} \) whose points correspond to probability distributions \( p(x;\theta) \) parametrized by coordinates \( \theta = (\theta^1, \dots, \theta^n) \). The <strong>Fisher–Rao metric</strong> on \( \mathcal{M} \) is defined by
+
+
+\[
+g_{ij}(\theta) 
+= \mathbb{E}_{\theta} \left[ 
+\frac{\partial \log p(x;\theta)}{\partial \theta^i}
+\frac{\partial \log p(x;\theta)}{\partial \theta^j}
+\right],
+\]
+
+
+where \( \mathbb{E}_{\theta}[\cdot] \) denotes expectation with respect to the distribution \( p(x;\theta) \). This metric is invariant under sufficient statistics and forms the unique (up to a constant factor) Riemannian metric satisfying certain natural monotonicity conditions.
+</p>
+
+<p>
+In addition to the metric, one introduces a family of affine connections \( \nabla^{(\alpha)} \), indexed by a real parameter \( \alpha \in \mathbb{R} \), called the <strong>Amari–Čencov α-connections</strong>. These connections are torsion-free but, in general, not metric-compatible. Their Christoffel symbols in local coordinates are defined by
+
+
+\[
+\Gamma^{(\alpha)}_{ijk} 
+= \mathbb{E}_{\theta} \left[
+\frac{\partial^2 \log p(x;\theta)}{\partial \theta^i \partial \theta^j}
+\frac{\partial \log p(x;\theta)}{\partial \theta^k}
+\right]
++ \frac{1 - \alpha}{2} \mathbb{E}_{\theta} \left[
+\frac{\partial \log p(x;\theta)}{\partial \theta^i}
+\frac{\partial \log p(x;\theta)}{\partial \theta^j}
+\frac{\partial \log p(x;\theta)}{\partial \theta^k}
+\right],
+\]
+
+
+where indices are lowered using the Fisher–Rao metric. Equivalently, one often writes the connection in mixed-index form
+
+
+\[
+\Gamma^{(\alpha)k}_{\;\;ij} 
+= g^{kl} \Gamma^{(\alpha)}_{ijl},
+\]
+
+
+with \( g^{kl} \) the inverse of the Fisher–Rao metric.
+</p>
+
+<p>
+A particularly important feature of the <strong>α-connections</strong> is the existence of a <strong>dualistic structure</strong>. For each value of \( \alpha \), there is a dual connection \( \nabla^{(-\alpha)} \) such that the pair \( (\nabla^{(\alpha)}, \nabla^{(-\alpha)}) \) is dual with respect to the Fisher–Rao metric. This duality is expressed by the condition
+
+
+\[
+X \bigl( g(Y,Z) \bigr)
+= g\bigl( \nabla^{(\alpha)}_X Y, Z \bigr)
++ g\bigl( Y, \nabla^{(-\alpha)}_X Z \bigr)
+\]
+
+
+for all vector fields \( X, Y, Z \) on the statistical manifold. The case \( \alpha = 0 \) corresponds to the <strong>Levi-Civita connection</strong> of the Fisher–Rao metric, which is the unique torsion-free and metric-compatible connection. The values \( \alpha = 1 \) and \( \alpha = -1 \) correspond, respectively, to the <strong>exponential connection</strong> and the <strong>mixture connection</strong>, which play central roles in the geometry of exponential families and mixture families of probability distributions.
+</p>
+
+<p>
+The <strong>Amari–Čencov α-connections</strong> provide a unified geometric framework for understanding different types of statistical inference and divergence measures. For example, the <strong>α-divergences</strong), which generalize the Kullback–Leibler divergence, are naturally associated with the α-connections and encode the geometry of statistical models under different inference schemes. The curvature properties of these connections, and their dual pairs, reveal deep structural information about the underlying statistical manifold, including notions of flatness for exponential and mixture families.
+</p>
+
+<p>
+In summary, <strong>Amari–Čencov α-connections</strong> extend the Riemannian structure given by the Fisher–Rao metric by introducing a one-parameter family of affine connections that capture the dualistic and asymmetric aspects of information geometry. They form a cornerstone of modern information geometry and play a crucial role in the geometric analysis of statistical models, divergence functions, and entropic or information-theoretic field theories.
+</p>
+
 
 <h2 id="section-4-scientific-status">4. Scientific Status and Developmental Stage</h2>
 
@@ -475,7 +551,7 @@ Within ToE, <strong>attosecond electron dynamics</strong> are interpreted as pro
 </p>
 
 <p>
-More concretely, ToE suggests that transitions traditionally modeled as instantaneous should, upon sufficiently precise measurement, reveal a characteristic time scale that can be calculated from the local entropic density and the structure of the <strong>Obidi Action</strong>. If the theory is correct, high-precision attosecond experiments should detect systematic deviations from the predictions of the <strong>Standard Model</strong> and conventional quantum mechanics, in the form of non-zero transition durations that correlate with entropic parameters.
+More concretely, ToE posits that transitions traditionally modeled as instantaneous should, upon sufficiently precise measurement, reveal a characteristic time scale that can be calculated from the local entropic density and the structure of the <strong>Obidi Action</strong>. If the theory is correct, high-precision attosecond experiments should detect systematic deviations from the predictions of the <strong>Standard Model</strong> and conventional quantum mechanics, in the form of non-zero transition durations that correlate with entropic parameters.
 </p>
 
 <p>
@@ -487,7 +563,7 @@ This leads to a class of experimental tests in which decoherence rates are measu
 </p>
 
 <p>
-The theory also has implications for <strong>quantum entanglement</strong>. Entangled systems are characterized by non-local correlations that cannot be explained by classical local hidden variables. In ToE, such correlations are mediated and constrained by the global structure of the entropic field. While the theory does not deny the existence of entanglement, it suggests that the propagation and stability of entangled correlations are influenced by entropic gradients and the finite reconfiguration rate of the entropic field. This may lead to subtle modifications in entanglement dynamics, particularly over large distances or in strong-field regimes, which could, in principle, be probed experimentally.
+The theory also has implications for <strong>quantum entanglement</strong>. Entangled systems are characterized by non-local correlations that cannot be explained by classical local hidden variables. In ToE, such correlations are mediated and constrained by the global structure of the entropic field. While the theory does not deny the existence of quantum entanglement, it asserts that the establishment, propagation, and maintenance of entangled correlations are constrained by the finite reconfiguration rate of the entropic field. <strong>Consequently, the Theory of Entropicity (ToE) rejects the notion that entanglement updates occur with zero temporal duration; instead, all entanglement dynamics unfold over a non‑zero, entropically regulated timescale [as per the No-Rush Theorem (NRT), Entropic Accessibility (EA), Entropic Cost (EC), Entropic Constraint Principle (ECP), and the Entropic Accounting Principle (EAP)].</strong> This leads to subtle but measurable modifications in entanglement dynamics, particularly over large separations or in strong‑field regimes, because ToE asserts that entangled correlations cannot update instantaneously; instead, their propagation and stability are regulated by entropic gradients and the finite reconfiguration rate of the entropic field, making these effects, in principle, experimentally accessible.
 </p>
 
 <h2 id="section-7-comparative-perspective">7. Comparative Perspective: Standard Physics vs. Theory of Entropicity</h2>
