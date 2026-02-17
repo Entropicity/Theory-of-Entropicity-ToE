@@ -71,3 +71,423 @@
   </url>
 
 </urlset>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <sitemap>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/sitemap-root.xml</loc>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/sitemap-concepts.xml</loc>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/sitemap-equations.xml</loc>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/sitemap-main.xml</loc>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/sitemap-philosophy.xml</loc>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/sitemap-toe-google.xml</loc>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/sitemap-notes.xml</loc>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/sitemap-papers.xml</loc>
+  </sitemap>
+
+</sitemapindex>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/index.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/preface.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/prefacedump.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/appendices.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/references.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch1-introduction.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch2-entropy-field.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch3-obidi-action.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch4-spectral-formulation.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch5-poler-and-second-law.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch6-implications.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch7-applications.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch8-literature-studies.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch9-comparative-frameworks.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch10-open-problems.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/google56d4d70ea01bb4cb.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/index.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/index1.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/a-comprehensive-analysis-of-the-theory-of-entropicity-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/a-critique-of-common-misunderstandings-in-entropic-monism-in-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/a-deeper-analysis-of-emergence-vs-reduction-in-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/an-introduction-to-obidi-beautiful-universe-in-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/an-introductory-biographical-survey-of-the-emergence-of-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/can-entropy-actually-be-a-universal-field-with-action-and-dynamics.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/constantin-bratianu-contribution-to-the-foundations-of-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/de-broglie-hidden-thermodynamics-and-the-entropic-field-revealed-in-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/entropic-accessibility-entropic-cost-entropic-constraint-principle.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/entropic-cost-of-motion-in-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/entropic-interpretation-of-quantum-mechanics-in-toe-collapse-probabilities.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/experimental-confirmation-of-the-theory-of-entropy-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/from-de-broglie-hidden-thermodynamics-to-john-onimisi-obidi-architecture-of-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/future-accessibility-and-the-selection-of-futures-in-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/gabriel-oyibo-gagut-and-john-onimisi-obidi-theory-of-entropicity-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/gravitation-and-the-foundations-of-toe-making-sense-of-it-all.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/how-to-visualize-and-understand-the-entropic-field-of-toe-everyday-experience.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/introductory-essays-on-toe-thermodynamics-operability-ontological-discourse.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/key-differences-between-toe-and-einstein-general-relativity-gr.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/on-the-universal-principles-of-entropic-cost-entropic-constraint-entropic-accessibility.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/ontodynamics.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/postulates.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+    <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/qualitative-explanation-of-toe-stage-and-movie-screen-analogy.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/reconciling-de-broglie-dual-structure-action-principle-with-foundations-of-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/role-of-obidi-curvature-invariant-oci-of-ln-2-in-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/the-insight-behind-declaring-entropy-as-a-field-in-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/the-no-rush-theorem-god-nature-cannot-be-rushed.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/the-no-rush-theorem-of-toe-its-conceptual-structure-and-universal-implications.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/theory-of-entropicity-and-concept-principle-of-entropic-cost-in-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/toe-and-other-entropic-paradigms-from-ted-jacobson-to-erik-verlinde.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/toe-post-einsteinian-synthesis-fr-fs-aca-thermo-ontology.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/two-pillars-of-toe-entropic-accessibility-entropic-cost-entropic-constraint.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/why-the-no-rush-principle-is-a-theorem-and-not-an-axiom-in-toe.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/concepts/why-toe-is-not-circular-axiomatic-independence-and-causal-directionality.html</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+
+
+</urlset>
+
