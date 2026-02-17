@@ -1,24 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Homepage -->
   <url>
     <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/</loc>
   </url>
 
-  <!-- Monograph Chapters -->
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/preface.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch1-introduction.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch2-entropy-field.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch3-obidi-action.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch4-spectral-formulation.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch5-poler-and-second-law.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch6-implications.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch7-applications.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch8-literature-studies.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch9-comparative-frameworks.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch10-open-problems.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/appendices.html</loc></url>
-  <url><loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/references.html</loc></url>
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/index.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/preface.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/prefacedump.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/appendices.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/references.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch1-introduction.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch2-entropy-field.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch3-obidi-action.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch4-spectral-formulation.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch5-poler-and-second-law.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch6-implications.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch7-applications.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch8-literature-studies.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch9-comparative-frameworks.html</loc>
+  </url>
+
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/ch10-open-problems.html</loc>
+  </url>
+
+  <!-- Optional: Google verification file -->
+  <url>
+    <loc>https://entropicity.github.io/Theory-of-Entropicity-ToE/google56d4d70ea01bb4cb.html</loc>
+  </url>
 
 </urlset>
