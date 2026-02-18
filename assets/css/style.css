@@ -149,3 +149,45 @@ main {
   }
 }
 
+
+/* Wrap the entire page in a flex container */
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* Sidebar column */
+#sidebar, .sidebar, .toc-container {
+  flex: 0 0 260px;   /* reserve space */
+  max-width: 260px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+/* Main content column */
+#content, .content, .main, .main-content {
+  flex: 1;
+  margin-left: 20px;   /* spacing from sidebar */
+  min-width: 300px;    /* prevents Cloudflare compression */
+}
+
+/* Responsive fallback */
+@media (max-width: 1200px) {
+  body {
+    flex-direction: column;
+  }
+
+  #sidebar, .sidebar, .toc-container {
+    width: 100%;
+    max-width: none;
+    position: relative;
+  }
+
+  #content, .content, .main, .main-content {
+    margin-left: 0;
+    min-width: auto;
+  }
+}
+
