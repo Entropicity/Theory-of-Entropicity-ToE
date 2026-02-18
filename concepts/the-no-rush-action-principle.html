@@ -314,8 +314,8 @@ blockquote {
 
 <head>
   <meta charset="UTF-8">
-  <title>Entropic Diffusion Time (EDT) from the Obidi Action of the Theory of Entropicity (ToE)</title>
-  <meta name="description" content="Derivation of entropic diffusion time (EDT) from the Obidi Action within the Theory of Entropicity, connecting action density, diffusivity, and temporal constraints.">
+  <title>The No-Rush Theorem (NRT) in Action-Principle Form of the Theory of Entropicity (ToE)</title>
+  <meta name="description" content="Action-principle formulation of the No-Rush Theorem within the Theory of Entropicity, using an entropic field action and temporal diffusion constraints.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body { font-family: Georgia, "Times New Roman", serif; line-height: 1.6; max-width: 900px; margin: 2rem auto; padding: 0 1rem; color: #222; }
@@ -333,158 +333,136 @@ blockquote {
   </style>
 </head>
 
-  <h1>Entropic Diffusion Time (EDT) from the Obidi Action of the Theory of Entropicity (ToE)</h1>
-  <h2 style="text-align:center;">A Derivation within the Theory of Entropicity (ToE)</h2>
+  <h1>The No-Rush Theorem (NRT) in Action-Principle Form of the Theory of Entropicity (ToE)</h1>
+  <h2 style="text-align:center;">An Entropic Field-Theoretic Formulation</h2>
 
   <div class="abstract">
     <strong>Abstract.</strong>
-    This document derives an expression for the entropic diffusion time (EDT) from the Obidi Action, the fundamental
-    action functional of the Theory of Entropicity. By analyzing the temporal and spatial structure of the action
-    density and its associated field equations, we obtain a natural definition of the characteristic entropic
-    diffusion time \( \tau_{\text{entropic}} \) and show how it encodes the No-Rush Theorem at the level of the
-    Obidi Action.
+    This part of the Monograph presents an action-principle formulation of the No-Rush Theorem (NRT) within the Theory of Entropicity (ToE).
+    By introducing an entropic field \( \phi \) defined on an entropic manifold and constructing an appropriate
+    action functional, we show how the requirement of finite entropic diffusion time emerges as a variational
+    constraint. The No-Rush Theorem is thereby expressed as a structural property of the entropic action and its
+    admissible trajectories.
   </div>
 
-  <h2>1. The Obidi Action</h2>
+  <h2>1. Entropic Field and Configuration Space</h2>
   <p>
-    The Obidi Action \( \mathcal{S}_{\text{Obidi}} \) is the central action functional in the Theory of
-    Entropicity. While its full structure may involve local and spectral components, for the purposes of deriving
-    an entropic diffusion time (EDT) we consider a representative local form
+    Let \( \mathcal{M} \) denote the entropic manifold on which an entropic field \( \phi \) is defined. The field
+    \( \phi(x,t) \) encodes the entropic configuration of a system at spatial point \( x \in \mathcal{M} \) and
+    time \( t \). The Theory of Entropicity treats \( \phi \) as a fundamental field whose dynamics are governed
+    by an action principle.
   </p>
-  <div class="equation">
-    <span>\(\mathcal{S}_{\text{Obidi}}[\phi] = \displaystyle \int dt \int_{\mathcal{M}} d^n x \, \mathcal{L}_{\text{Obidi}}(\phi, \partial_t \phi, \nabla \phi; x,t).\)</span>
-  </div>
   <p>
-    A generic local Obidi Lagrangian density may be written as
-  </p>
-  <div class="equation">
-    <span>\(\mathcal{L}_{\text{Obidi}} = \frac{1}{2} A(x) (\partial_t \phi)^2 - \frac{1}{2} B(x) \lvert \nabla \phi \rvert^2 - U(\phi,x),\)</span>
-  </div>
-  <p>
-    where \( A(x) \) and \( B(x) \) are positive functions encoding the temporal and spatial entropic response,
-    and \( U(\phi,x) \) is an entropic potential derived from the underlying entropic structure. The precise form
-    of \( U \) is theory-specific, but the positivity of \( A \) and \( B \) is a structural feature of the Obidi
-    Action.
+    We consider a configuration space of histories \( \phi: \mathcal{M} \times \mathbb{R} \to \mathbb{R} \), and
+    we seek an action functional \( \mathcal{S}[\phi] \) whose stationary points correspond to physically
+    admissible entropic evolutions.
   </p>
 
-  <h2>2. Field Equations and Diffusive Structure</h2>
+  <h2>2. Prototype Entropic Action</h2>
   <p>
-    Varying the Obidi Action with respect to \( \phi \) yields the Obidi field equation
+    As a prototype, consider an entropic action of the form
   </p>
   <div class="equation">
-    <span>\(A(x) \, \partial_t^2 \phi - \nabla \cdot \big( B(x) \nabla \phi \big) + \frac{\partial U}{\partial \phi} = 0.\)</span>
+    <span>\(\mathcal{S}[\phi] = \displaystyle \int dt \int_{\mathcal{M}} d^n x \, \mathcal{L}(\phi, \partial_t \phi, \nabla \phi; x,t),\)</span>
   </div>
   <p>
-    This equation has the structure of a generalized entropic wave-diffusion equation. The term involving
-    \( A(x) \) controls the temporal acceleration of the entropic field, while the term involving \( B(x) \)
-    controls its spatial diffusion across the entropic manifold \( \mathcal{M} \).
+    where \( \mathcal{L} \) is an entropic Lagrangian density. A natural choice, consistent with diffusive
+    dynamics, is
   </p>
+  <div class="equation">
+    <span>\(\mathcal{L} = \frac{1}{2} \alpha(x) (\partial_t \phi)^2 - \frac{1}{2} \beta(x) \lvert \nabla \phi \rvert^2 - V(\phi,x),\)</span>
+  </div>
   <p>
-    The presence of both temporal and spatial terms allows us to define a characteristic entropic diffusivity and
-    an associated diffusion time.
+    where \( \alpha(x) \) and \( \beta(x) \) are positive functions encoding local temporal and spatial entropic
+    response, and \( V(\phi,x) \) is an entropic potential. The positivity of \( \alpha \) and \( \beta \) ensures
+    that the action penalizes arbitrarily rapid temporal and spatial variations of \( \phi \).
   </p>
 
-  <h2>3. Local Entropic Diffusivity</h2>
+  <h2>3. Variational Principle and Field Equations</h2>
   <p>
-    To extract a diffusion time, we introduce a local entropic diffusivity \( D(x) \) defined by the ratio
+    The entropic field equations follow from the stationary action condition
   </p>
   <div class="equation">
-    <span>\(D(x) = \frac{B(x)}{A(x)}.\)</span>
+    <span>\(\delta \mathcal{S}[\phi] = 0.\)</span>
   </div>
   <p>
-    This quantity has the dimensions of a diffusivity: it relates the spatial entropic response to the temporal
-    entropic response. In regions where \( D(x) \) is large, entropic disturbances spread more rapidly across
-    \( \mathcal{M} \); where \( D(x) \) is small, entropic diffusion (ED) is slower.
-  </p>
-  <p>
-    The Obidi field equation can then be rewritten in the suggestive form
+    Varying \( \phi \) and integrating by parts yields the Euler–Lagrange equation
   </p>
   <div class="equation">
-    <span>\(\partial_t^2 \phi - \nabla \cdot \big( D(x) \nabla \phi \big) + A(x)^{-1} \frac{\partial U}{\partial \phi} = 0.\)</span>
-  </div>
-
-  <h2>4. Definition of Entropic Diffusion Time (EDT)</h2>
-  <p>
-    Consider a transition between two entropic configurations \( \phi_i(x) \) and \( \phi_f(x) \) supported on a
-    region \( \Omega \subset \mathcal{M} \). We define the characteristic entropic diffusion time
-    \( \tau_{\text{entropic}} \) associated with this transition as
-  </p>
-  <div class="equation">
-    <span>\(\tau_{\text{entropic}}(\Omega) = \frac{1}{\lvert \Omega \rvert} \displaystyle \int_{\Omega} d^n x \, \frac{L^2(x)}{D(x)},\)</span>
+    <span>\(\alpha(x) \, \partial_t^2 \phi - \nabla \cdot \big( \beta(x) \nabla \phi \big) + \frac{\partial V}{\partial \phi} = 0.\)</span>
   </div>
   <p>
-    where \( L(x) \) is an effective entropic length scale and \( \lvert \Omega \rvert \) is the measure of
-    \( \Omega \). In the simplest case of a homogeneous region with constant \( D \) and characteristic length
-    \( L \), this reduces to the familiar diffusive scaling
-  </p>
-  <div class="equation">
-    <span>\(\tau_{\text{entropic}} \sim \frac{L^2}{D}.\)</span>
-  </div>
-  <p>
-    Substituting \( D = B/A \), we obtain
-  </p>
-  <div class="equation">
-    <span>\(\tau_{\text{entropic}} \sim \frac{L^2 A}{B}.\)</span>
-  </div>
-  <p>
-    The positivity of \( A \) and \( B \) in the Obidi Action ensures that \( \tau_{\text{entropic}} \) is strictly
-    positive for any nontrivial region and transition.
+    This equation has the structure of a generalized diffusive wave equation on the entropic manifold. The
+    coefficients \( \alpha(x) \) and \( \beta(x) \) control the temporal and spatial response of the entropic
+    field, and their positivity is crucial for the No-Rush Theorem.
   </p>
 
-  <h2>5. Connection to the No-Rush Theorem</h2>
+  <h2>4. No-Rush Theorem as a Constraint on Admissible Histories</h2>
   <p>
-    The No-Rush Theorem asserts that no entropic transition can occur with zero diffusion time. In the present
-    framework, this would correspond to \( \tau_{\text{entropic}} = 0 \), which would require either
-    \( L \to 0 \) or \( D \to \infty \). The first case corresponds to a trivial transition with no spatial extent;
-    the second would require \( B/A \to \infty \), which is incompatible with the finite, positive coefficients
-    encoded in the Obidi Action.
+    The No-Rush Theorem asserts that no admissible history \( \phi(x,t) \) can exhibit instantaneous entropic
+    reconfiguration. In the action-principle framework, this is implemented by requiring that the action
+    functional diverges for histories with arbitrarily large \( \partial_t \phi \).
   </p>
   <p>
-    Thus, the structural properties of the Obidi Action enforce
+    Specifically, if we consider a hypothetical history in which the field undergoes a discontinuous jump in time,
+    the term
   </p>
   <div class="equation">
-    <span>\(\tau_{\text{entropic}} &gt; 0\)</span>
+    <span>\(\int dt \int_{\mathcal{M}} d^n x \, \frac{1}{2} \alpha(x) (\partial_t \phi)^2\)</span>
   </div>
   <p>
-    for all physically meaningful transitions. This is precisely the content of the No-Rush Theorem, now derived
-    from the action-level structure of the theory.
+    becomes unbounded as \( \partial_t \phi \to \infty \). Such histories are therefore excluded from the space of
+    finite-action configurations. The No-Rush Theorem can thus be stated in action-principle form as:
+  </p>
+  <p style="margin-left:1.5rem;">
+    <em>All physically admissible entropic histories are finite-action histories, and all finite-action histories
+    exhibit finite entropic diffusion time.</em>
+  </p>
+  <p>
+    In other words, the requirement of finite action enforces a bound on the rate of entropic change, thereby
+    forbidding instantaneous reconfiguration.
   </p>
 
-  <h2>6. Entropic Diffusion Time (EDT) as an Observable</h2>
+  <h2>5. Entropic Diffusion Time from the Action</h2>
   <p>
-    The entropic diffusion time \( \tau_{\text{entropic}} \) can be treated as an emergent observable associated
-    with the Obidi Action. Given a solution \( \phi(x,t) \) of the Obidi field equation connecting
-    \( \phi_i(x) \) to \( \phi_f(x) \), one may define
+    The characteristic entropic diffusion time \( \tau_{\text{entropic}} \) associated with a given transition
+    can be extracted from the action by considering the temporal profile of \( \phi \). For a localized transition
+    between two configurations \( \phi_i(x) \) and \( \phi_f(x) \), one may define
   </p>
   <div class="equation">
-    <span>\(\tau_{\text{entropic}} = \int_{t_i}^{t_f} dt \, w(t),\)</span>
+    <span>\(\tau_{\text{entropic}} \sim \frac{\displaystyle \int dt \int_{\mathcal{M}} d^n x \, \alpha(x) (\partial_t \phi)^2}{\displaystyle \int_{\mathcal{M}} d^n x \, \Delta \mathcal{E}(x)},\)</span>
   </div>
   <p>
-    where \( w(t) \) is a weight functional constructed from the action density, for example
-  </p>
-  <div class="equation">
-    <span>\(w(t) = \frac{\displaystyle \int_{\mathcal{M}} d^n x \, A(x) (\partial_t \phi)^2}{\displaystyle \int_{\mathcal{M}} d^n x \, \Delta \mathcal{E}(x)},\)</span>
-  </div>
-  <p>
-    with \( \Delta \mathcal{E}(x) \) an appropriate entropic energy density difference. This definition ties the
-    diffusion time directly to the temporal structure of the Obidi Action.
+    where \( \Delta \mathcal{E}(x) \) is an appropriate entropic energy density difference between the initial and
+    final configurations. The positivity of \( \alpha(x) \) ensures that \( \tau_{\text{entropic}} \) is strictly
+    positive for any nontrivial transition.
   </p>
 
-  <h2>7. Summary</h2>
+  <h2>6. Formal Statement of the No-Rush Theorem (Action Form)</h2>
   <p>
-    Starting from the Obidi Action, we have identified a natural entropic diffusivity \( D(x) = B(x)/A(x) \) and
-    derived a characteristic entropic diffusion time \( \tau_{\text{entropic}} \) associated with entropic
-    transitions. The positivity and finiteness of the coefficients in the Obidi Action guarantee that
-    \( \tau_{\text{entropic}} &gt; 0 \) for all nontrivial transitions, thereby realizing the No-Rush Theorem at
-    the level of the fundamental action.
+    We may now state the No-Rush Theorem in action-principle form as follows:
+  </p>
+  <p style="margin-left:1.5rem;">
+    <strong>No-Rush Theorem (Action Form).</strong>
+    Let \( \mathcal{S}[\phi] \) be an entropic action functional with positive temporal response coefficient
+    \( \alpha(x) &gt; 0 \) on \( \mathcal{M} \). Then any finite-action history \( \phi(x,t) \) connecting two
+    distinct entropic configurations requires a strictly positive entropic diffusion time
+    \( \tau_{\text{entropic}} &gt; 0 \). In particular, instantaneous entropic reconfiguration corresponds to
+    infinite action and is therefore excluded from the physical sector.
+  </p>
+  <p>
+    In this way, the No-Rush Theorem is not an external constraint imposed on the dynamics, but an intrinsic
+    property of the entropic action and its admissible trajectories.
   </p>
 
   <footer>
     <p>
       This document is part of the Theory of Entropicity (ToE) corpus and may be cited as:
-      <strong>“Entropic Diffusion Time (EDT) from the Obidi Action of ToE.”</strong>
+      <strong>“No-Rush Theorem in Action-Principle Form of ToE.”</strong>
     </p>
   </footer>
+
+
 
 <section id="references">
 
