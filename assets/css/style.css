@@ -205,7 +205,20 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+/* Push main content to the right */
 body {
-  margin-left: 300px;
+  margin-left: 300px !important;
 }
 
+/* Responsive mode */
+@media (max-width: 900px) {
+  #sidebar-nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+  }
+  body {
+    margin-left: 0 !important;
+  }
+}
