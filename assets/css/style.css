@@ -110,3 +110,42 @@ main {
     margin-left: 0 !important;
   }
 }
+
+/* Prevent sidebar from overlapping main content */
+.layout {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sidebar {
+  flex: 0 0 250px;      /* fixed sidebar width */
+  max-width: 250px;
+  position: sticky;     /* or fixed, depending on your design */
+  top: 0;
+  z-index: 10;          /* stays above background, not above content */
+}
+
+.main-content {
+  flex: 1;
+  min-width: 300px;     /* prevents compression on Cloudflare */
+  margin-left: 20px;    /* spacing from sidebar */
+}
+
+/* Responsive fallback for narrower viewports */
+@media (max-width: 1200px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: relative;
+    max-width: none;
+  }
+
+  .main-content {
+    margin-left: 0;
+    min-width: auto;
+  }
+}
+
