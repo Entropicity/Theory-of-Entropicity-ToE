@@ -12,6 +12,7 @@ Sectoral Hilbert-Space Structure: The total Hilbert space decomposes into two or
 Probability conservation emerges as a structural law:
 
 ∥Ψ(t)∥2=Po(t)+Pe(t)=1∥Ψ(t)∥2=Po​(t)+Pe​(t)=1
+
 where Po=∥ψo∥2Po​=∥ψo​∥2 and Pe=∥ψe∥2Pe​=∥ψe​∥2.
 
 Entropic Field Equations: The Master Entropic Equation (MEE) governs the evolution of the entropic field, linking information-theoretic concepts with physical observables. It incorporates entropic analogs of classical conservation laws via the Entropic Noether Principle (ENP).
@@ -31,6 +32,11 @@ Obidi, J. O. (2026). ToE Living Review Letters IC: The Alemoh–Obidi Correspond
 Theory of Entropicity (ToE) Google Site: https://theoryofentropicity.blogspot.com
 GitHub Repository (Living Review Letters): KOL Correspondences
 Kolmogorov-Obidi Lineage (KOL)
+
+GitHub Repository (Living Review Letters): KOL Correspondences
+
+https://notd.io/notes/5183817418276864_1_1777678760602/kolmogorov-obidi%20lineage:%20mathematical,%20conceptual,%20philosophical%20perspectives
+
 ## Summary
 The Kolmogorov–Obidi Lineage (KOL) encapsulates a century-spanning intellectual path from foundational axiomatic probability to advanced entropic field theory, culminating in the Obidi Action and the Theory of Entropicity, offering a rigorous, unified, and emergent perspective on information, probability, and physical law.
 
