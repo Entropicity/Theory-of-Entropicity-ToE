@@ -3,12 +3,12 @@
 ## 1. Conceptual Foundations
 Kolmogorov Complexity (K):
 
-Quantifies the informational content of a string as the length of the shortest program that outputs it on a universal Turing machine.
-Captures absolute, pointwise randomness rather than ensemble averages; closely related to notions of algorithmic compressibility, incompressibility, and randomness certification.
+1. Quantifies the informational content of a string as the length of the shortest program that outputs it on a universal Turing machine.
+1. Captures absolute, pointwise randomness rather than ensemble averages; closely related to notions of algorithmic compressibility, incompressibility, and randomness certification.
 
-Emerges as a limiting case of algorithmic information theory and forms the backbone of a formalized approach to object-level stochasticity.
-Classical K is uncomputable in general, reflecting fundamental limits in predicting algorithmic patterns (Chaitin’s incompleteness theorem).
-Time-bound variants (Kt, rKt, pKt) introduce resource sensitivity, linking descriptive complexity to computational efficiency or probabilistic generation (Refs: [4–8]).
+1. Emerges as a limiting case of algorithmic information theory and forms the backbone of a formalized approach to object-level stochasticity.
+1. Classical K is uncomputable in general, reflecting fundamental limits in predicting algorithmic patterns (Chaitin’s incompleteness theorem).
+1.Time-bound variants (Kt, rKt, pKt) introduce resource sensitivity, linking descriptive complexity to computational efficiency or probabilistic generation (Refs: [4–8]).
 
 ### Obidi Action (S_O):
 
