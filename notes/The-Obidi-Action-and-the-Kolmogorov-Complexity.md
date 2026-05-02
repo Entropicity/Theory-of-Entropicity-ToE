@@ -71,5 +71,9 @@ This situates algorithmic information theory within a unified entropic-physical 
 
 [8] Vitanyi, P., Li, M., Kolmogorov Complexity and Its Applications in Computation, 2nd ed., 1997.
 
+[9] [Obidi Action and the Kolmogorov Complexity — NOTD](https://notd.io/notes/5183817418276864_1_1777689723255/obidi%20action%20and%20the%20kolmogorov%20complexity:%20information,%20algorithmic,%20entropy)
+
+[10] [The Obidi Action and Kolmogorov Algorithm — Google Live Site](https://theoryofentropicity.blogspot.com/2026/05/the-obidi-action-and-kolmogorov.html)
+
 ## Summary Statement
 The Obidi Action operates as a universal, continuous entropic functional from which Kolmogorov complexity and its time-bounded and probabilistic relatives emerge as discrete limiting cases. Within the Kolmogorov–Obidi Lineage (KOL), S_O extends the algorithmic notion of complexity into a field-theoretic, physically grounded framework, linking computational informational bounds to the entropic dynamics of the universe. In essence, Obidi Action subsumes Kolmogorov complexity: every principle, bound, and structure of K(x) exists within the broader, variational architecture of the ToE.
