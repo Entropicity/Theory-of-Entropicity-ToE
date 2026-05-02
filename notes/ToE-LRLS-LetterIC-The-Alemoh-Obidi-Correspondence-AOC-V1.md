@@ -5,6 +5,7 @@ The **Kolmogorov–Obidi Lineage (KOL)** represents a contemporary intellectual 
 The **entropic limit interpretation of the speed of light c** in the **Theory of Entropicity (ToE)** is **important** because **it restructures the foundations of relativity.**
 
 It is **significant** because it **reframes the meaning of causality and the origin of spacetime.**
+# 
 
 ## 1. Historical and Intellectual Context
 **Kolmogorov’s Axioms:** Formulated the rigorous mathematical foundation for probability theory, defining probability as an axiomatic system over σ-algebras, independent of thermodynamic or cosmological context.
