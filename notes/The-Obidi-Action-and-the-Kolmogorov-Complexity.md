@@ -1,4 +1,4 @@
-# The Obidi Action and the Kolmogorov Complexity
+# The Obidi Action and the Kolmogorov Complexity: From Information and Algorithmic Complexity to Entropy as a Universal Field
 
 ## 1. Conceptual Foundations
 Kolmogorov Complexity (K):
