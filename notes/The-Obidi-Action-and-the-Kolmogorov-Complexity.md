@@ -12,11 +12,15 @@ Time-bound variants (Kt, rKt, pKt) introduce resource sensitivity, linking descr
 
 ### Obidi Action (S_O):
 
-Introduced in the Theory of Entropicity (ToE) as a unifying variational functional on an entropic manifold.
-Encodes the full dynamical, geometric, and probabilistic information of physical systems via the Master Entropic Equation (MEE).
-Operates over a continuous entropic field formalism, integrating classical thermodynamics, gravitational thermodynamics, and information-theoretic principles.
-Generates emergent structures, e.g., probability calculus, Shannon entropy, Fisher–Rao metric, and Kolmogorov complexity as limiting discrete cases.
-Serves as a generalization of the algorithmic description paradigm to a field-theoretic and geometric context, formalizing correlations and causal structure beyond computational sequences (Refs: [1–3]).
+1. Introduced in the Theory of Entropicity (ToE) as a unifying variational functional on an entropic manifold.
+
+1. Encodes the full dynamical, geometric, and probabilistic information of physical systems via the Master Entropic Equation (MEE).
+
+1. Operates over a continuous entropic field formalism, integrating classical thermodynamics, gravitational thermodynamics, and information-theoretic principles.
+
+1. Generates emergent structures, e.g., probability calculus, Shannon entropy, Fisher–Rao metric, and Kolmogorov complexity as limiting discrete cases.
+
+1. Serves as a generalization of the algorithmic description paradigm to a field-theoretic and geometric context, formalizing correlations and causal structure beyond computational sequences (Refs: [1–3]).
 
 ## 3. Mathematical Relationship and Limiting Behavior Between the Kolmogorov Complexity and the Obidi Action of the Theory of Entropicity (ToE)
 
