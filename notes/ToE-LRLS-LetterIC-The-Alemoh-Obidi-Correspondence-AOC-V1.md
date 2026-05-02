@@ -1,5 +1,10 @@
 # Key Concepts of the Kolmogorov-Obidi Lineage (KOL) and Its Importance and Significance in Modern Physics: Mathematical, Conceptual, and Philosophical Perspectives
 The **Kolmogorov–Obidi Lineage (KOL)** represents a contemporary intellectual and mathematical lineage that traces the evolution of probability, information theory, and entropic dynamics from the foundational axioms of Andrey Kolmogorov through a succession of theoretical frameworks culminating in the **Obidi Action** and the **Theory of Entropicity (ToE).** It is articulated most comprehensively in John Onimisi Obidi's monographs and correspondences, particularly in the **Living Review Letters Series (Letter IC, April 26, 2026).**
+
+The **entropic limit interpretation of the speed of light c** in the **Theory of Entropicity (ToE)** is **important** because **it restructures the foundations of relativity.**
+
+It is **significant** because it **reframes the meaning of causality and the origin of spacetime.**
+
 ## 1. Historical and Intellectual Context
 **Kolmogorov’s Axioms:** Formulated the rigorous mathematical foundation for probability theory, defining probability as an axiomatic system over σ-algebras, independent of thermodynamic or cosmological context.
 **Information-Theoretic Progression:** Shannon entropy, Bekenstein-Hawking gravitational thermodynamics, and Jacobson's and Verlinde’s work on emergent spacetime extended these principles into physics.
