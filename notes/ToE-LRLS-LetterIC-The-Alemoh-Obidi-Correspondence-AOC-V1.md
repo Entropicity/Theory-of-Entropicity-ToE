@@ -28,9 +28,11 @@ Elevates traditional information measures to fundamental physical laws rather th
 Offers a platform for deriving cosmological, quantum, and thermodynamic quantities from a unified entropic principle.
 Suggests future research trajectories in quantum gravity, entropic cosmology, holography, and foundational physics.
 ## 5. Notable References
-Obidi, J. O. (2026). ToE Living Review Letters IC: The Alemoh–Obidi Correspondence on the Foundations of the Theory of Entropicity, Monograph —Volume I, Part 1.
+Obidi, J. O. (April 26, 2026). ToE Living Review Letters IC: The Alemoh–Obidi Correspondence (AOC) on the Foundations of the Theory of Entropicity, Monograph —Volume I, Part 1.
 Theory of Entropicity (ToE) Google Site: https://theoryofentropicity.blogspot.com
+
 GitHub Repository (Living Review Letters): KOL Correspondences
+
 Kolmogorov-Obidi Lineage (KOL)
 
 GitHub Repository (Living Review Letters): KOL Correspondences
@@ -38,6 +40,6 @@ GitHub Repository (Living Review Letters): KOL Correspondences
 https://notd.io/notes/5183817418276864_1_1777678760602/kolmogorov-obidi%20lineage:%20mathematical,%20conceptual,%20philosophical%20perspectives
 
 ## Summary
-The Kolmogorov–Obidi Lineage (KOL) encapsulates a century-spanning intellectual path from foundational axiomatic probability to advanced entropic field theory, culminating in the Obidi Action and the Theory of Entropicity, offering a rigorous, unified, and emergent perspective on information, probability, and physical law.
+The Kolmogorov–Obidi Lineage (KOL) encapsulates a century-spanning intellectual path from foundational axiomatic probability to advanced entropic field theory, culminating in the Obidi Action and the Theory of Entropicity (ToE), offering a rigorous, unified, and emergent perspective on information, probability, and physical law.
 
 The Theory of Entropicity (ToE) enters this landscape with a foundational claim: entropy is not a statistical or probabilistic or book-keeping summary of underlying mechanical degrees of freedom but a real, fundamental, dynamical field — the primary ontological entity from which all physical structure emerges. The entropic field S(x), defined on an entropic manifold M_S, generates gravitational geometry, quantum behavior, and thermodynamic law as emergent consequences of its dynamics, governed by the Obidi Action [1, 3, 6]. The ToE program has been developed across a series of Letters and papers: Letter I [1] establishes the ontological primacy of entropy; Letter IA [2] identifies the deep correspondence between the ToE framework and John Haller's action-as-entropy formulation [19]; Letter IB [3] formalizes the Haller-Obidi Action and Lagrangian; and Letter IC [4] presents the Alemoh-Obidi Correspondence, a monograph-scale examination of the mathematical and conceptual foundations. 
