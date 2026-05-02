@@ -18,7 +18,10 @@ Operates over a continuous entropic field formalism, integrating classical therm
 Generates emergent structures, e.g., probability calculus, Shannon entropy, Fisher–Rao metric, and Kolmogorov complexity as limiting discrete cases.
 Serves as a generalization of the algorithmic description paradigm to a field-theoretic and geometric context, formalizing correlations and causal structure beyond computational sequences (Refs: [1–3]).
 
-## 3. Mathematical Relationship and Limiting Behavior
+## 3. Mathematical Relationship and Limiting Behavior Between the Kolmogorov Complexity and the Obidi Action of the Theory of Entropicity (ToE)
+
+![Comparison of Kolmogorov Complexity and Obidi Action](https://raw.githubusercontent.com/Entropicity/Theory-of-Entropicity-ToE/main/images/Comparison-of-Kolmogorov-Complexity-and-Obidi-Action-of-ToE.png)
+
 Aspect
 Kolmogorov Complexity 
 K
