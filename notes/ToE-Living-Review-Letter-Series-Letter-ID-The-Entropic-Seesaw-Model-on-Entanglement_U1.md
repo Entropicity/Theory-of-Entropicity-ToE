@@ -1,8 +1,4 @@
-The Entropic Seesaw Model (ESSM) of the Theory of Entropicity (ToE)
-
-
-
-A Complete Entropic Theory of Quantum Entanglement, the Attosecond Formation-Time Evidence, and the Resolution of Einstein’s EPR Paradox and ER=EPR
+# The Entropic Seesaw Model (ESSM) of the Theory of Entropicity (ToE): A Complete Entropic Theory of Quantum Entanglement, the Attosecond Formation-Time Evidence, and the Resolution of Einstein’s EPR Paradox and ER=EPR
 
 
 
@@ -10,7 +6,7 @@ John Onimisi Obidi (jonimisiobidi@gmail.com)
 
 Research Lab, The Aether
 
-May 1, 2026
+May 3, 2026
 
 THE THEORY OF ENTROPICITY (ToE) — LIVING REVIEW LETTERS SERIES
 
