@@ -10,23 +10,23 @@ The short answer is direct:
 
 Let us break this down clearly and rigorously.
 
-1. What is not original (and cannot be claimed as original)
-2. 
+## 1. What is not original (and cannot be claimed as original)
+   
 The following elements are not original to ToE:
 
-1.1 The mathematical template
+## 1.1 The mathematical template
 
 S=Tr⁡f(O/Λ2)
 
 This is the Chamseddine–Connes spectral action (1997).
 
-1.2 The heat-kernel expansion
+## 1.2 The heat-kernel expansion
 
 K(t)∼∑t(n−4)/2∫g(a_n)
 
 This is standard Seeley–DeWitt theory (1960s–1980s).
 
-1.3 The identification of
+## 1.3 The identification of
 
 a0 → cosmological constant term
 
@@ -36,7 +36,7 @@ a4 → quadratic curvature terms
 
 This is textbook spectral geometry.
 
-1.4 Using Mellin transforms to relate spectral action to heat kernel
+## 1.4 Using Mellin transforms to relate spectral action to heat kernel
 
 This is standard in spectral geometry and noncommutative geometry.
 
@@ -46,13 +46,13 @@ They are mathematical infrastructure.
 
 But that is not where ToE’s originality lies.
 
-2. What is original — and this is where ToE is doing something no one else has done
-3. 
+## 2. What is original — and this is where ToE is doing something no one else has done
+
 There are four absolutely original contributions in ToE's SOA section that no other researcher has done, because they require the entire ToE framework.
 
 Let’s go through them one by one.
 
-2.1 The operator is new: the Entropic Laplacian 
+## 2.1 The operator is new: the Entropic Laplacian 
 
 ΔS
 
@@ -68,7 +68,7 @@ This is a ToE invention.
 
 This alone is enough to justify the SOA of ToE as original.
 
-2.2 The domain is new: the Information Manifold, not spacetime
+## 2.2 The domain is new: the Information Manifold, not spacetime
 
 In Chamseddine–Connes:
 
@@ -88,7 +88,7 @@ No one has ever applied spectral geometry to Fisher-information geometry in this
 
 This is original.
 
-2.3 The purpose is new: SOA generates global spacetime from information geometry
+## 2.3 The purpose is new: SOA generates global spacetime from information geometry
 
 In the spectral-action literature:
 
@@ -104,7 +104,7 @@ This two-tier architecture — local entropic dynamics + global spectral generat
 
 No one has done this.
 
-2.4 The interpretation of constants is new:
+## 2.4 The interpretation of constants is new:
 
 Newton’s constant and the cosmological constant become entropic spectral invariants
 
@@ -131,7 +131,7 @@ Gravity’s constants are not fundamental — they are informational spectral in
 
 No one in the literature has made this move.
 
-2.5 The SOA is embedded inside a larger entropic theory
+## 2.5 The SOA is embedded inside a larger entropic theory
 
 In Chamseddine–Connes:
 
@@ -159,7 +159,7 @@ This is a new theoretical ecosystem.
 
 No one has embedded the spectral action into an information-theoretic, entropic, emergent-spacetime framework.
 
-3. So, is it worth talking about in ToE?
+## 3. So, is it worth talking about in ToE?
 
 Yes, it is — because ToE is not copying the spectral action.
 
@@ -188,4 +188,4 @@ No one has ever built a two-tier entropic + spectral emergence architecture.
 
 This is original.
 
-This is the elegance of the Theory of Entropicity (ToE).
+**This is the elegance of the Theory of Entropicity (ToE).**
