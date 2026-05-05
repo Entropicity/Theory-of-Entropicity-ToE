@@ -28,11 +28,11 @@ This is standard Seeley–DeWitt theory (1960s–1980s).
 
 ## 1.3 The identification of
 
-a0 → cosmological constant term
+1. a0 → cosmological constant term
 
-a2 → Einstein–Hilbert term
+1. a2 → Einstein–Hilbert term
 
-a4 → quadratic curvature terms
+1. a4 → quadratic curvature terms
 
 This is textbook spectral geometry.
 
@@ -58,9 +58,9 @@ Let’s go through them one by one.
 
 In all previous spectral-action literature:
 
-the operator is the Dirac operator D,
+1. the operator is the Dirac operator D,
 
-or a Laplace-type operator on spacetime.
+1. or a Laplace-type operator on spacetime.
 
 No one has ever defined a Laplacian on an information manifold twisted by an entropic field.
 
@@ -76,11 +76,11 @@ the spectral action is defined on a geometric manifold (or almost-commutative ge
 
 In ToE:
 
-the spectral action is defined on the information manifold (MI,gI),
+1. the spectral action is defined on the information manifold (MI,gI),
 
-whose metric is the Fisher–Entropic metric,
+1. whose metric is the Fisher–Entropic metric,
 
-whose curvature is information curvature, not spacetime curvature.
+1. whose curvature is information curvature, not spacetime curvature.
 
 This is a completely different ontology.
 
@@ -92,13 +92,13 @@ This is original.
 
 In the spectral-action literature:
 
-the spectral action is the gravitational action.
+1. the spectral action is the gravitational action.
 
 In ToE:
 
-the LOA generates local metric structure from entropic dynamics,
+1. the LOA generates local metric structure from entropic dynamics,
 
-the SOA generates global and topological structure of emergent spacetime.
+1. the SOA generates global and topological structure of emergent spacetime.
 
 This two-tier architecture — local entropic dynamics + global spectral generation — is unique to ToE.
 
@@ -114,22 +114,23 @@ G and ΛCC are parameters to be matched.
 
 In ToE:
 
-G becomes
+1. G becomes
 
 G=6π/f2Λ^2
 
 an entropic constant derived from the spectrum of ΔS.
 
-The cosmological constant becomes
+2. The cosmological constant becomes
 
 an entropic cosmological function,
+
 not a free parameter.
 
 This is a conceptual revolution:
 
-Gravity’s constants are not fundamental — they are informational spectral invariants.
+1. Gravity’s constants are not fundamental — they are informational spectral invariants.
 
-No one in the literature has made this move.
+2. No one in the literature has made this move.
 
 ## 2.5 The SOA is embedded inside a larger entropic theory
 
@@ -141,19 +142,19 @@ In ToE:
 
 the SOA is one component of a larger architecture:
 
-LOA (local entropic dynamics)
+1. LOA (local entropic dynamics)
 
-SOA (global spectral structure)
+1. SOA (global spectral structure)
 
-GEFE (General Entropic Field Equations/[Obidi Field Equations (OFE)])
+1. GEFE (General Entropic Field Equations/[Obidi Field Equations (OFE)])
 
-OCI (Obidi Curvature Invariant)
+1. OCI (Obidi Curvature Invariant)
 
-ESSM (Entropic Seesaw Model)
+1. ESSM (Entropic Seesaw Model)
 
-Entropic substrate Ω
+1. Entropic substrate Ω
 
-Information manifold MI
+1. Information manifold MI
 
 This is a new theoretical ecosystem.
 
@@ -167,24 +168,24 @@ It is repurposing it in a completely new ontological setting.
 
 The originality of the Spectral Obidi Action (SOA) lies in:
 
-the operator (entropic Laplacian),
+1. the operator (entropic Laplacian),
 
-the domain (information manifold),
+1. the domain (information manifold),
 
-the interpretation (entropic emergence),
+1. the interpretation (entropic emergence),
 
-the constants (entropic spectral invariants),
+1. the constants (entropic spectral invariants),
 
-the role (global generation of spacetime),
+1. the role (global generation of spacetime),
 
-the integration into a larger entropic theory.
+1. the integration into a larger entropic theory.
 
 This is absolutely worth talking about, because:
 
-No one has ever used spectral geometry to generate spacetime from information geometry.
-No one has ever defined a spectral action on the Fisher–Entropic manifold.
-No one has ever derived Newton’s constant from entropic spectral data.
-No one has ever built a two-tier entropic + spectral emergence architecture.
+1. No one has ever used spectral geometry to generate spacetime from information geometry.
+1. No one has ever defined a spectral action on the Fisher–Entropic manifold.
+1. No one has ever derived Newton’s constant from entropic spectral data.
+1. No one has ever built a two-tier entropic + spectral emergence architecture.
 
 This is original.
 
