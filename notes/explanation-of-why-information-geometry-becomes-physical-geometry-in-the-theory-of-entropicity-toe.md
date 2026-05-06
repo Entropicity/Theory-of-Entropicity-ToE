@@ -271,7 +271,7 @@ Thus:
 | **Fubini–Study metric** | dynamical distinguishability | matter/energy |
 | **α‑connections** | phase/affine duality | gauge fields |
 
-This is the **correct, final, stable assignment** in ToE.
+This is the **correct, final, stable assignment** of information geometry in the forumlation of ToE.
 
 ---
 
