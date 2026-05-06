@@ -279,7 +279,7 @@ This is the **correct, final, stable assignment** of information geometry in the
 
 > **In the Theory of Entropicity, the Fisher–Rao metric becomes spacetime, the Fubini–Study metric becomes matter, and the Amari–Čencov α‑connections become gauge fields. This assignment is not arbitrary; it is uniquely determined by the mathematical meaning of each structure.**
 
-This is the truth of Obidi’s formulation of the Theory of Entropicity.
+This is the truth of Obidi’s formulation of the Theory of Entropicity (ToE).
 
 
 
