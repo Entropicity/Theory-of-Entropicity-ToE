@@ -1,7 +1,3 @@
-Here is your document transformed into **clean, elegant, publication‑grade Markdown**, preserving structure, hierarchy, and emphasis while improving clarity and readability.
-
----
-
 # **Why Information Geometry Is Physical in the Theory of Entropicity (ToE)**  
 ### *The clearest conceptual bridge between information geometry and physical spacetime*
 
@@ -285,12 +281,6 @@ This is the **correct, final, stable assignment** in ToE.
 
 This is the truth of Obidi’s formulation of the Theory of Entropicity.
 
----
 
-If you want, I can also produce:
-
-- a **LaTeX version**,  
-- a **GitHub‑ready Markdown version**,  
-- or a **Word‑optimized version** with heading styles.
 
 Just tell me which format you want next.
