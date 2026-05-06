@@ -283,4 +283,3 @@ This is the truth of Obidi’s formulation of the Theory of Entropicity (ToE).
 
 
 
-Just tell me which format you want next.
