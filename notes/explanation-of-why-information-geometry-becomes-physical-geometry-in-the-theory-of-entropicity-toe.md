@@ -27,9 +27,9 @@ Thus the match was natural.
 - Tells you how “far apart” two informational states are  
 - In ToE: becomes the **amplitude‑geometry** that generates emergent spacetime  
 - Via the emergence map:  
-  \[
-  g_S = \lambda\, g_I
-  \]
+ 
+  g_S = λg_I
+
 
 ### **Fubini–Study metric**
 - Measures **distinguishability of quantum states**  
@@ -90,9 +90,7 @@ Thus:
 
 This is implemented through the emergence map:
 
-\[
-g_S = \lambda\, g_I
-\]
+g_S = λg_I
 
 ---
 
@@ -102,45 +100,44 @@ g_S = \lambda\, g_I
 
 The emergence map
 
-\[
-\Phi^* g_S = \lambda\, g_I
-\]
+Φ^* g_S = λg_I
+
 
 is the Theory of Entropicity (ToE) analogue of Einstein’s identification of gravity with curvature.  
 It expresses the fundamental bridge between:
 
-- the **Fisher–Rao information metric** \( g_I \), and  
-- the **emergent spacetime metric** \( g_S \).
+- the **Fisher–Rao information metric** g_I, and  
+- the **emergent spacetime metric** g_S.
 
-In ToE, the conversion factor \( \lambda \) must be a **constant**, because it is the **universal conversion factor** between information geometry and spacetime geometry.
+In ToE, the conversion factor λ must be a **constant**, because it is the **universal conversion factor** between information geometry and spacetime geometry.
 
 ---
 
-## **2. Why \( \lambda \) Cannot Be a Function**
+## **2. Why λ Cannot Be a Function**
 
-If \( \lambda \) were a function \( \lambda(x) \) rather than a constant, the emergence map would:
+If λ were a function λ(x) rather than a constant, the emergence map would:
 
 - violate the **equivalence principle**,  
 - break the **uniqueness** of the Fisher–Rao metric,  
-- introduce **unphysical force terms** from \( \partial_i \lambda \),  
+- introduce **unphysical force terms** from partial_iλ,  
 - fail to reproduce **general relativity**.
 
 Thus:
 
-> **The constancy of \( \lambda \) is required by both the mathematics of information geometry and the physics of spacetime emergence.**
+> **The constancy of λ is required by both the mathematics of information geometry and the physics of spacetime emergence.**
 
 ---
 
 ## **3. Free Motion and Fisher–Rao Geodesics**
 
 In ToE, free motion corresponds to **Fisher–Rao geodesics**.  
-For these geodesics to map cleanly to spacetime geodesics, the scaling factor \( \lambda \) must be **constant**.
+For these geodesics to map cleanly to spacetime geodesics, the scaling factor λ must be **constant**.
 
-If \( \lambda \) varied, the Christoffel symbols of \( g_S \) would acquire extra terms involving \( \partial_i \lambda \), producing fictitious forces not observed in nature.
+If λ varied, the Christoffel symbols of g_S would acquire extra terms involving partial_iλ, producing fictitious forces not observed in nature.
 
 ---
 
-## **4. Čencov’s Theorem and the Uniqueness of \( \lambda \)**
+## **4. Čencov’s Theorem and the Uniqueness of λ**
 
 Čencov’s theorem states:
 
@@ -150,19 +147,17 @@ This is a deep structural result in information geometry.
 
 Therefore:
 
-- \( \lambda \) **must be constant**,  
-- \( \lambda \) **cannot** be a function,  
-- \( \lambda \) is the **only allowed scaling** between \( g_I \) and \( g_S \).
+- λ **must be constant**,  
+- λ **cannot** be a function,  
+- λ is the **only allowed scaling** between g_I and g_S.
 
 ---
 
-## **5. The Numerical Value of \( \lambda \)**
+## **5. The Numerical Value of λ**
 
-In ToE, \( \lambda \) is fixed at approximately:
+In ToE, λ is fixed at approximately:
 
-\[
-\lambda \approx 10^{-47}
-\]
+λ ~ 10^{-47}
 
 This value arises from the **entropic curvature gap** between:
 
@@ -178,24 +173,22 @@ This value:
 
 ---
 
-## **6. Why \( \lambda \) Is Not a Range**
+## **6. Why λ Is Not a Range**
 
 Although:
 
-- the information manifold curvature \( \mathcal{R}_I \) varies over a range, and  
-- the spacetime curvature \( \mathcal{R}_S \) varies over a range,
+- the information manifold curvature {R}_I varies over a range, and  
+- the spacetime curvature {R}_S varies over a range,
 
-the emergence constant \( \lambda \) is **not** defined by pointwise curvature values.
+the emergence constant λ is **not** defined by pointwise curvature values.
 
 Instead:
 
-\[
-\lambda = \frac{\text{characteristic curvature scale of } g_I}{\text{characteristic curvature scale of } g_S}
-\]
+λ = {{characteristic curvature scale of } g_I}/{{characteristic curvature scale of } g_S}
 
 This ratio is **sharp**, not variable.
 
-If \( \lambda \) were allowed to vary over the ranges of \( \mathcal{R}_I \) or \( \mathcal{R}_S \):
+If λ were allowed to vary over the ranges of {R}_I or {R}_S:
 
 - the equivalence principle would fail,  
 - general relativity would not emerge,  
@@ -203,7 +196,7 @@ If \( \lambda \) were allowed to vary over the ranges of \( \mathcal{R}_I \) or 
 
 Thus:
 
-> **\( \lambda \) is a universal conversion constant, not a variable.**
+> **λ is a universal conversion constant, not a variable.**
 
 ---
 
