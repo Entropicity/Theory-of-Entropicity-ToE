@@ -96,6 +96,117 @@ g_S = \lambda\, g_I
 
 ---
 
+# **Scholium on the Theory of Entropicity (ToE) Emergence Map Metric Conversion Factor \( \lambda \)**
+
+## **1. The Emergence Map and Its Physical Meaning**
+
+The emergence map
+
+\[
+\Phi^* g_S = \lambda\, g_I
+\]
+
+is the Theory of Entropicity (ToE) analogue of Einstein’s identification of gravity with curvature.  
+It expresses the fundamental bridge between:
+
+- the **Fisher–Rao information metric** \( g_I \), and  
+- the **emergent spacetime metric** \( g_S \).
+
+In ToE, the conversion factor \( \lambda \) must be a **constant**, because it is the **universal conversion factor** between information geometry and spacetime geometry.
+
+---
+
+## **2. Why \( \lambda \) Cannot Be a Function**
+
+If \( \lambda \) were a function \( \lambda(x) \) rather than a constant, the emergence map would:
+
+- violate the **equivalence principle**,  
+- break the **uniqueness** of the Fisher–Rao metric,  
+- introduce **unphysical force terms** from \( \partial_i \lambda \),  
+- fail to reproduce **general relativity**.
+
+Thus:
+
+> **The constancy of \( \lambda \) is required by both the mathematics of information geometry and the physics of spacetime emergence.**
+
+---
+
+## **3. Free Motion and Fisher–Rao Geodesics**
+
+In ToE, free motion corresponds to **Fisher–Rao geodesics**.  
+For these geodesics to map cleanly to spacetime geodesics, the scaling factor \( \lambda \) must be **constant**.
+
+If \( \lambda \) varied, the Christoffel symbols of \( g_S \) would acquire extra terms involving \( \partial_i \lambda \), producing fictitious forces not observed in nature.
+
+---
+
+## **4. Čencov’s Theorem and the Uniqueness of \( \lambda \)**
+
+Čencov’s theorem states:
+
+> **The Fisher–Rao metric is unique up to a constant multiplicative factor.**
+
+This is a deep structural result in information geometry.
+
+Therefore:
+
+- \( \lambda \) **must be constant**,  
+- \( \lambda \) **cannot** be a function,  
+- \( \lambda \) is the **only allowed scaling** between \( g_I \) and \( g_S \).
+
+---
+
+## **5. The Numerical Value of \( \lambda \)**
+
+In ToE, \( \lambda \) is fixed at approximately:
+
+\[
+\lambda \approx 10^{-47}
+\]
+
+This value arises from the **entropic curvature gap** between:
+
+- the **highly curved** Fisher–Rao information manifold, and  
+- the **extremely flat** physical spacetime.
+
+This value:
+
+- is **not** a range,  
+- is **not** borrowed from existing literature,  
+- is **uniquely determined** by the emergence map,  
+- is **required** for GR, the equivalence principle, and the observed cosmological constant.
+
+---
+
+## **6. Why \( \lambda \) Is Not a Range**
+
+Although:
+
+- the information manifold curvature \( \mathcal{R}_I \) varies over a range, and  
+- the spacetime curvature \( \mathcal{R}_S \) varies over a range,
+
+the emergence constant \( \lambda \) is **not** defined by pointwise curvature values.
+
+Instead:
+
+\[
+\lambda = \frac{\text{characteristic curvature scale of } g_I}{\text{characteristic curvature scale of } g_S}
+\]
+
+This ratio is **sharp**, not variable.
+
+If \( \lambda \) were allowed to vary over the ranges of \( \mathcal{R}_I \) or \( \mathcal{R}_S \):
+
+- the equivalence principle would fail,  
+- general relativity would not emerge,  
+- the observed universe could not exist.
+
+Thus:
+
+> **\( \lambda \) is a universal conversion constant, not a variable.**
+
+---
+
 ## **5. Why Fubini–Study Becomes Matter in ToE**
 
 Fubini–Study measures:
