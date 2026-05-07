@@ -184,7 +184,7 @@ the emergence constant λ is **not** defined by pointwise curvature values.
 
 Instead:
 
-λ = {{characteristic curvature scale of } g_I}/{{characteristic curvature scale of } g_S}
+λ = g_I/g_S
 
 This ratio is **sharp**, not variable.
 
