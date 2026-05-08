@@ -1946,7 +1946,11 @@ In this subsection we derive, from first principles of the Theory of Entropicity
 
 In ToE, entropy $S(x, t)$ is a local physical field, and the quantum weighting of histories $\Gamma$ is given by the Vuli–Ndlela Integral (VNI), which separates reversible and irreversible contributions:
 $$A[\Gamma] = \int_0^{\Delta t_0} (L_{rev}[S, \partial S, \dots] - R_{irr}[S, \partial S, \dots]) dt, \quad (3.6.2)$$
+
+$$W[\Gamma] \propto \exp\left\{\frac{i}{\hbar_{eff}} \int L_{rev}\, dt - \frac{1}{\hbar_{eff}} \int R_{irr}\, dt \right\}. \quad (3.6.3)$$
+
 $$W[\Gamma] \propto \exp \left\{ \frac{i}{\hbar_{eff}} \int L_{rev} dt - \frac{1}{\hbar_{eff}} \int R_{irr} dt \right\}. \quad (3.6.3)$$
+
 Here, $L_{rev}$ governs the reversible (phase) part, while the irreversible rate density is $R_{irr} = k_B \dot{S}$, $\dot{S} \equiv \frac{d}{dt} \int s(x, t) d^3x$. The imaginary (dissipative) factor suppresses histories that attempt to exceed the entropy redistribution capacity of the field.
 
 **Entropic admissibility and the time–entropy bound.** For a process to occur with non-negligible probability, the irreversible exponent must remain of order unity:
