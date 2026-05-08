@@ -1825,7 +1825,7 @@ The Cumulative Delay Principle is a fundamental principle in the ToE that establ
 ##### 3.2.1 No-Rush Theorem
 
 The CDP originates from the No-Rush Theorem, which states:
-$$ \Delta t_{min} = \zeta \frac{\hbar_{eff}}{\langle \dot{S} \rangle} \quad (\text{empirically } \zeta \approx 0.62) \quad (3.2.1) $$
+$$\Delta t_{min} = \zeta \frac{\hbar_{eff}}{\langle \dot{S} \rangle} \quad (\text{empirically } \zeta \approx 0.62) \quad (3.2.1)$$
 where:
 *   $\Delta t_{min}$ = minimum time for any physical process (may vary for different processes and interactions)
 *   $\hbar_{eff}$ = effective Planck constant modified by entropic field $S(x)$
@@ -1839,7 +1839,7 @@ Based on the above No-Rush Theorem, we can now formulate the Entropic Cumulative
 ##### 3.3.1 Core Principle
 
 The CDP states that all physical processes experience an intrinsic time delay due to entropy production, and these delays accumulate in multi-step interactions. The total delay cannot be reduced below a universal bound. Therefore, for $N$ sequential processes, the total delay is bounded by:
-$$ \Delta t_{total} \ge \sum_{k=1}^{N} \Delta t^{(k)}_{min} = \frac{\hbar_{eff}}{k_B} \sum_{k=1}^{N} \frac{1}{\dot{S}_k}, \quad (3.3.1) $$
+$$\Delta t_{total} \ge \sum_{k=1}^{N} \Delta t^{(k)}_{min} = \frac{\hbar_{eff}}{k_B} \sum_{k=1}^{N} \frac{1}{\dot{S}_k}, \quad (3.3.1)$$
 where:
 *   $\Delta t_{min}^{(k)} = \frac{\hbar_{eff}}{k_B \dot{S}_k}$ is the minimum delay for the $k$-th process,
 *   $\dot{S}_k$ = entropy production rate of the $k$-th process,
@@ -1848,14 +1848,14 @@ where:
 ##### 3.3.2 Quantum Process Delay
 
 For a quantum measurement or state transition Single Process De- lay(SPD), we have:
-$$ \Delta t_{min} = \frac{\hbar_{eff}}{\Delta E} \cdot \frac{\Delta S}{k_B}, \quad \Delta S = S_{final} - S_{initial}, \quad (3.3.2) $$
+$$\Delta t_{min} = \frac{\hbar_{eff}}{\Delta E} \cdot \frac{\Delta S}{k_B}, \quad \Delta S = S_{final} - S_{initial}, \quad (3.3.2)$$
 where:
 *   $\Delta E$ = energy difference involved.
 
 ##### 3.3.3 Cumulative Delay in Multi- Processes
 
 For $N$ [causally linked] events/interactions (e.g., quantum operations), the total minimum delay satisfies:
-$$ \Delta t_{total} \ge \frac{\hbar_{eff}}{k_B} \sum_{k=1}^{N} \frac{1}{\langle E_k \rangle \ln \frac{\Omega_k}{\Omega_{k-1}}}, \quad (3.3.3) $$
+$$\Delta t_{total} \ge \frac{\hbar_{eff}}{k_B} \sum_{k=1}^{N} \frac{1}{\langle E_k \rangle \ln \frac{\Omega_k}{\Omega_{k-1}}}, \quad (3.3.3)$$
 where:
 *   $\Omega_k$ = number of microstates at step $k$,
 *   $\langle E_k \rangle$ = average energy during the $k$-th step.
@@ -1870,7 +1870,7 @@ All of the above have serious significance and implications for (AI) Artificial 
 ##### 3.3.4 Field-Theoretic Form
 
 In spacetime, the cumulative delay is encoded in the entropic field $S(x)$. Along a worldline $\gamma$, we can write:
-$$ \int_{\gamma} \frac{\nabla^2 S(x)}{c^2 \dot{S}(x)} d\tau \ge \frac{N \hbar_{eff}}{k_B}, \quad (3.3.4) $$
+$$\int_{\gamma} \frac{\nabla^2 S(x)}{c^2 \dot{S}(x)} d\tau \ge \frac{N \hbar_{eff}}{k_B}, \quad (3.3.4)$$
 such that:
 *   $\gamma$ = worldline path with proper time $\tau$,
 *   $N$ = number of entropic “operations” along $\gamma$.
@@ -1878,14 +1878,14 @@ such that:
 ##### 3.3.5 Quantum Speed Limits
 
 For Entanglement, we obtain:
-$$ v_{ent} \le c \sqrt{1 + \lambda S / \Delta t_{min}} $$
+$$v_{ent} \le c \sqrt{1 + \lambda S / \Delta t_{min}}$$
 Wavefunction collapse therefore occurs at:
-$$ \Delta t_{coll} \ge \frac{\hbar_{eff}}{k_B T} \ln \left( \frac{\Omega_{sup}}{\Omega_0} \right) $$
+$$\Delta t_{coll} \ge \frac{\hbar_{eff}}{k_B T} \ln \left( \frac{\Omega_{sup}}{\Omega_0} \right)$$
 
 ##### 3.3.6 Cosmological Bounds
 
 On cosmological scales, the Horizon scaling in terms of the CDP becomes:
-$$ R_H(t) \sim ct \exp \left( - \int_0^t \frac{\dot{S}_{cosm}(t')}{k_B} dt' \right) $$
+$$R_H(t) \sim ct \exp \left( - \int_0^t \frac{\dot{S}_{cosm}(t')}{k_B} dt' \right)$$
 
 #### 3.4 Physical Implications
 
@@ -1894,24 +1894,24 @@ From all of the foregoing, the physical implications of the Entropic Cumulative 
 ##### 3.4.1 Quantum Mechanics
 
 *   **Entanglement Speed Limit**: Entanglement cannot propagate faster than:
-    $$ v_{ent} \le c \sqrt{1 + \lambda S / \Delta t_{min}}, \quad \lambda S = \frac{\hbar^2_{eff}}{k_B \nabla S}, \quad (3.4.1) $$
+    $$v_{ent} \le c \sqrt{1 + \lambda S / \Delta t_{min}}, \quad \lambda S = \frac{\hbar^2_{eff}}{k_B \nabla S}, \quad (3.4.1)$$
     where $\lambda S = \frac{\hbar^2_{eff}}{k_B \nabla S}$ is the entropic coherence length.
 *   **Wavefunction Collapse Delay**: Collapse time for a superposition state is therefore given by:
-    $$ \Delta t_{coll} \ge \frac{\hbar_{eff}}{k_B T} \ln \left( \frac{\Omega_{sup}}{\Omega_0} \right), \quad (3.4.2) $$
+    $$\Delta t_{coll} \ge \frac{\hbar_{eff}}{k_B T} \ln \left( \frac{\Omega_{sup}}{\Omega_0} \right), \quad (3.4.2)$$
     where $\Omega_{sup}$ = microstates in superposition.
 
 ##### 3.4.2 Cosmology
 
 *   **Information Propagation Limit**: Causal Horizons scale as:
-    $$ R_H(t) \sim ct \exp \left( - \int_0^t \frac{\dot{S}_{cosm}(t')}{k_B} dt' \right), \quad (3.4.3) $$
+    $$R_H(t) \sim ct \exp \left( - \int_0^t \frac{\dot{S}_{cosm}(t')}{k_B} dt' \right), \quad (3.4.3)$$
 *   **Inflation Constraint**: CDP limits e-folding during inflation as follows:
-    $$ N_e \le \frac{k_B}{\hbar_{eff}} \int_{t_i}^{t_f} H(t) \Delta t_{min}(t) dt, \quad (3.4.4) $$
+    $$N_e \le \frac{k_B}{\hbar_{eff}} \int_{t_i}^{t_f} H(t) \Delta t_{min}(t) dt, \quad (3.4.4)$$
     where ($H$ = Hubble parameter).
 
 ##### 3.4.3 Quantum Computing
 
 In a Gate Operation Bound(GOB), the minimum time for a $q$-qubit gate, due to the CDP, becomes:
-$$ \Delta t_{gate} \ge \frac{q \hbar_{eff} \ln 2}{k_B T_{eff}}, \quad (3.4.5) $$
+$$\Delta t_{gate} \ge \frac{q \hbar_{eff} \ln 2}{k_B T_{eff}}, \quad (3.4.5)$$
 where $T_{eff}$ = device temperature.
 
 #### 3.5 Experimental Evidence
@@ -1935,7 +1935,7 @@ The Cumulative Delay Principle (CDP) of the Theory of Entropicity (ToE) thus has
 *   **Unifies Emergent Time Concepts**:
     *   Unifies Page–Wootters quantum time with thermodynamic time: Links Page–Wootters quantum time, thermodynamic time, and causal diamond time.
 *   **Modifies speed of light (Effective light speed)** for high-entropy processes:
-    $$ c_{eff} = c \sqrt{1 + (\Delta t_{min} / t_P)^2} \quad (3.6.1) $$
+    $$c_{eff} = c \sqrt{1 + (\Delta t_{min} / t_P)^2} \quad (3.6.1)$$
     where $t_P$ is the Planck time.
 
 ##### 3.6.1 Entropic Derivation of the Attosecond Entanglement Formation and Neutrino Oscillation Delays in the Theory of Entropicity (ToE)
@@ -1945,26 +1945,26 @@ In this subsection we derive, from first principles of the Theory of Entropicity
 ##### 3.6.1.1 Attosecond Entanglement Experiments and ToE Calculations
 
 In ToE, entropy $S(x, t)$ is a local physical field, and the quantum weighting of histories $\Gamma$ is given by the Vuli–Ndlela Integral (VNI), which separates reversible and irreversible contributions:
-$$ A[\Gamma] = \int_0^{\Delta t_0} (L_{rev}[S, \partial S, \dots] - R_{irr}[S, \partial S, \dots]) dt, \quad (3.6.2) $$
-$$ W[\Gamma] \propto \exp \left\{ \frac{i}{\hbar_{eff}} \int L_{rev} dt - \frac{1}{\hbar_{eff}} \int R_{irr} dt \right\}. \quad (3.6.3) $$
+$$A[\Gamma] = \int_0^{\Delta t_0} (L_{rev}[S, \partial S, \dots] - R_{irr}[S, \partial S, \dots]) dt, \quad (3.6.2)$$
+$$W[\Gamma] \propto \exp \left\{ \frac{i}{\hbar_{eff}} \int L_{rev} dt - \frac{1}{\hbar_{eff}} \int R_{irr} dt \right\}. \quad (3.6.3)$$
 Here, $L_{rev}$ governs the reversible (phase) part, while the irreversible rate density is $R_{irr} = k_B \dot{S}$, $\dot{S} \equiv \frac{d}{dt} \int s(x, t) d^3x$. The imaginary (dissipative) factor suppresses histories that attempt to exceed the entropy redistribution capacity of the field.
 
 **Entropic admissibility and the time–entropy bound.** For a process to occur with non-negligible probability, the irreversible exponent must remain of order unity:
-$$ \frac{1}{\hbar_{eff}} \int_0^{\Delta t_0} R_{irr} dt = \frac{k_B \Delta S}{\hbar_{eff}} \lesssim \mathcal{O}(1). $$
+$$\frac{1}{\hbar_{eff}} \int_0^{\Delta t_0} R_{irr} dt = \frac{k_B \Delta S}{\hbar_{eff}} \lesssim \mathcal{O}(1).$$
 Approximating $\dot{S}$ by its operational mean value $\langle \dot{S} \rangle$ yields the entropic quantum-speed limit
-$$ \Delta t_{min} = \frac{\hbar_{eff}}{k_B \langle \dot{S} \rangle}. \quad (3.6.4) $$
+$$\Delta t_{min} = \frac{\hbar_{eff}}{k_B \langle \dot{S} \rangle}. \quad (3.6.4)$$
 This is the Cumulative Delay Principle (CDP): any transition requiring entropy flow needs at least this time budget so that the VNI weight is not exponentially suppressed.
 
 **Physical intuition.** The reversible phase can oscillate instantly, but correlations cannot form faster than the universe can redistribute entropy. The decay functional $\int R_{irr} dt$ enforces that causal ceiling.
 
 **Application to attosecond electron–photon entanglement.** For electron–photon entanglement driven by an attosecond pump, the entropy redistribution rate $\dot{S}$ is set by the pump envelope, electronic bandwidth, and mode volume. Using the mean $\langle \dot{S} \rangle$ gives
-$$ \Delta t_{ent} = \frac{\hbar_{eff}}{k_B \langle \dot{S} \rangle}. \quad (3.6.5) $$
+$$\Delta t_{ent} = \frac{\hbar_{eff}}{k_B \langle \dot{S} \rangle}. \quad (3.6.5)$$
 Experimentally, inserting $\langle \dot{S} \rangle \sim 10^{15} k_B / s$ yields $\Delta t_{ent} \approx 230 \pm 20$ as, matching the observed 232 as delay.
 
 **Variational origin from the Obidi Action.** Extremizing the reversible action over a short window while holding the entropy budget $\Delta S$ fixed with a Lagrange multiplier $\lambda$,
-$$ \delta \left[ \int_0^t L_{rev} dt' - \lambda \left( \int_0^t \dot{S} dt' - \Delta S \right) \right] = 0, \quad (3.6.6) $$
+$$\delta \left[ \int_0^t L_{rev} dt' - \lambda \left( \int_0^t \dot{S} dt' - \Delta S \right) \right] = 0, \quad (3.6.6)$$
 gives the usual Euler–Lagrange equations and a constant $\lambda = \hbar_{eff} / k_B$. Hence
-$$ \Delta t = \frac{\hbar_{eff}}{k_B} \frac{1}{\langle \dot{S} \rangle}, \quad (3.6.7) $$
+$$\Delta t = \frac{\hbar_{eff}}{k_B} \frac{1}{\langle \dot{S} \rangle}, \quad (3.6.7)$$
 the same CDP time derived above.
 
 **Interpretation.** The speed limit arises from the imaginary (irreversible) part of the VNI weight, not from a postulated kinematic bound. $\hbar_{eff}$ and $\dot{S}$ are ToE quantities, not fitted parameters, explaining why the attosecond result aligns naturally with experiment.
@@ -1974,24 +1974,24 @@ the same CDP time derived above.
 For flavor oscillations, ToE assigns each interaction channel its own entropy rate $\dot{S}_{int}$. Weak interactions therefore obey their own entropy throughput limit.
 
 **Setup.** The VNI for weak processes reads
-$$ W[\Gamma] \propto \exp \left\{ \frac{i}{\hbar_{eff}} \int L_{rev} dt - \frac{1}{\hbar_{eff}} \int R^{(weak)}_{irr} dt \right\}, \quad (3.6.8) $$
+$$W[\Gamma] \propto \exp \left\{ \frac{i}{\hbar_{eff}} \int L_{rev} dt - \frac{1}{\hbar_{eff}} \int R^{(weak)}_{irr} dt \right\}, \quad (3.6.8)$$
 where
-$$ R^{(weak)}_{irr} = k_B \dot{S}_{weak}, \quad \gamma_{weak} = \frac{k_B}{\hbar_{eff}} \dot{S}_{weak}. \quad (3.6.9) $$
+$$R^{(weak)}_{irr} = k_B \dot{S}_{weak}, \quad \gamma_{weak} = \frac{k_B}{\hbar_{eff}} \dot{S}_{weak}. \quad (3.6.9)$$
 This introduces a damping factor $\exp[-\gamma_{weak} t]$ that enforces entropic admissibility for weak-sector transitions. The reversible phase difference between two mass eigenstates over baseline $L \simeq t$ is $\Delta E \simeq \frac{\Delta m^2}{2 E_{\nu}}$, (3.6.10) so the interference term behaves as
-$$ P_{\alpha \to \beta}(t) \propto \sin^2 \left( \frac{\Delta E t}{2 \hbar_{eff}} \right) e^{-2 \gamma_{weak} t} \approx \left( \frac{\Delta E t}{2 \hbar_{eff}} \right)^2 e^{-2 \gamma_{weak} t}. \quad (3.6.11) $$
+$$P_{\alpha \to \beta}(t) \propto \sin^2 \left( \frac{\Delta E t}{2 \hbar_{eff}} \right) e^{-2 \gamma_{weak} t} \approx \left( \frac{\Delta E t}{2 \hbar_{eff}} \right)^2 e^{-2 \gamma_{weak} t}. \quad (3.6.11)$$
 **First-rise time.** Maximizing $f(t) = t^2 e^{-2\gamma t}$ gives $t^\star = 1/\gamma$, the entropic time limit for the weak channel:
-$$ t^{(weak)}_{ent} = \frac{\hbar_{eff}}{k_B \dot{S}_{weak}}. \quad (3.6.12) $$
+$$t^{(weak)}_{ent} = \frac{\hbar_{eff}}{k_B \dot{S}_{weak}}. \quad (3.6.12)$$
 **Phase–entropy matching and excess delay.** At onset, we require that the phase information created matches the entropy budget delivered by the weak channel:
-$$ \frac{\Delta E}{\hbar_{eff}} t \sim c_{osc} \frac{k_B \dot{S}_{weak} t}{\hbar_{eff}}, \quad (3.6.13) $$
+$$\frac{\Delta E}{\hbar_{eff}} t \sim c_{osc} \frac{k_B \dot{S}_{weak} t}{\hbar_{eff}}, \quad (3.6.13)$$
 where $c_{osc} \sim \mathcal{O}(1)$ is the detectability threshold. Cancelling common factors yields $\Delta E \sim c_{osc} k_B \dot{S}_{weak}$. (3.6.14) Evaluating at $t = t^{(weak)}_{ent}$ gives the additional latency
-$$ \Delta t_{excess} = c_{osc} \frac{\hbar_{eff}}{ \Delta m^2 / (2 E_{\nu}) } \frac{1}{k_B \dot{S}_{weak}} = c_{osc} \frac{\hbar_{eff} \Delta m^2}{2 k_B E_{\nu} \dot{S}_{weak}}. \quad (3.6.15) $$
+$$\Delta t_{excess} = c_{osc} \frac{\hbar_{eff}}{ \Delta m^2 / (2 E_{\nu}) } \frac{1}{k_B \dot{S}_{weak}} = c_{osc} \frac{\hbar_{eff} \Delta m^2}{2 k_B E_{\nu} \dot{S}_{weak}}. \quad (3.6.15)$$
 This coincides with the empirical millisecond-scale neutrino delays when $\dot{S}_{weak}$ is estimated from weak-interaction entropy throughput in the atmosphere.
 
 **Alternative derivation by constrained variation.** Here we extremize the reversible action under a fixed weak-channel entropy budget:
-$$ \delta \left[ \int_0^t \Delta E dt' - \lambda \left( \int_0^t \dot{S}_{weak} dt' - \Delta S_{min} \right) \right] = 0. \quad (3.6.16) $$
+$$\delta \left[ \int_0^t \Delta E dt' - \lambda \left( \int_0^t \dot{S}_{weak} dt' - \Delta S_{min} \right) \right] = 0. \quad (3.6.16)$$
 Stationarity gives $\Delta E = \lambda \dot{S}_{weak}$, and identifying $\lambda = \hbar_{eff} / k_B$ yields
-$$ \Delta t_{excess} = c_{osc} \frac{\hbar_{eff}}{ \Delta m^2 / (2 E_{\nu}) } \frac{1}{k_B \dot{S}_{weak}}. \quad (3.6.17) $$
-$$ \Delta t_{excess} \simeq \frac{\hbar_{eff} \Delta m^2}{2 k_B E_{\nu} \dot{S}_{weak}} \quad (\text{up to an order-unity factor from the onset threshold}). \quad (3.6.18) $$
+$$\Delta t_{excess} = c_{osc} \frac{\hbar_{eff}}{ \Delta m^2 / (2 E_{\nu}) } \frac{1}{k_B \dot{S}_{weak}}. \quad (3.6.17)$$
+$$\Delta t_{excess} \simeq \frac{\hbar_{eff} \Delta m^2}{2 k_B E_{\nu} \dot{S}_{weak}} \quad (\text{up to an order-unity factor from the onset threshold}). \quad (3.6.18)$$
 **Result.** This formula matches the empirical millisecond-scale delays observed in neutrino oscillations.
 
 **Interpretation.** The factor $\frac{\hbar_{eff}}{k_B \dot{S}_{weak}}$ is the weak-channel entropic time scale, governing how fast the weak sector can redistribute entropy. The factor $\frac{\Delta m^2}{E_{\nu}}$ is the kinematic splitting that sets how quickly phase information is generated. Their product yields the measurable additional latency before oscillations become visible, enforcing causality through entropy flow.
@@ -2047,7 +2047,7 @@ The No-Rush Theorem states:
 **No physical interaction can occur instantaneously. Every interaction must proceed through a finite, irreducible minimum time interval, governed by the structure and intensity of the entropy field.**
 
 This principle is formalized mathematically as:
-$$ \Delta t_{min} = \sqrt{\frac{\lambda}{k_B^2 \langle (\nabla S)^2 \rangle}} \quad (5.3.1) $$
+$$\Delta t_{min} = \sqrt{\frac{\lambda}{k_B^2 \langle (\nabla S)^2 \rangle}} \quad (5.3.1)$$
 Where:
 *   $\Delta t_{min}$: Minimum entropic interaction time
 *   $\lambda$: Entropic coupling constant
@@ -2148,7 +2148,7 @@ $S(x)$: dimensionless entropy field, use $S = s/s_0$ if carrying thermodynamic u
 ##### 6.3.2 Action (Einstein frame)
 
 The total action is:
-$$ S_{total} = \int d^4x \sqrt{-g} \left[ \frac{M_{Pl}^2}{2} R + Z_S S^2 \partial_\mu S \partial^\mu S - V(S) \right] + S_{matter}[A^2(S) g_{\mu\nu}, \psi] \quad (6.3.1) $$
+$$S_{total} = \int d^4x \sqrt{-g} \left[ \frac{M_{Pl}^2}{2} R + Z_S S^2 \partial_\mu S \partial^\mu S - V(S) \right] + S_{matter}[A^2(S) g_{\mu\nu}, \psi] \quad (6.3.1)$$
 We choose: $A(S) = \exp(\beta S)$ with small $|\beta|$, and set $Z_S = 1$ by field rescaling. The potential $V(S)$ can be quadratic ($\frac{1}{2} m_S^2 S^2$) for laboratory/solar-system analyses or shallower for cosmology.
 
 ---
