@@ -1951,13 +1951,11 @@ $$W[\Gamma] \propto \exp\left\{\frac{i}{\hbar_{eff}} \int L_{rev}\, dt - \frac{1
 
 $$W[\Gamma] \propto \exp \left\{ \frac{i}{\hbar_{eff}} \int L_{rev} dt - \frac{1}{\hbar_{eff}} \int R_{irr} dt \right\}. \quad (3.6.3)$$
 
-$$
-W[\Gamma] \propto \exp\left(
+$$W[\Gamma] \propto \exp\left(
     \frac{i}{\hbar_{\mathrm{eff}}} \int L_{\mathrm{rev}}\, dt
     -
     \frac{1}{\hbar_{\mathrm{eff}}} \int R_{\mathrm{irr}}\, dt
-\right). \tag{3.6.3}
-$$
+\right). \tag{3.6.3}$$
 
 
 Here, $L_{rev}$ governs the reversible (phase) part, while the irreversible rate density is $R_{irr} = k_B \dot{S}$, $\dot{S} \equiv \frac{d}{dt} \int s(x, t) d^3x$. The imaginary (dissipative) factor suppresses histories that attempt to exceed the entropy redistribution capacity of the field.
