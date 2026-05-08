@@ -1959,7 +1959,9 @@ $$W[\Gamma] \propto \exp \left( \frac{i}{\hbar_{\mathrm{eff}}} \int L_{\mathrm{r
 Here, $L_{rev}$ governs the reversible (phase) part, while the irreversible rate density is $R_{irr} = k_B \dot{S}$, $\dot{S} \equiv \frac{d}{dt} \int s(x, t) d^3x$. The imaginary (dissipative) factor suppresses histories that attempt to exceed the entropy redistribution capacity of the field.
 
 **Entropic admissibility and the time–entropy bound.** For a process to occur with non-negligible probability, the irreversible exponent must remain of order unity:
+
 $$\frac{1}{\hbar_{eff}} \int_0^{\Delta t_0} R_{irr} dt = \frac{k_B \Delta S}{\hbar_{eff}} \lesssim \mathcal{O}(1).$$
+
 Approximating $\dot{S}$ by its operational mean value $\langle \dot{S} \rangle$ yields the entropic quantum-speed limit
 $$\Delta t_{min} = \frac{\hbar_{eff}}{k_B \langle \dot{S} \rangle}. \quad (3.6.4)$$
 This is the Cumulative Delay Principle (CDP): any transition requiring entropy flow needs at least this time budget so that the VNI weight is not exponentially suppressed.
@@ -1967,13 +1969,19 @@ This is the Cumulative Delay Principle (CDP): any transition requiring entropy f
 **Physical intuition.** The reversible phase can oscillate instantly, but correlations cannot form faster than the universe can redistribute entropy. The decay functional $\int R_{irr} dt$ enforces that causal ceiling.
 
 **Application to attosecond electron–photon entanglement.** For electron–photon entanglement driven by an attosecond pump, the entropy redistribution rate $\dot{S}$ is set by the pump envelope, electronic bandwidth, and mode volume. Using the mean $\langle \dot{S} \rangle$ gives
+
 $$\Delta t_{ent} = \frac{\hbar_{eff}}{k_B \langle \dot{S} \rangle}. \quad (3.6.5)$$
+
 Experimentally, inserting $\langle \dot{S} \rangle \sim 10^{15} k_B / s$ yields $\Delta t_{ent} \approx 230 \pm 20$ as, matching the observed 232 as delay.
 
 **Variational origin from the Obidi Action.** Extremizing the reversible action over a short window while holding the entropy budget $\Delta S$ fixed with a Lagrange multiplier $\lambda$,
+
 $$\delta \left[ \int_0^t L_{rev} dt' - \lambda \left( \int_0^t \dot{S} dt' - \Delta S \right) \right] = 0, \quad (3.6.6)$$
+
 gives the usual Euler–Lagrange equations and a constant $\lambda = \hbar_{eff} / k_B$. Hence
+
 $$\Delta t = \frac{\hbar_{eff}}{k_B} \frac{1}{\langle \dot{S} \rangle}, \quad (3.6.7)$$
+
 the same CDP time derived above.
 
 **Interpretation.** The speed limit arises from the imaginary (irreversible) part of the VNI weight, not from a postulated kinematic bound. $\hbar_{eff}$ and $\dot{S}$ are ToE quantities, not fitted parameters, explaining why the attosecond result aligns naturally with experiment.
@@ -1983,17 +1991,25 @@ the same CDP time derived above.
 For flavor oscillations, ToE assigns each interaction channel its own entropy rate $\dot{S}_{int}$. Weak interactions therefore obey their own entropy throughput limit.
 
 **Setup.** The VNI for weak processes reads
+
 $$W[\Gamma] \propto \exp \left\{ \frac{i}{\hbar_{eff}} \int L_{rev} dt - \frac{1}{\hbar_{eff}} \int R^{(weak)}_{irr} dt \right\}, \quad (3.6.8)$$
+
 where
+
 $$R^{(weak)}_{irr} = k_B \dot{S}_{weak}, \quad \gamma_{weak} = \frac{k_B}{\hbar_{eff}} \dot{S}_{weak}. \quad (3.6.9)$$
+
 This introduces a damping factor $\exp[-\gamma_{weak} t]$ that enforces entropic admissibility for weak-sector transitions. The reversible phase difference between two mass eigenstates over baseline $L \simeq t$ is $\Delta E \simeq \frac{\Delta m^2}{2 E_{\nu}}$, (3.6.10) so the interference term behaves as
+
 $$P_{\alpha \to \beta}(t) \propto \sin^2 \left( \frac{\Delta E t}{2 \hbar_{eff}} \right) e^{-2 \gamma_{weak} t} \approx \left( \frac{\Delta E t}{2 \hbar_{eff}} \right)^2 e^{-2 \gamma_{weak} t}. \quad (3.6.11)$$
 
 **First-rise time.** Maximizing $f(t) = t^2 e^{-2\gamma t}$ gives $t^\star = 1/\gamma$, the entropic time limit for the weak channel:
+
 $$t^{(weak)}_{ent} = \frac{\hbar_{eff}}{k_B \dot{S}_{weak}}. \quad (3.6.12)$$
 
 **Phase–entropy matching and excess delay.** At onset, we require that the phase information created matches the entropy budget delivered by the weak channel:
+
 $$\frac{\Delta E}{\hbar_{eff}} t \sim c_{osc} \frac{k_B \dot{S}_{weak} t}{\hbar_{eff}}, \quad (3.6.13)$$
+
 where $c_{osc} \sim \mathcal{O}(1)$ is the detectability threshold. Cancelling common factors yields $\Delta E \sim c_{osc} k_B \dot{S}_{weak}$. (3.6.14) Evaluating at $t = t^{(weak)}_{ent}$ gives the additional latency
 
 $$\Delta t_{excess} = c_{osc} \frac{\hbar_{eff}}{ \Delta m^2 / (2 E_{\nu}) } \frac{1}{k_B \dot{S}_{weak}} = c_{osc} \frac{\hbar_{eff} \Delta m^2}{2 k_B E_{\nu} \dot{S}_{weak}}. \quad (3.6.15)$$
@@ -2001,7 +2017,9 @@ $$\Delta t_{excess} = c_{osc} \frac{\hbar_{eff}}{ \Delta m^2 / (2 E_{\nu}) } \fr
 This coincides with the empirical millisecond-scale neutrino delays when $\dot{S}_{weak}$ is estimated from weak-interaction entropy throughput in the atmosphere.
 
 **Alternative derivation by constrained variation.** Here we extremize the reversible action under a fixed weak-channel entropy budget:
+
 $$\delta \left[ \int_0^t \Delta E dt' - \lambda \left( \int_0^t \dot{S}_{weak} dt' - \Delta S_{min} \right) \right] = 0. \quad (3.6.16)$$
+
 Stationarity gives $\Delta E = \lambda \dot{S}_{weak}$, and identifying $\lambda = \hbar_{eff} / k_B$ yields
 
 $$\Delta t_{excess} = c_{osc} \frac{\hbar_{eff}}{ \Delta m^2 / (2 E_{\nu}) } \frac{1}{k_B \dot{S}_{weak}}. \quad (3.6.17)$$
@@ -2065,6 +2083,7 @@ The No-Rush Theorem states:
 This principle is formalized mathematically as:
 
 $$\Delta t_{min} = \sqrt{\frac{\lambda}{k_B^2 \langle (\nabla S)^2 \rangle}} \quad (5.3.1)$$
+
 Where:
 *   $\Delta t_{min}$: Minimum entropic interaction time
 *   $\lambda$: Entropic coupling constant
@@ -2165,7 +2184,9 @@ $S(x)$: dimensionless entropy field, use $S = s/s_0$ if carrying thermodynamic u
 ##### 6.3.2 Action (Einstein frame)
 
 The total action is:
+
 $$S_{total} = \int d^4x \sqrt{-g} \left[ \frac{M_{Pl}^2}{2} R + Z_S S^2 \partial_\mu S \partial^\mu S - V(S) \right] + S_{matter}[A^2(S) g_{\mu\nu}, \psi] \quad (6.3.1)$$
+
 We choose: $A(S) = \exp(\beta S)$ with small $|\beta|$, and set $Z_S = 1$ by field rescaling. The potential $V(S)$ can be quadratic ($\frac{1}{2} m_S^2 S^2$) for laboratory/solar-system analyses or shallower for cosmology.
 
 ---
