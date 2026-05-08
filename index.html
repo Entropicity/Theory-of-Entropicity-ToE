@@ -265,55 +265,26 @@
 }
 
 
-.toe-logo {
+/* HEADER IS THE POSITIONING CONTAINER */
+header .header {
+    position: relative;
+    height: 180px;          /* adjust to match your header rectangle */
+    padding-left: 120px;    /* shifts title right so it doesn't overlap logo */
+}
+
+/* LOGO POSITIONED INSIDE HEADER, NOT FIXED TO PAGE */
+header .header img {
     position: absolute;
     top: 20px;
     left: 20px;
-}
-
-.toe-logo img {
-    height: 60px;   /* adjust size */
-    width: auto;
-}
-body {
-    padding-top: 100px;
-}
-
-.toe-logo {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 9999;
-}
-
-
-.header {
-    position: relative;   /* IMPORTANT: creates a boundary */
-}
-
-.toe-logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    height: 60px;     /* adjust to desired size */
+    height: 70px;           /* adjust size */
     width: auto;
     object-fit: contain;
 }
 
-
-.header {
-    padding-left: 100px;  /* adjust until title clears the logo */
-}
-
-.header {
-    position: relative;   /* REQUIRED */
-    height: 180px;        /* or whatever your header height is */
-}
-
-.header h1,
-.header h2,
-.header p {
-    padding-left: 100px;   /* adjust until text clears the logo */
+/* REMOVE ANY TOP PADDING THAT CREATES WHITE SPACE */
+body {
+    padding-top: 0;
 }
 
 </style>
