@@ -1950,7 +1950,9 @@ In ToE, entropy $S(x, t)$ is a local physical field, and the quantum weighting o
 $$A[\Gamma] = \int_0^{\Delta t_0} (L_{rev}[S, \partial S, \dots] - R_{irr}[S, \partial S, \dots]) dt, \quad (3.6.2)$$
 
 
-$$W\[\Gamma\] \sim \exp \left(\frac{i}{\hbar_{\mathrm{eff}}} \int L_{\mathrm{rev}}\, dt-\frac{1}{\hbar_{\mathrm{eff}}} \int R_{\mathrm{irr}}\,dt\right).\tag{3.6.3}$$
+$$R_H(t) \sim ct \exp \left( - \int_0^t \frac{\dot{S}_{cosm}(t')}{k_B} dt' \right)$$
+
+$$W\[\Gamma\] \sim \exp \left(( \frac{i}{\hbar_{\mathrm{eff}}} \int L_{\mathrm{rev}}\, dt-\frac{1}{\hbar_{\mathrm{eff}}} \int R_{\mathrm{irr}}\,dt\right).\tag{3.6.3})$$
 
 
 Here, $L_{rev}$ governs the reversible (phase) part, while the irreversible rate density is $R_{irr} = k_B \dot{S}$, $\dot{S} \equiv \frac{d}{dt} \int s(x, t) d^3x$. The imaginary (dissipative) factor suppresses histories that attempt to exceed the entropy redistribution capacity of the field.
