@@ -1953,7 +1953,7 @@ $$W[\Gamma] \propto \exp\left\{\frac{i}{\hbar_{eff}} \int L_{rev}\, dt - \frac{1
 
 $$W[\Gamma] \propto \exp \left\{ \frac{i}{\hbar_{eff}} \int L_{rev} dt - \frac{1}{\hbar_{eff}} \int R_{irr} dt \right\}. \quad (3.6.3)$$
 
-$$W[\Gamma] \propto \exp\left(\frac{i}{\hbar_{\mathrm{eff}}} \int L_{\mathrm{rev}}\, dt-\frac{1}{\hbar_{\mathrm{eff}}} \int R_{\mathrm{irr}}\,dt\right).\tag{3.6.3}$$
+$$W[\Gamma] \propto \exp \left( \frac{i}{\hbar_{\mathrm{eff}}} \int L_{\mathrm{rev}}\, dt-\frac{1}{\hbar_{\mathrm{eff}}} \int R_{\mathrm{irr}}\,dt\right).\tag{3.6.3}$$
 
 
 Here, $L_{rev}$ governs the reversible (phase) part, while the irreversible rate density is $R_{irr} = k_B \dot{S}$, $\dot{S} \equiv \frac{d}{dt} \int s(x, t) d^3x$. The imaginary (dissipative) factor suppresses histories that attempt to exceed the entropy redistribution capacity of the field.
@@ -1988,19 +1988,26 @@ where
 $$R^{(weak)}_{irr} = k_B \dot{S}_{weak}, \quad \gamma_{weak} = \frac{k_B}{\hbar_{eff}} \dot{S}_{weak}. \quad (3.6.9)$$
 This introduces a damping factor $\exp[-\gamma_{weak} t]$ that enforces entropic admissibility for weak-sector transitions. The reversible phase difference between two mass eigenstates over baseline $L \simeq t$ is $\Delta E \simeq \frac{\Delta m^2}{2 E_{\nu}}$, (3.6.10) so the interference term behaves as
 $$P_{\alpha \to \beta}(t) \propto \sin^2 \left( \frac{\Delta E t}{2 \hbar_{eff}} \right) e^{-2 \gamma_{weak} t} \approx \left( \frac{\Delta E t}{2 \hbar_{eff}} \right)^2 e^{-2 \gamma_{weak} t}. \quad (3.6.11)$$
+
 **First-rise time.** Maximizing $f(t) = t^2 e^{-2\gamma t}$ gives $t^\star = 1/\gamma$, the entropic time limit for the weak channel:
 $$t^{(weak)}_{ent} = \frac{\hbar_{eff}}{k_B \dot{S}_{weak}}. \quad (3.6.12)$$
+
 **Phase–entropy matching and excess delay.** At onset, we require that the phase information created matches the entropy budget delivered by the weak channel:
 $$\frac{\Delta E}{\hbar_{eff}} t \sim c_{osc} \frac{k_B \dot{S}_{weak} t}{\hbar_{eff}}, \quad (3.6.13)$$
 where $c_{osc} \sim \mathcal{O}(1)$ is the detectability threshold. Cancelling common factors yields $\Delta E \sim c_{osc} k_B \dot{S}_{weak}$. (3.6.14) Evaluating at $t = t^{(weak)}_{ent}$ gives the additional latency
+
 $$\Delta t_{excess} = c_{osc} \frac{\hbar_{eff}}{ \Delta m^2 / (2 E_{\nu}) } \frac{1}{k_B \dot{S}_{weak}} = c_{osc} \frac{\hbar_{eff} \Delta m^2}{2 k_B E_{\nu} \dot{S}_{weak}}. \quad (3.6.15)$$
+
 This coincides with the empirical millisecond-scale neutrino delays when $\dot{S}_{weak}$ is estimated from weak-interaction entropy throughput in the atmosphere.
 
 **Alternative derivation by constrained variation.** Here we extremize the reversible action under a fixed weak-channel entropy budget:
 $$\delta \left[ \int_0^t \Delta E dt' - \lambda \left( \int_0^t \dot{S}_{weak} dt' - \Delta S_{min} \right) \right] = 0. \quad (3.6.16)$$
 Stationarity gives $\Delta E = \lambda \dot{S}_{weak}$, and identifying $\lambda = \hbar_{eff} / k_B$ yields
+
 $$\Delta t_{excess} = c_{osc} \frac{\hbar_{eff}}{ \Delta m^2 / (2 E_{\nu}) } \frac{1}{k_B \dot{S}_{weak}}. \quad (3.6.17)$$
+
 $$\Delta t_{excess} \simeq \frac{\hbar_{eff} \Delta m^2}{2 k_B E_{\nu} \dot{S}_{weak}} \quad (\text{up to an order-unity factor from the onset threshold}). \quad (3.6.18)$$
+
 **Result.** This formula matches the empirical millisecond-scale delays observed in neutrino oscillations.
 
 **Interpretation.** The factor $\frac{\hbar_{eff}}{k_B \dot{S}_{weak}}$ is the weak-channel entropic time scale, governing how fast the weak sector can redistribute entropy. The factor $\frac{\Delta m^2}{E_{\nu}}$ is the kinematic splitting that sets how quickly phase information is generated. Their product yields the measurable additional latency before oscillations become visible, enforcing causality through entropy flow.
@@ -2056,6 +2063,7 @@ The No-Rush Theorem states:
 **No physical interaction can occur instantaneously. Every interaction must proceed through a finite, irreducible minimum time interval, governed by the structure and intensity of the entropy field.**
 
 This principle is formalized mathematically as:
+
 $$\Delta t_{min} = \sqrt{\frac{\lambda}{k_B^2 \langle (\nabla S)^2 \rangle}} \quad (5.3.1)$$
 Where:
 *   $\Delta t_{min}$: Minimum entropic interaction time
