@@ -2020,7 +2020,15 @@ This coincides with the empirical millisecond-scale neutrino delays when $\dot{S
 
 $$\delta \left[ \int_0^t \Delta E dt' - \lambda \left( \int_0^t \dot{S}_{weak} dt' - \Delta S_{min} \right) \right] = 0. \quad (3.6.16)$$
 
-Stationarity gives $\Delta E = \lambda \dot{S}_{weak}$, and identifying $\lambda = \hbar_{eff} / k_B$ yields
+Stationarity gives 
+
+$$\Delta E = \lambda \dot{S}_{weak}$$, 
+
+and identifying 
+
+$$\lambda = \hbar_{eff} / k_B$$ 
+
+yields
 
 $$\Delta t_{excess} = c_{osc} \frac{\hbar_{eff}}{ \Delta m^2 / (2 E_{\nu}) } \frac{1}{k_B \dot{S}_{weak}}. \quad (3.6.17)$$
 
@@ -2028,7 +2036,15 @@ $$\Delta t_{excess} \simeq \frac{\hbar_{eff} \Delta m^2}{2 k_B E_{\nu} \dot{S}_{
 
 **Result.** This formula matches the empirical millisecond-scale delays observed in neutrino oscillations.
 
-**Interpretation.** The factor $\frac{\hbar_{eff}}{k_B \dot{S}_{weak}}$ is the weak-channel entropic time scale, governing how fast the weak sector can redistribute entropy. The factor $\frac{\Delta m^2}{E_{\nu}}$ is the kinematic splitting that sets how quickly phase information is generated. Their product yields the measurable additional latency before oscillations become visible, enforcing causality through entropy flow.
+**Interpretation.** The factor 
+
+$$\frac{\hbar_{eff}}{k_B \dot{S}_{weak}}$$ 
+
+is the weak-channel entropic time scale, governing how fast the weak sector can redistribute entropy. The factor 
+
+$$\frac{\Delta m^2}{E_{\nu}}$$ 
+
+is the kinematic splitting that sets how quickly phase information is generated. Their product yields the measurable additional latency before oscillations become visible, enforcing causality through entropy flow.
 
 **Salient Comment.** This derivation is purely ToE-based: it emerges from the entropic irreversibility term in the VNI and the entropy-limited throughput of the weak interaction, without invoking quantum phase postulates. It explains naturally why lower-energy neutrinos and weaker entropy-throughput environments exhibit longer excess delays.
 
