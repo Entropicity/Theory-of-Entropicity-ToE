@@ -286,18 +286,33 @@ body {
     z-index: 9999;
 }
 
+
+.header {
+    position: relative;   /* IMPORTANT: creates a boundary */
+}
+
+.toe-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 60px;         /* adjust size */
+    width: auto;
+}
+
+.header {
+    padding-left: 100px;  /* adjust until title clears the logo */
+}
+
 </style>
 </head>
 <body>
 
-<div class="toe-logo">
-    <a href="index.html">
-        <img src="https://entropicity.github.io/Theory-of-Entropicity-ToE/images/Theory-of-Entropicity-(ToE)-Entropy-Shapes-Reality_Profile-Image-Logo.png" alt="ToE Logo">
-    </a>
-</div>
 
 <header>
-   <header>
+<div class="header">
+     <a href="index.html">
+        <img src="https://entropicity.github.io/Theory-of-Entropicity-ToE/images/Theory-of-Entropicity-(ToE)-Entropy-Shapes-Reality_Profile-Image-Logo.png" alt="ToE Logo">
+    </a>
     <h1>The Theory of Entropicity (ToE)</h1>
     <p style="padding-bottom: 15px;">Entropy as the substrate of reality</p>
     <p><em>By&nbsp;&nbsp;John Onimisi Obidi</em></p>
@@ -327,6 +342,7 @@ body {
     <a href="toe-living-review-letters/">ToE Living Review Letters</a>
     <a href="references.html">References</a>
 </nav>
+</div>
 
 <div class="toe-flex-container">
 
