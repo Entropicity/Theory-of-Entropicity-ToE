@@ -2071,9 +2071,9 @@ The theorem offers a physical explanation for phenomena like time dilation and l
 
 The theorem extends to quantum mechanics, where it suggests that events like quantum entanglement and wave function collapse also occur within a finite time frame, governed by the same entropic speed limit. This provides an interpretation of recent experimental measurements showing entanglement formation takes time (attoseconds).
 
-##### 4.1.5 "Nature cannot be rushed"
+##### 4.1.5 "God or Nature cannot be rushed" (G/NCBR)
 
-Obidi summarizes the theorem with the phrase "Nature cannot be rushed," encapsulating the idea that the universe, at its most fundamental level, operates at a finite "processing and propagation speed".
+Obidi summarizes the theorem with the phrase **"God or Nature cannot be rushed (G/NCBR),"** encapsulating the idea that the universe, at its most fundamental level, operates at a finite "processing and propagation speed".
 
 ---
 
@@ -2081,7 +2081,7 @@ Obidi summarizes the theorem with the phrase "Nature cannot be rushed," encapsul
 
 #### 5.1 Introduction
 
-The No-Rush Theorem, formulated within the Theory of Entropicity (ToE) by John Onimisi Obidi, posits a fundamental and universal limit on how fast any physical interaction can occur. The theorem asserts that every interaction requires a minimum, nonzero time interval to unfold. It declares, quite literally, that “ Nature cannot be rushed .” This minimum interaction time is not derived from uncertainty principles or measurement limitations. Instead, it arises from the intrinsic structure of a real, dynamic field of entropy, denoted as $S(x)$, that governs all physical processes. Within the ToE, entropy is promoted from a statistical descriptor of disorder to a field-theoretic entity with gradients, stiffness, curvature, and causal influence. Interactions are seen as redistributions or exchanges of this entropy field, and thus they cannot be instantaneous any more than waves can propagate with infinite speed.
+The No-Rush Theorem, formulated within the Theory of Entropicity (ToE) by John Onimisi Obidi, posits a fundamental and universal limit on how fast any physical interaction can occur. The theorem asserts that every interaction requires a minimum, nonzero time interval to unfold. It declares, quite literally, that **“God or Nature cannot be rushed (G/NCBR).”** This minimum interaction time is not derived from uncertainty principles or measurement limitations. Instead, it arises from the intrinsic structure of a real, dynamic field of entropy, denoted as $S(x)$, that governs all physical processes. Within the ToE, entropy is promoted from a statistical descriptor of disorder to a field-theoretic entity with gradients, stiffness, curvature, and causal influence. Interactions are seen as redistributions or exchanges of this entropy field, and thus they cannot be instantaneous any more than waves can propagate with infinite speed.
 
 #### 5.2 Historical Motivation and Theoretical Origins
 
