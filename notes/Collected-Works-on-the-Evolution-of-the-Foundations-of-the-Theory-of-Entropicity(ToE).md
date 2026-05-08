@@ -1992,7 +1992,13 @@ For flavor oscillations, ToE assigns each interaction channel its own entropy ra
 
 **Setup.** The VNI for weak processes reads
 
-$$W[\Gamma] \propto \exp \left\{ \frac{i}{\hbar_{eff}} \int L_{rev} dt - \frac{1}{\hbar_{eff}} \int R^{(weak)}_{irr} dt \right\}, \quad (3.6.8)$$
+$$
+W[\Gamma] \propto \exp\left(
+    \frac{i}{\hbar_{\mathrm{eff}}} \int L_{\mathrm{rev}}\, dt
+    -
+    \frac{1}{\hbar_{\mathrm{eff}}} \int R_{\mathrm{irr}}\, dt
+\right). \tag{3.6.3}
+$$
 
 where
 
