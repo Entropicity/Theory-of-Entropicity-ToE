@@ -295,12 +295,25 @@ body {
     position: absolute;
     top: 20px;
     left: 20px;
-    height: 60px;         /* adjust size */
+    height: 60px;     /* adjust to desired size */
     width: auto;
+    object-fit: contain;
 }
+
 
 .header {
     padding-left: 100px;  /* adjust until title clears the logo */
+}
+
+.header {
+    position: relative;   /* REQUIRED */
+    height: 180px;        /* or whatever your header height is */
+}
+
+.header h1,
+.header h2,
+.header p {
+    padding-left: 100px;   /* adjust until text clears the logo */
 }
 
 </style>
