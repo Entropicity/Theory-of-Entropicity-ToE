@@ -50,3 +50,19 @@ This GitHub repository acts as the central, authoritative anchor connecting all 
 
 Mission: 
 To establish the Theory of Entropicity as a rigorous, coherent, and enduring scientific framework — accessible to specialists and non‑specialists alike, and preserved across generations.
+
+
+- **Complete GitHub ToE Living Review Letters Series — Letter IE (First Public Release, ToE LRLS):**  
+  [John Onimisi Obidi. (2026). Entropicity/Theory-of-Entropicity-ToE: Letter IE — First Public Release (v10.05.2026.1). Complete ToE GitHub Package. Zenodo.](https://doi.org/10.5281/zenodo.20114386)
+
+- **Complete GitHub ToE — The Theory of Entropicity (ToE) Search‑Query‑Engine:**  
+  [John Onimisi Obidi. (2026). Entropicity/Theory-of-Entropicity-ToE-Search-Query-Engine: The Theory of Entropicity (ToE) Search‑Query‑Engine (v10.05.2026.1). Complete ToE GitHub Package. Zenodo.](https://doi.org/10.5281/zenodo.20116039)
+
+- **Agile Publishing Manifesto and Philosophy (APMaP) of the Theory of Entropicity (ToE):**  
+  [Open Science Framework. OSF.](https://doi.org/10.17605/OSF.IO/H8WR3)
+
+# Zenodo DOI Badge Strip
+[![DOI: Letter IE](https://img.shields.io/badge/DOI-10.5281/zenodo.20114386-blue)](https://doi.org/10.5281/zenodo.20114386)
+[![DOI: ToE Search‑Query‑Engine](https://img.shields.io/badge/DOI-10.5281/zenodo.20116039-blue)](https://doi.org/10.5281/zenodo.20116039)
+[![DOI: APMaP](https://img.shields.io/badge/DOI-10.17605/OSF.IO/H8WR3-blue)](https://doi.org/10.17605/OSF.IO/H8WR3)
+
