@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Entropic Courage of Being: A Comparative Analysis of John Onimisi Obidi’s Theory of Entropicity (ToE) and Paul Tillich’s “Courage to Be”</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Josefin+Sans:wght@200;300;400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ink: #0a0a0a;
+      --paper: #f5f0e8;
+      --cream: #ede7d5;
+      --gold: #8f6f1d;
+      --muted: #6b6355;
+      --rule: #c8bfa8;
+      --accent: #2a2318;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 18px; scroll-behavior: smooth; }
+    body {
+      background-color: var(--paper);
+      color: var(--ink);
+      font-family: 'EB Garamond', Georgia, serif;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 999;
+      opacity: 0.4;
+    }
+    .page-wrap { max-width: 780px; margin: 0 auto; padding: 4rem 2rem 8rem; }
+    header {
+      text-align: center;
+      padding: 5rem 0 3rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 3.5rem;
+    }
+    .journal-label {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-size: 0.65rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(1.9rem, 5vw, 3rem);
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+    }
+    h1 em { font-style: italic; color: var(--gold); }
+    .subtitle {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300;
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 2.5rem;
+    }
+    .ornament {
+      color: var(--gold);
+      font-size: 1.4rem;
+      letter-spacing: 0.5em;
+      opacity: 0.7;
+    }
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 500;
+      font-size: 1.55rem;
+      color: var(--accent);
+      margin: 3.5rem 0 1.2rem;
+      letter-spacing: 0.01em;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    h2 .section-num {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-size: 0.7rem;
+      letter-spacing: 0.25em;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 0.3rem;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 1.2rem;
+      color: var(--accent);
+      margin: 2.2rem 0 0.8rem;
+    }
+    p {
+      margin-bottom: 1.3rem;
+      font-size: 1rem;
+      color: #1a1612;
+      text-align: justify;
+      hyphens: auto;
+    }
+    p + p { text-indent: 1.5em; }
+    .dropcap::first-letter {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 4.2rem;
+      line-height: 0.75;
+      float: left;
+      margin-right: 0.1em;
+      margin-top: 0.12em;
+      color: var(--gold);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.8rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--rule);
+      padding: 0.6rem 0.7rem;
+      vertical-align: top;
+    }
+    th {
+      background: var(--cream);
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      color: var(--accent);
+    }
+    .diagram-box {
+      border: 1px solid var(--rule);
+      background: var(--cream);
+      padding: 1.2rem 1.4rem;
+      margin: 2.2rem 0;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+    }
+    .diagram-title {
+      text-align: center;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.8rem;
+    }
+    .ornamental-hr {
+      text-align: center;
+      color: var(--gold);
+      font-size: 1rem;
+      letter-spacing: 1em;
+      margin: 2.5rem 0;
+      opacity: 0.6;
+    }
+    footer {
+      margin-top: 5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule);
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 200;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-align: center;
+      line-height: 2;
+    }
+  </style>
+</head>
+
+<body>
+<div class="page-wrap">
+
+  <header>
+    <p class="journal-label">Philosophy of Physics · Theology of Being · 2026</p>
+    <h1>
+      <span style="display:block;">The Entropic Courage of Being</span>
+      <span style="display:block;">A Comparative Analysis of John Onimisi Obidi’s Theory of Entropicity (ToE)</span>
+      <span style="display:block;">and Paul Tillich’s “Courage to Be”</span>
+    </h1>
+    <p class="subtitle">A Study in the History and Philosophy of Science Juxtaposed With a Theology of Being, Anxiety, Nothingness, and the Decidedness to Live</p>
+    <div class="ornament">— ✦ —</div>
+  </header>
+
+  <div class="article-body">
+
+    <!-- ABSTRACT -->
+    <section>
+      <p class="dropcap">
+        This monograph presents a comparative analysis of <strong>John Onimisi Obidi’s Theory of Entropicity (ToE)</strong> and <strong>Paul Tillich’s 1952 classic, “The Courage to Be.”</strong> Though separated by discipline, century, and method, both thinkers confront the same primordial question: <em>How does being persist in the face of forces that threaten its dissolution?</em> Tillich approaches this question through the existential and theological lens of anxiety, nonbeing, and the human struggle for meaning. Obidi approaches it through the ontological and mathematical lens of entropy, informational asymmetry, and the structural persistence of systems in a universe governed by irreversible dynamics.
+      </p>
+
+      <p>
+        This study argues that the two frameworks, though distinct, converge on a shared metaphysical architecture: <strong>existence is an active, dynamic defiance against dissolution.</strong> For Tillich, this dissolution is existential nonbeing; for Obidi, it is entropic decay. For Tillich, the triumph over nonbeing is achieved through the <strong>Courage to Be</strong>; for Obidi, it is achieved through the <strong>Triadic ARC of Audacity, Radicality, and Courage</strong> within the entropic manifold. Ultimately, this monograph demonstrates that Obidi’s ToE provides a universal ontological substrate—<strong>the entropic field</strong>—that not only parallels but <em>subsumes</em> Tillich’s theological ontology, offering a unified account of the being of the self and the being of the cosmos.
+      </p>
+    </section>
+
+    <!-- SECTION I -->
+    <section>
+      <h2><span class="section-num">§ I</span> Foundational Overview</h2>
+
+      <p>
+        A comparative analysis of <strong>John Onimisi Obidi’s Theory of Entropicity (ToE)</strong> and <strong>Paul Tillich’s “The Courage to Be”</strong> reveals a profound dialogue between twentieth‑century Christian existentialism and twenty‑first‑century information physics. While Tillich explores existential anxiety from a theological framework, Obidi structures reality through an <strong>entropy‑first cosmological lens</strong>. Both thinkers converge on a central premise: <strong>true existence requires a dynamic, structural movement that overcomes an inherent oppositional force</strong>.
+      </p>
+
+      <table>
+        <tr>
+          <th>Metric</th>
+          <th>Paul Tillich (The Courage to Be)</th>
+          <th>John Onimisi Obidi (Theory of Entropicity)</th>
+        </tr>
+        <tr>
+          <td><strong>Core Domain</strong></td>
+          <td>Existential Theology & Philosophy</td>
+          <td>Mathematical Physics & “Ontodynamics”</td>
+        </tr>
+        <tr>
+          <td><strong>Primary Catalyst</strong></td>
+          <td><strong>Non‑being</strong> (Anxiety of fate, guilt, emptiness)</td>
+          <td>The <strong>Entropic Field</strong> \( S(x) \) as causal substrate</td>
+        </tr>
+        <tr>
+          <td><strong>The Ultimate</strong></td>
+          <td>“<strong>Ground of Being</strong>” / “God above God”</td>
+          <td>The <strong>Obidi Action</strong> (Universal variational principle)</td>
+        </tr>
+        <tr>
+          <td><strong>The Human Task</strong></td>
+          <td>Affirming life despite meaninglessness</td>
+          <td>Navigating entropic gradients and informational negotiation</td>
+        </tr>
+      </table>
+
+    </section>
+
+<!-- PART 2 WILL CONTINUE FROM HERE -->
