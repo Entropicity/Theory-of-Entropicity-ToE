@@ -143,7 +143,13 @@ line-height: 2;
 
 <body>
 <div class="page-wrap">
+ <nav>
+  <p>
+    <a href="../philosophy/index.html">← Back to Philosophy Homepage</a>
+  </p>
+</nav>
 
+<hr>
 <header>
 <p class="journal-label">Theoretical Physics · Foundations of Entropic Ontology · May 16, 2026</p>
 <h1>
@@ -273,6 +279,29 @@ In this way, the Theory of Entropicity offers a unified and coherent ontology: a
 <p>Theory of Entropicity — John Onimisi Obidi</p>
 </footer>
 
+</div>
+  <hr>
+  <p><a href="https://entropicity.github.io/Theory-of-Entropicity-ToE/
+index.html">← Back to Home</a>
+</p>
+<footer>
+  © 2025–<span id="year"></span> The Theory of Entropicity (ToE) Research Lab, The Aether — All rights reserved.
+</footer>
+
+<script>
+  // Always keep 2025 as the founding year
+  const foundingYear = 2025;
+
+  // Get the current year dynamically
+  const currentYear = new Date().getFullYear();
+
+  // Insert the current year into the footer
+  document.getElementById("year").textContent = currentYear;
+</script>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </div>
 
 </div>
