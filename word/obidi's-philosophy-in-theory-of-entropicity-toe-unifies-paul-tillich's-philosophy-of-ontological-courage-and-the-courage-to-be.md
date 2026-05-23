@@ -1,5 +1,5 @@
 # Obidi's Philosophy in His Theory of Entropicity (ToE) Unifies Paul Tillich's Philosophy of Ontological Courage and the Courage to Be
-John Onimisi Obidi’s Theory of Entropicity (ToE) and Paul Tillich’s theological ontology, while originating in different domains—physical science versus existential theology—display a profound structural convergence through what can be termed Ontological Courage.
+**John Onimisi Obidi’s Theory of Entropicity (ToE)** and **Paul Tillich’s theological ontology**, while originating in different domains—physical science versus **existential theology—display a profound structural convergence through what can be termed Ontological Courage.**
 
 # 1. Foundational Crisis and Response
 Tillich: Begins with existential anxiety, arising from awareness of finitude, nonbeing, and meaninglessness. The human self confronts the fragility of existence, requiring courage to affirm being despite existential threats. His Courage to Be is the act of trusting in “the power of being‑itself,” a transcendent ground that sustains life's affirmation.
