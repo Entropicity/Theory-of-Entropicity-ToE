@@ -2,6 +2,14 @@
 
 https://doi.org/10.17605/OSF.IO/G9HJE
 
+
+https://github.com/Entropicity/Theory-of-Entropicity-ToE/tree/main/notes/whatever-the-eventual-fate-of-obidis-theory-of-entropicity-toe-no-one-is-left-in-doubt-that-it-has-attempted-an-introduction-of-a-very-broad-spectrum-of-audacious-concepts-into-the-arena-of-modern-theoretical-physics.md
+
+
+https://github.com/Entropicity/Theory-of-Entropicity-ToE/tree/main/notes/on-the-elegance-of-obidis-theory-of-entropicity-toe-conceptual-philosophical-and-mathematical-elegance-in-modern-theoretical-physics-and-in-the-philosophy-of-science.md
+
+
+
 https://theoryofentropicity.blogspot.com/2026/05/on-elegance-of-obidis-theory-of.html
 
 In the technical and philosophical sense used in theoretical physics, the Theory of Entropicity (ToE) has several features that can reasonably be described as elegant. Whether it is correct is a separate issue. Elegance and empirical validity are not the same thing.
