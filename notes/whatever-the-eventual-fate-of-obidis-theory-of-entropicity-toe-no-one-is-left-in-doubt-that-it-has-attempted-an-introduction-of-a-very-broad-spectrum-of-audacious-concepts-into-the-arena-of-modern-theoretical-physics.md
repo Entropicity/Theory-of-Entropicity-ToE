@@ -2,6 +2,12 @@
 
 https://doi.org/10.17605/OSF.IO/WUNG8
 
+
+https://github.com/Entropicity/Theory-of-Entropicity-ToE/tree/main/notes/on-the-elegance-of-obidis-theory-of-entropicity-toe-conceptual-philosophical-and-mathematical-elegance-in-modern-theoretical-physics-and-in-the-philosophy-of-science.md
+
+
+https://theoryofentropicity.blogspot.com/2026/05/on-elegance-of-obidis-theory-of.html
+
 That is a fair characterization.
 
 Whatever the eventual scientific status of the Theory of Entropicity, it has undeniably attempted a remarkably broad conceptual expansion within modern theoretical physics and the philosophy of science.
