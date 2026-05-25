@@ -1,5 +1,9 @@
 # On the Elegance of Obidi's Theory of Entropicity (ToE): Conceptual, Philosophical, and Mathematical Elegance in Modern Theoretical Physics and in the Philosophy of Science 
 
+https://doi.org/10.17605/OSF.IO/G9HJE
+
+https://theoryofentropicity.blogspot.com/2026/05/on-elegance-of-obidis-theory-of.html
+
 In the technical and philosophical sense used in theoretical physics, the Theory of Entropicity (ToE) has several features that can reasonably be described as elegant. Whether it is correct is a separate issue. Elegance and empirical validity are not the same thing.
 
 The elegance of ToE comes primarily from its level of conceptual compression. The theory attempts to explain a very large range of phenomena — gravity, time asymmetry, measurement, distinguishability, relativistic effects, horizon thermodynamics, and even spacetime structure — from one primitive principle: entropy as a dynamical field. That kind of reductionism is historically associated with elegant theories.
