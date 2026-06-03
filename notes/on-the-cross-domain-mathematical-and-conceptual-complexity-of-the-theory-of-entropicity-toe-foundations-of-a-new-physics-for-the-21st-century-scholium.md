@@ -107,9 +107,13 @@ https://doi.org/10.17605/OSF.IO/PT9U8
 
 https://entropicity.github.io/Theory-of-Entropicity-ToE/docs/ToE-Living-Review-Letters-Series-Letter-III-From-Information-Geometry-to-Information-Gravity-Origin-of-Einstein's-Gravity-in-ToE_U1.pdf
 
+https://www.linkedin.com/posts/theory-of-entropicity-toe_on-the-crossdomain-mathematical-and-conceptual-activity-7467279848391053314-sYKY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAJgE3gBmSb_wGHRH3mJEKgi3aBoI3cxwOk
+
 Canonical Archive: https://entropicity.github.io/Theory-of-Entropicity-ToE/
 
 1. [ResearchGate DOI](https://doi.org/10.13140/RG.2.2.14211.26405)
 2. [OSF DOI](https://doi.org/10.17605/OSF.IO/PT9U8)
 3. [ToE Living Review Letters — Letter III (PDF)](https://entropicity.github.io/Theory-of-Entropicity-ToE/docs/ToE-Living-Review-Letters-Series-Letter-III-From-Information-Geometry-to-Information-Gravity-Origin-of-Einstein's-Gravity-in-ToE_U1.pdf)
-4. [Canonical Archive](https://entropicity.github.io/Theory-of-Entropicity-ToE/)
+4. [LinkedIn Post](https://www.linkedin.com/posts/theory-of-entropicity-toe_on-the-crossdomain-mathematical-and-conceptual-activity-7467279848391053314-sYKY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAJgE3gBmSb_wGHRH3mJEKgi3aBoI3cxwOk)
+5. [Canonical Archive](https://entropicity.github.io/Theory-of-Entropicity-ToE/)
+
