@@ -14,6 +14,17 @@ Canonical Archive: https://entropicity.github.io/Theory-of-Entropicity-ToE/
 First Edition — June 2026
 Written: Wednesday, 03 June 2026 
 
+# Some Historical Footnote for Posterity — Ahead of a Preface: 
+The reader already well familiar with the Theory of Entropicity (ToE) knows by now that my main aim in my endeavors has been to discover general and fundamental principles of nature, and that I am less concerned for the most part about the details of how nature works—I must leave that labor of love to others who have greater inclinations toward such matters. This serves as a crucial frontispiece for the reader, which is to enable him or her to know ahead of time about my inherent motivations; and for me, to keep me steady in my purpose.
+
+This, then, relative to my purpose, is the first time, after over a year of my labors in the formulation of the Theory of Entropicity (ToE), that I can say I have actually made some progress; and that what I have done so far in the past one year of my turmoil and toil in the development of the Theory of Entropicity (ToE) is actually child's play compared to the present work on the subject....
+
+...When **Albert Einstein** was invited to the University of **Göttingen** by the illustrious **David Hilbert** in June of 1915 to deliver six consequential lectures within an intense week on his emerging Theory of General Relativity, Einstein had occasion to discuss with some of the greatest mathematical minds of the 20th Century; and it was after that period of another intense effort, and with the disturbing communication that Hilbert had already discovered the mathematical action principle of General Relativity [later to be called the Einstein-Hilbert Action, in honor of Hilbert and Einstein, in recognition of their enduring and undeniable accomplishments], Einstein, one more time, in a last desperate effort, tackled with immortal brutal force the problem he had been encountering in his General Relativity (GR) prior to his momentous Göttingen visit, which namely was to arrive at the final correct form of the consistent generally covariant field equations, and which he eventually found [discovered] with great exhilaration and heavenly joy...
+
+**So, I feel that same indescribable exhilaration and heavenly joy at this very moment over my discovery in this work you now hold in your hands.**
+
+With that said, I here commit you to your own arduous task of reading through this monograph **[ToE LRLS Letter IV]**, which you must now begin; and **may you find in it equivalent and comparable joy.**
+
 # Dedication
 
 To the unnamed student who once asked,
