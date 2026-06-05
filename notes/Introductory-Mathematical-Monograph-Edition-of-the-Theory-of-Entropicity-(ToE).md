@@ -1,5 +1,5 @@
 # 🌌 An Introduction to the Mathematical Theory and Core Concepts of the Theory of Entropicity (ToE)
-Letter IV — The Monograph Edition of the Theory of Entropicity (ToE)
+# Letter IV — The Monograph Edition of the Theory of Entropicity (ToE)
 # A Definitive Mathematical Introduction to a New Physics
 The **Theory of Entropicity (ToE)** — developed by **John Onimisi Obidi** — enters a new phase with Letter IV, the first full Mathematical Monograph Edition of the ToE Living Review Letters Series. This work lays down the complete mathematical and conceptual foundation for a physics built not from particles or fields, but from entropy as the fundamental field of nature.
 Explore the core idea: Entropy as the Primitive Field
