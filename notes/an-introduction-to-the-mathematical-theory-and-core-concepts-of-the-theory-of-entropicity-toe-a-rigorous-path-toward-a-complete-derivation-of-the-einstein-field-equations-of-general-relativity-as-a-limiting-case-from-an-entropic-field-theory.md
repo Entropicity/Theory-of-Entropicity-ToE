@@ -34,29 +34,29 @@ The universe is entropy, organized.
 
 # Epigraphs
 
-***“It is wrong to think that the task of physics is to find out how Nature is. Physics concerns what we can say about Nature.”***
-**— Niels Bohr**
+**“It is wrong to think that the task of physics is to find out how Nature is. Physics concerns what we can say about Nature.”**
+— Niels Bohr
 
-***“The most incomprehensible thing about the universe is that it is comprehensible.”
-**— Albert Einstein, Physics and Reality, 1936**
+**“The most incomprehensible thing about the universe is that it is comprehensible.”**
+— Albert Einstein, Physics and Reality, 1936
 
-***“It from Bit. Otherwise put, every it — every particle, every field of force, even the spacetime continuum itself — derives its existence, its meaning, its very being from answers to yes-or-no questions.”***
-**— John Archibald Wheeler, It from Bit, 1990**
+**“It from Bit. Otherwise put, every it — every particle, every field of force, even the spacetime continuum itself — derives its existence, its meaning, its very being from answers to yes-or-no questions.”***
+— John Archibald Wheeler, It from Bit, 1990
 
-***“The entropy of the universe tends to a maximum.”***
-**— Rudolf Clausius, The Mechanical Theory of Heat, 1865**
+**“The entropy of the universe tends to a maximum.”**
+— Rudolf Clausius, The Mechanical Theory of Heat, 1865
 
-***“The fundamental object of study in physics is not the particle, nor the field, nor the wave — it is the distinction. The capacity of a physical system to be in one state rather than another is the root of all measurable reality.”***
-**— John Onimisi Obidi, ToE Living Review Letter I (The Ontological Primacy of Entropy), 2026**
+**“The fundamental object of study in physics is not the particle, nor the field, nor the wave — it is the distinction. The capacity of a physical system to be in one state rather than another is the root of all measurable reality.”**
+— John Onimisi Obidi, ToE Living Review Letter I (The Ontological Primacy of Entropy), 2026
 
-***“It is a beautiful and profound fact that the equations of motion for a gravitational system can be derived from the purely thermodynamic concept of entropy on a holographic screen.”***
-**— Erik Verlinde, On the Origin of Gravity and the Laws of Newton, 2011**
+**“It is a beautiful and profound fact that the equations of motion for a gravitational system can be derived from the purely thermodynamic concept of entropy on a holographic screen.”**
+— Erik Verlinde, On the Origin of Gravity and the Laws of Newton, 2011
 
-***“The Einstein equation of state: the proportionality of entropy to horizon area in all local Rindler causal horizons, together with the fundamental relation δQ = TδS, implies the Einstein field equation.”***
-**— Ted Jacobson, Thermodynamics of Spacetime, Physical Review Letters, 1995**
+**“The Einstein equation of state: the proportionality of entropy to horizon area in all local Rindler causal horizons, together with the fundamental relation δQ = TδS, implies the Einstein field equation.”**
+— Ted Jacobson, Thermodynamics of Spacetime, Physical Review Letters, 1995
 
-***“The information-geometric structure of a statistical manifold is not merely an analogy for physics. It is the arena in which physics, properly understood, takes place. To derive gravity from entropy is not to demote gravity — it is to elevate entropy to its rightful station as the most fundamental field in nature.”***
-**— John Onimisi Obidi, ToE Living Review Letter III (From Information Geometry to Information Gravity), 2026**
+**“The information-geometric structure of a statistical manifold is not merely an analogy for physics. It is the arena in which physics, properly understood, takes place. To derive gravity from entropy is not to demote gravity — it is to elevate entropy to its rightful station as the most fundamental field in nature.”**
+— John Onimisi Obidi, ToE Living Review Letter III (From Information Geometry to Information Gravity), 2026
 
 # Abstract
 The Theory of Entropicity (ToE) is a programmatic, mathematically rigorous framework in theoretical and mathematical physics whose central claim is that entropy — understood not merely as a thermodynamic bookkeeping variable but as a primary, dynamical, real-valued scalar field defined over a differentiable manifold — is the most primitive physical quantity from which all other physical structure, including spacetime geometry and the matter content that curves it, can be systematically derived. This monograph constitutes the first in a five-part series intended as a definitive reference work for the ToE program. Part I lays the full mathematical and conceptual foundation. Its purpose is twofold: first, to make the central philosophical and scientific argument for the ontological inversion that places entropy at the root of the physical hierarchy, and second, to develop with complete pedagogical rigour every mathematical prerequisite — differential geometry, tensor calculus, fiber bundle theory, and the statistical foundations of kinetic theory — that the remaining four parts will require and build upon.
