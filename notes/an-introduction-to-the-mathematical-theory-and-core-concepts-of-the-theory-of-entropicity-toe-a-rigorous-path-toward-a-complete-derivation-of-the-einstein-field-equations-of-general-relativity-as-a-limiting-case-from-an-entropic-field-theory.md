@@ -1,17 +1,21 @@
 # ToE Living Review Letters Series, Letter IV — Monograph Edition
 # An Introduction to the Mathematical Theory and Core Concepts of the Theory of Entropicity (ToE): A Rigorous Path Toward a Complete Derivation of the Einstein Field Equations of General Relativity as a Limiting Case from an Entropic Field Theory
 
-A Five-Part Definitive Reference Work
+# A Five-Part Definitive Reference Work
 
 # PART I
 The Revolutionary Inversion and Mathematical Prerequisites
-John Onimisi Obidi
+
+**John Onimisi Obidi**
 Research Lab, The Aether
 jonimisiobidi@gmail.com
 Canonical Archive: https://entropicity.github.io/Theory-of-Entropicity-ToE/
+
 First Edition — June 2026
 Written: Wednesday, 03 June 2026 
-Dedication
+
+# Dedication
+
 To the unnamed student who once asked,
 “Why does entropy always increase?”
 and was told “Because that is the second law.”
@@ -23,11 +27,13 @@ To every physicist who has stared at the Einstein field equations
 and felt, beneath their mathematical beauty,
 the quiet insistence that something deeper must be there.
 
-To **Dr. Olalekan T. Owolawi** — in whose correspondence the first light of this theory was struck.
+To **Dr. Olalekan T. Owolawi** — in whose correspondence the first light of this theory was struck. [Reference the Owolawi-Obidi Correspondence (OOC) on the Foundation of the Theory of Entropicity (ToE)]
 
 And to all who understand that the universe does not merely have entropy.
 The universe is entropy, organized.
+
 # Epigraphs
+
 “It is wrong to think that the task of physics is to find out how Nature is. Physics concerns what we can say about Nature.”
 — Niels Bohr
 
