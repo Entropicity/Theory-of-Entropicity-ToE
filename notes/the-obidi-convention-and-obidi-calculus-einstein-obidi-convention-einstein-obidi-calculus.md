@@ -1,4 +1,4 @@
-# Executive Summary
+# Executive Summary:  Expository Canonical Explanation of the Obidi Convention and Obidi Calculus — Side Notes to the Mathematical Letter IV of the Theory of Entropicity (ToE): An Introduction to the Mathematical Theory and Core Concepts of ToE
 
 - We present a thorough rewrite of John Obidi’s introductory supplement to the Theory of Entropicity (ToE), significantly expanding it with background, definitions, and derivations to make it pedagogically clear and self-contained.  We introduce all relevant mathematical and physical background (differential geometry, statistical mechanics, information theory) and carefully define the novel notation and concepts of ToE (the *Obidi Convention* of hierarchical indices, the *Obidi Calculus* rules, etc.).  
 - We define the key objects of ToE, including the **Fisher–Rao (FR)** and **Fubini–Study (FS)** information metrics and the emergent **Lorentzian (L)** spacetime metric, which together form a *Hybrid Manifold* (HMAS) for entropic gravity.  The Obidi Index $J\in\{\text{FR},\text{FS},L\}$ labels these sectors.  
