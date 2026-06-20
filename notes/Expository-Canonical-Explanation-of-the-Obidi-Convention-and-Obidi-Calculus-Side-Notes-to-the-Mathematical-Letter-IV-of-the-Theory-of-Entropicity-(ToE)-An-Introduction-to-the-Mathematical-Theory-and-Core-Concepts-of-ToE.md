@@ -1,5 +1,7 @@
 # Expository Canonical Explanation of the Obidi Convention and Obidi Calculus — Side Notes to the Mathematical Letter IV of the Theory of Entropicity (ToE): An Introduction to the Mathematical Theory and Core Concepts of ToE
 
+https://doi.org/10.17605/OSF.IO/9CK68
+
 # Preamble
 The Obidi Convention introduces a hierarchical index system where each classical tensor index (the primary index) carries its own secondary index that labels the geometric sector—Fisher–Rao, Fubini–Study, or Lorentzian—from which that component arises. The Obidi Calculus then defines how these hierarchical indices evaluate: free indices expand as double sums (Addition Rule), while dotted indices expand as double products (Multiplication Rule). Together with the Einstein summation convention, this yields the Einstein–Obidi Calculus, a complete notational and computational framework capable of expressing the multi‑sector tensor structures of the Hybrid Metric‑Affine Space (HMAS) at the heart of the Theory of Entropicity (ToE).
 
