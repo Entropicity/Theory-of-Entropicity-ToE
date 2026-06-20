@@ -269,7 +269,12 @@ Instead, Obidi's wavefunction’s sector decomposition formalism generates a con
 
 # 2. Probability is not an axiom — it is a consequence.
 
-The conservation of total amplitude across two sectors forces a probability law.
+**The conservation of total amplitude across two sectors forces a probability law.**
+This is not just a technical remark. It is the entire philosophical and mathematical pivot of Obidi’s Theory of Entropicity (ToE).
+
+**Scientifically**, it means that once the universe’s wavefunction is decomposed into two orthogonal components — the coherent sector ψo and the entropic sector ψe — the geometry of Hilbert space requires that their squared norms sum to one. This is not an assumption. It is not the Born Rule. It is simply Pythagoras in Hilbert space applied to the structure of reality. Because the total amplitude is conserved, the weights of the two sectors must also be conserved. And those weights behave exactly like probabilities.
+
+**Philosophically**, this is profound. It means that probability is not something the observer assigns; it is something the universe is. The visible and invisible sectors of reality are not metaphors — they are mathematically enforced partitions of being. The conservation of amplitude is the conservation of appearance and disappearance, of coherence and entropy, of what shows up and what withdraws. This is the first time the ancient distinction between appearance and reality has been given a quantitative, conserved structure.
 
 # 3. Probability is not epistemic — it is ontological.
 
