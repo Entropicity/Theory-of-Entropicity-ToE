@@ -1,4 +1,4 @@
-# From Information Geometry to Information Gravity Information Geometry as the Origin of Einstein’s Gravity: Correspondence of the Obidi Action and the Einstein–Hilbert Action in the Theory of Entropicity (ToE)  
+# From Information Geometry to Information Gravity: Information Geometry as the Origin of Einstein’s Gravity: Correspondence of the Obidi Action and the Einstein–Hilbert Action in the Theory of Entropicity (ToE)  
 
 Theory of Entropicity (ToE)  
 Living Review Letters Series (ToE LRLS) — Letter III
