@@ -100,8 +100,9 @@ It is derived.
 
 ### ⭐ 5. The entropic curvature becomes physical curvature
 
-The entropic curvature tensor $\( R_{ij} \)$   $\( \mathcal{R}_{ij} \)$ transforms into the spacetime curvature tensor $\( R_{\mu\nu} \)$ through the Obidi Transformation.
+The entropic curvature tensor $\( R_{ij} \)$ transforms into the spacetime curvature tensor $\( R_{\mu\nu} \)$ through the Obidi Transformation.
 
+$\( R_{\mu\nu} \)$
 
  $\( \mathcal{R}_{ij} \)$
 This is the bridge.
