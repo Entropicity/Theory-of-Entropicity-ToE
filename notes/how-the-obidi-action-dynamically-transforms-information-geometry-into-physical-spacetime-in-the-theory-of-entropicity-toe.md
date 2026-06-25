@@ -1,4 +1,5 @@
 # How the Obidi Action Dynamically Transforms Information Geometry into Physical Spacetime via the Einstein Metric-Action Principle (EMAP) Invoked in the Theory of Entropicity (ToE)
+## The Einstein Metric–Action Principle (EMAP) in the Theory of Entropicity (ToE): How the Obidi Action Transforms Information Geometry into Physical Spacetime
 
 ## ⭐ The one idea you must understand first 
 Information geometry by itself is static.  
@@ -100,7 +101,7 @@ It is derived.
 
 ### ⭐ 5. The entropic curvature becomes physical curvature
 
-The entropic curvature tensor $\( R_{ij} \)$ transforms into the spacetime curvature tensor $\( R_{\mu\nu} \)$ through the Obidi Transformation.
+The entropic curvature tensor $\( R_{ij} \)$ transforms into the spacetime curvature tensor $\( R_{\mu\nu} \)$ through the disformal **Obidi Transformation** of the **Obidi Metric**.
 
 This is the bridge.
 
