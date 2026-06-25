@@ -102,9 +102,6 @@ It is derived.
 
 The entropic curvature tensor $\( R_{ij} \)$ transforms into the spacetime curvature tensor $\( R_{\mu\nu} \)$ through the Obidi Transformation.
 
-$\( R_{\mu\nu} \)$
-
- $\( \mathcal{R}_{ij} \)$
 This is the bridge.
 
 The Obidi Action enforces:
