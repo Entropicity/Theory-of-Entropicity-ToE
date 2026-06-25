@@ -99,15 +99,15 @@ It is not assumed.
 It is derived.
 
 ### ⭐ 5. The entropic curvature becomes physical curvature
-The entropic curvature tensor \( \mathcal{R}{ij} \) transforms into the spacetime curvature tensor \( R{\mu\nu} \) through the Obidi Transformation.
+The entropic curvature tensor $\mathcal{R}_{ij}$ transforms into the spacetime curvature tensor $R_{\mu\nu}$ through the Obidi Transformation.
 
 This is the bridge.
 
 The Obidi Action enforces:
 
-\[
-\mathcal{R}{ij} \longrightarrow R{\mu\nu}
-\]
+$$
+\mathcal{R}_{ij} \longrightarrow R_{\mu\nu}
+$$
 
 This is not metaphor.  
 This is a mathematical transformation produced by the dynamics.
@@ -130,9 +130,9 @@ The final step:
 
 The emergent Lorentzian metric satisfies:
 
-\[
-G{\mu\nu} = 8\pi T{\mu\nu}^{(\text{entropic})}
-\]
+$$
+G_{\mu\nu} = 8\pi\, T_{\mu\nu}^{(\text{entropic})}
+$$
 
 This is the Einstein equation — but with entropic information as the source.
 
