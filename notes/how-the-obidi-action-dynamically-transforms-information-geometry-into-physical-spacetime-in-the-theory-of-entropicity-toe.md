@@ -102,10 +102,7 @@ It is derived.
 
 The entropic curvature tensor $\( R_{ij} \)$  $$\mathcal{R}_{ij}$$ transforms into the spacetime curvature tensor $\( R_{\mu\nu} \)$ through the Obidi Transformation.
 
-$R_{ij}$
-$\mathcal{R}_{ij}$
 
-$\( R_{ij} \)$
  $\( \mathcal{R}_{ij} \)$
 This is the bridge.
 
