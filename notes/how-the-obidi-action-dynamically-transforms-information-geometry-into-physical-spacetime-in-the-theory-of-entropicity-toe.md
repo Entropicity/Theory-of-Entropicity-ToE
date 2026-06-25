@@ -54,9 +54,10 @@ This is the “pre‑spacetime” structure.
 ### ⭐ 2. Introduce the Obidi Action
 The Obidi Action is a functional:
 
-\[
+
+$$
 \mathcal{O}[g_{ij}, \mathcal{S}, \nabla, \ldots]
-\]
+$$
 
 built from:
 
