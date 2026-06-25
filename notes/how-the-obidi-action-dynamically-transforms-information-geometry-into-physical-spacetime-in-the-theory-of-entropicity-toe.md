@@ -135,6 +135,10 @@ $$
 G_{\mu\nu} = 8\pi\G \T_{\mu\nu}^{(\text{entropic})}
 $$
 
+$$
+G_{\mu\nu} = 8\pi\, G\, T_{\mu\nu}^{(\text{entropic})}
+$$
+
 This is the Einstein equation — but with entropic information as the source.
 
 This is the moment information geometry becomes gravity.
