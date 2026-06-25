@@ -132,7 +132,7 @@ The final step:
 The emergent Lorentzian metric satisfies:
 
 $$
-G_{\mu\nu} = 8\pi\, T_{\mu\nu}^{(\text{entropic})}
+G_{\mu\nu} = 8\pi\G T_{\mu\nu}^{(\text{entropic})}
 $$
 
 This is the Einstein equation — but with entropic information as the source.
