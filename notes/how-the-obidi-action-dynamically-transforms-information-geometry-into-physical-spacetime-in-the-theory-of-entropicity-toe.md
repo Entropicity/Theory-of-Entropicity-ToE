@@ -1,4 +1,4 @@
-# How the Obidi Action Dynamically Transforms Information Geometry into Physical Spacetime in the Theory of Entropicity (ToE)
+# How the Obidi Action Dynamically Transforms Information Geometry into Physical Spacetime via the Einstein Metric-Action Principle (EMAP) Invoked in the Theory of Entropicity (ToE)
 
 ## ⭐ The one idea you must understand first 
 Information geometry by itself is static.  
@@ -130,14 +130,6 @@ This is how matter appears.
 The final step:
 
 The emergent Lorentzian metric satisfies:
-
-$$
-G_{\mu\nu} = 8\pi\G \T_{\mu\nu}^{(\text{entropic})}
-$$
-
-$$
-G_{\mu\nu} = 8\pi\, G\, T_{\mu\nu}^{(\text{entropic})}
-$$
 
 $$
 G_{\mu\nu} = 8\pi G T_{\mu\nu}^{(\text{entropic})}
