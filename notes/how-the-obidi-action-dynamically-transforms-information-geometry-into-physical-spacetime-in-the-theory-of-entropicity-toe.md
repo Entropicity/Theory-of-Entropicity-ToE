@@ -153,3 +153,132 @@ This is the same leap Einstein made:
 - Obidi: “Give information geometry an action → spacetime emerges from entropy.”
 
 **This is why the Obidi Action works in transforming information geometry into physical spacetime.**
+
+---
+
+# Scholium
+
+🌀How the Obidi Action Turns Information Geometry into Physical Spacetime through Einstein Metric–Action Principle (EMAP) in the Theory of Entropicity (ToE)
+
+🧲Most people stop at: “information geometry is deep.”  
+
+ToE goes further:
+
+Spacetime is not assumed—it emerges from the Einstein Metric–Action Principle (EMAP) applied to information geometry through the Obidi Action.
+
+✨ 1. Information geometry is powerful—but not yet physical
+
+Information geometry gives us:
+
+📐 Fisher–Rao metric
+
+🔀 α‑connections
+
+🔄 statistical curvature
+
+But it has no dynamics.
+
+No evolution, no field equations, no physical content.
+
+It’s a geometric language without a physical story.
+
+⚡ 2. EMAP + Obidi Action: “Dynamics creates reality”
+
+Einstein’s insight:
+
+A metric becomes physical only when governed by an action.
+
+The Einstein–Hilbert action makes gμν into real spacetime.
+
+Obidi extends EMAP to entropic information geometry:
+
+🎛️ defines an action on the information manifold
+
+🧭 introduces a variational principle
+
+📉 yields Euler–Lagrange–type equations
+
+🔁 produces conserved currents and curvature responses
+
+This is where information geometry becomes dynamical.
+
+🧩 3. From information manifold to emergent spacetime
+
+🔹 Step 1 — Start with the information manifold
+
+A manifold of probability distributions with Fisher–Rao metric, entropic gradients, and entropic curvature Rij.
+
+This is pre‑spacetime.
+
+🔹 Step 2 — The Obidi Action on the information manifold
+
+The Obidi Action
+
+O[gij,S,∇,…]
+
+is built from:
+
+the Fisher–Rao metric
+
+entropic curvature
+
+α‑connections
+
+entropic fields and potentials
+
+Crucially: it is defined on the information manifold, not on spacetime.
+
+🔹 Step 3 — The Master Entropic Equation
+
+Varying the Obidi Action gives:
+
+field equations
+
+curvature evolution
+
+entropic geodesics
+
+conservation laws
+
+These govern the dynamics of information geometry.
+
+🌉 4. The Obidi Metric and the disformal Obidi Transformation
+
+Here is the real bridge.
+
+From the entropic side, we construct the Obidi Metric g~ij on the information manifold.
+
+Via a disformal Obidi Transformation, is mapped to a spacetime metric gμν with Lorentzian signature.
+
+The transformation enforces:
+
+Rij⟶Rμν
+
+Rij: entropic curvature on information manifold
+
+Rμν: spacetime curvature in emergent Lorentzian sector
+
+It is disformal, dynamical mapping encoded by the Obidi Action.
+
+🌌 5. Geodesics, matter, Einstein‑type equations
+
+Entropic geodesics (information‑optimal paths) yield spacetime geodesics (particle trajectories).
+
+The emergent Lorentzian metric satisfies an Einstein‑type equation:
+
+Gμν=8πG Tμν(entropic)
+
+Gravity appears as the curvature response of entropic information.
+
+🌟 The deep shift
+
+Earlier approaches tried to interpret information geometry as spacetime.
+
+ToE does something different:
+
+Information geometry dynamical via the Obidi Action.
+
+Use the Obidi Metric and disformal Obidi Transformation to extract a Lorentzian sector. Spacetime emerges as a solution.
+
+📚Ref: The Canonical Archives: https://lnkd.in/gnwMP-Py
+
