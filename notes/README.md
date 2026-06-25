@@ -12,5 +12,5 @@ This folder contains development notes, drafts, reflections, and expository essa
 ---
 
 <footer>
-    ©2026 John Onimisi Obidi — Theory of Entropicity (ToE)
+    ©2025-2026 John Onimisi Obidi — Theory of Entropicity (ToE)
 </footer>
