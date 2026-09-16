@@ -6,15 +6,6 @@
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
 ██████████████████████████████████████████████████████████████████████
 
-# Quantum Information Review (QIR) Award Certificate
-
-<p align="center">
-  <img src="./images/Professor-John-Onimisi-Obidi-QUANTUM-INFORMATION-REVIEW-JOURNAL_QIR_Recognition-Award-Certificate_112125-Friday-11th-November-2025.png" width="600">
-</p>
-
-
-
-
 
 # Theory-of-Entropicity-ToE
 Official repository for the Theory of Entropicity (ToE) — a foundational framework unifying geometry, information, and entropy into a single entropic field theory. This site hosts the evolving conceptual architecture, mathematical formulations, and expository materials that define ToE.
@@ -86,3 +77,10 @@ The full archive can always be accessed at:
 [![DOI: APMaP](https://img.shields.io/badge/DOI-10.17605/OSF.IO/H8WR3-blue)](https://doi.org/10.17605/OSF.IO/H8WR3)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22794770.svg)](https://doi.org/10.5281/zenodo.22794770)
 
+
+
+# Quantum Information Review (QIR) Award Certificate
+
+<p align="center">
+  <img src="./images/Professor-John-Onimisi-Obidi-QUANTUM-INFORMATION-REVIEW-JOURNAL_QIR_Recognition-Award-Certificate_112125-Friday-11th-November-2025.png" width="600">
+</p>
